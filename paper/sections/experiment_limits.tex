@@ -1,0 +1,25 @@
+\subsection{RQ5: Where does the mechanism fail?}
+\paragraph{Dormant knowledge is not the same as reacquisition.}
+In a structured A--B--A cycle, pre-reminder recall is 0\% for \ame and 68.75\% for frequency. After new A observations, recovery lags are 12.82 and 10.76 queries. A high aggregate cycle accuracy (78.66\% for \ame) must not be interpreted as dormant preservation. Once content has been evicted, a later reminder can restore it through a new write; the state dynamics cannot reconstruct absent content.
+
+\paragraph{Feedback and demand reliability.}
+With 10\%, 25\%, and 50\% correctness-feedback corruption, \ame accuracy changes from a clean 75.33\% to 74.75\%, 72.10\%, and 64.59\%. Stable retention falls from 87.02\% to 57.77\% at 50\% noise, while first-passage lag improves from 15.87 to 12.24 queries. Thus faster adaptation can accompany worse memory, even without an overall quality gain. Misleading demand cues reduce accuracy to 50.33\%. These interventions flip feedback or topic cues; they do not model arbitrary natural-language observation noise.
+
+\paragraph{Semantic addressing can defeat good retention.}
+We replay confirmed public MemOps quotes in four controlled tasks using a frozen 384-dimensional sentence encoder \citep{memops,minilm,sentenceencoder}. Observations join a resident semantic key above cosine similarity 0.65; queries address the nearest resident cluster. This changes the addressing interface and demand affinity, not the state equations or weights. At eight slots, preference-update accuracy is 62.58\% for \ame versus 48.76\% for fixed decay, but stale preference error is 18.87\% versus 0.03\%. At sixteen slots, accuracy reverses to 73.39\% versus 88.57\%. Correct content is resident for 99.25\% of \ame queries, yet 25.04\% of all queries retrieve an old value despite that availability. A post-hoc trace audit links only 19.79\% of 288 eligible revisions to the previous resident semantic key. Version splitting prevents consistency dynamics from recognizing the relation. This diagnostic was not used to tune thresholds or rerun favorable policies.
+
+\paragraph{Real conversational transfer remains weak.}
+A fixed 24-question subset per dataset, three seeds, and one Agnes backend yield judged correctness 4.17\% for \ame versus 15.28\% for fixed decay on LongMemEval, and 11.11\% versus 3.33\% on LoCoMo. Intervals are wide. MemoryBench-NFCats gives normalized rubric quality 0.740 versus 0.733, not comparable to binary QA accuracy. These are custom subset results, not official benchmark scores. The reader and judge share the same model, backend variation is untested, and absent version labels prevent reliable stale-error measurement in these datasets.
+
+\begin{table}[!htb]\centering\small
+\caption{Capability boundaries supported by the tested settings. These are conditional observations, not guarantees for all environments with the same informal label.}\label{tab:boundary}
+\begin{tabularx}{\linewidth}{lX}\toprule
+Condition & Observed boundary\\\midrule
+Small capacity / interference & Accuracy and stable-retention gains; adaptation need not improve.\\
+Larger content budget & Simple recency can match or outperform \ame.\\
+Rate intervention & Opposing endpoint changes in some settings; nonmonotonic points remain.\\
+Dormant knowledge return & Evicted records require new evidence; frequency may preserve more.\\
+Unreliable signals & Corruption and misleading demand degrade quality.\\
+Semantic versions & Correct content availability is insufficient when keys split.\\
+Long revised streams & Reduced usage inertia; no general infinite-horizon guarantee.\\\bottomrule
+\end{tabularx}\end{table}

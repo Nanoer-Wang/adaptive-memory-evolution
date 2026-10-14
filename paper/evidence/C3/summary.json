@@ -1,0 +1,1202 @@
+[
+  {
+    "condition": "contradictory_preference-c16",
+    "method": "fixed_decay",
+    "stable_retention": 0.8877314814814815,
+    "stable_retention_ci95": [
+      0.8712311921296296,
+      0.9021990740740741
+    ],
+    "adaptation_score": 0.8568362145955243,
+    "adaptation_score_ci95": [
+      0.8337933421814169,
+      0.8736757725458641
+    ],
+    "accuracy": 0.8464988425925926,
+    "accuracy_ci95": [
+      0.834201388888889,
+      0.8567708333333334
+    ],
+    "stale_error": 0.04398148148148148,
+    "stale_error_ci95": [
+      0.040364583333333336,
+      0.04788773148148148
+    ],
+    "adaptation_lag": 6.166666666666667,
+    "adaptation_lag_ci95": [
+      5.416666666666667,
+      7.125
+    ],
+    "wrong_fact_error": 0.10951967592592593,
+    "wrong_fact_error_ci95": [
+      0.09823495370370372,
+      0.12254050925925926
+    ],
+    "resident_correct_coverage": 0.8825231481481483,
+    "resident_correct_coverage_ci95": [
+      0.876736111111111,
+      0.8881655092592592
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 173.08333333333334,
+    "eviction_count_ci95": [
+      170.75,
+      175.54166666666666
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "contradictory_preference-c16",
+    "method": "frequency",
+    "stable_retention": 0.9551504629629629,
+    "stable_retention_ci95": [
+      0.9169560185185185,
+      0.9863040123456791
+    ],
+    "adaptation_score": 0.0,
+    "adaptation_score_ci95": [
+      0.0,
+      0.0
+    ],
+    "accuracy": 0.6684027777777778,
+    "accuracy_ci95": [
+      0.6491126543209876,
+      0.6853780864197531
+    ],
+    "stale_error": 0.30222800925925924,
+    "stale_error_ci95": [
+      0.2951388888888889,
+      0.3093171296296296
+    ],
+    "adaptation_lag": 43.125,
+    "adaptation_lag_ci95": [
+      42.208333333333336,
+      44.0
+    ],
+    "wrong_fact_error": 0.029369212962962965,
+    "wrong_fact_error_ci95": [
+      0.012056327160493827,
+      0.05000964506172839
+    ],
+    "resident_correct_coverage": 0.7145543981481483,
+    "resident_correct_coverage_ci95": [
+      0.6970003858024691,
+      0.7314814814814814
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 8.430555555555555,
+    "eviction_count_ci95": [
+      8.027777777777777,
+      8.888888888888888
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "contradictory_preference-c16",
+    "method": "adaptive_evolution",
+    "stable_retention": 0.9821566358024691,
+    "stable_retention_ci95": [
+      0.9582344714506172,
+      0.9968171296296297
+    ],
+    "adaptation_score": 0.1005317178501166,
+    "adaptation_score_ci95": [
+      0.012681159420289856,
+      0.2010634357002332
+    ],
+    "accuracy": 0.7687114197530865,
+    "accuracy_ci95": [
+      0.7478780864197532,
+      0.7879050925925926
+    ],
+    "stale_error": 0.22236689814814814,
+    "stale_error_ci95": [
+      0.20659360532407406,
+      0.23799189814814814
+    ],
+    "adaptation_lag": 38.75,
+    "adaptation_lag_ci95": [
+      34.125,
+      42.416666666666664
+    ],
+    "wrong_fact_error": 0.008921682098765432,
+    "wrong_fact_error_ci95": [
+      0.0015432098765432098,
+      0.02040051118827159
+    ],
+    "resident_correct_coverage": 0.9839891975308642,
+    "resident_correct_coverage_ci95": [
+      0.9769965277777778,
+      0.9900173611111112
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 130.875,
+    "eviction_count_ci95": [
+      128.40243055555555,
+      133.40312500000002
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "contradictory_preference-c8",
+    "method": "fixed_decay",
+    "stable_retention": 0.48466435185185186,
+    "stable_retention_ci95": [
+      0.4774305555555556,
+      0.49189814814814814
+    ],
+    "adaptation_score": 0.6443220404033773,
+    "adaptation_score_ci95": [
+      0.5342015822524642,
+      0.7478406560745329
+    ],
+    "accuracy": 0.4670138888888889,
+    "accuracy_ci95": [
+      0.4625289351851852,
+      0.4712094907407407
+    ],
+    "stale_error": 0.020543981481481483,
+    "stale_error_ci95": [
+      0.018659577546296297,
+      0.022569444444444448
+    ],
+    "adaptation_lag": 15.333333333333334,
+    "adaptation_lag_ci95": [
+      10.916666666666666,
+      20.25
+    ],
+    "wrong_fact_error": 0.5124421296296297,
+    "wrong_fact_error_ci95": [
+      0.5078125,
+      0.5175094039351852
+    ],
+    "resident_correct_coverage": 0.4733796296296296,
+    "resident_correct_coverage_ci95": [
+      0.47077546296296297,
+      0.47612847222222227
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 278.0833333333333,
+    "eviction_count_ci95": [
+      276.7083333333333,
+      279.5
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "contradictory_preference-c8",
+    "method": "frequency",
+    "stable_retention": 0.5626929012345679,
+    "stable_retention_ci95": [
+      0.5068769290123457,
+      0.6180555555555556
+    ],
+    "adaptation_score": 0.0,
+    "adaptation_score_ci95": [
+      0.0,
+      0.0
+    ],
+    "accuracy": 0.3775077160493827,
+    "accuracy_ci95": [
+      0.3541642554012346,
+      0.4007559317129629
+    ],
+    "stale_error": 0.16599151234567902,
+    "stale_error_ci95": [
+      0.14877507716049385,
+      0.18412543402777773
+    ],
+    "adaptation_lag": 43.125,
+    "adaptation_lag_ci95": [
+      42.25,
+      44.0
+    ],
+    "wrong_fact_error": 0.4565007716049383,
+    "wrong_fact_error_ci95": [
+      0.4322916666666667,
+      0.48071228780864195
+    ],
+    "resident_correct_coverage": 0.3792438271604938,
+    "resident_correct_coverage_ci95": [
+      0.3548418209876543,
+      0.4020085841049382
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 7.277777777777779,
+    "eviction_count_ci95": [
+      6.875,
+      7.694444444444444
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "contradictory_preference-c8",
+    "method": "adaptive_evolution",
+    "stable_retention": 0.7180748456790124,
+    "stable_retention_ci95": [
+      0.6826774691358025,
+      0.7535710841049383
+    ],
+    "adaptation_score": 0.02216183574879227,
+    "adaptation_score_ci95": [
+      0.0,
+      0.05150966183574879
+    ],
+    "accuracy": 0.6488715277777778,
+    "accuracy_ci95": [
+      0.6273618344907408,
+      0.6696096161265431
+    ],
+    "stale_error": 0.16647376543209877,
+    "stale_error_ci95": [
+      0.15263310185185186,
+      0.18185884452160495
+    ],
+    "adaptation_lag": 42.11111111111111,
+    "adaptation_lag_ci95": [
+      40.833333333333336,
+      43.23611111111111
+    ],
+    "wrong_fact_error": 0.18465470679012344,
+    "wrong_fact_error_ci95": [
+      0.16917438271604937,
+      0.2001350308641975
+    ],
+    "resident_correct_coverage": 0.7000385802469137,
+    "resident_correct_coverage_ci95": [
+      0.6810366030092592,
+      0.7177879050925927
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 156.9027777777778,
+    "eviction_count_ci95": [
+      148.45833333333334,
+      165.27812500000002
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "preference_revival-c16",
+    "method": "fixed_decay",
+    "stable_retention": 0.8877314814814815,
+    "stable_retention_ci95": [
+      0.8721064814814815,
+      0.9016203703703706
+    ],
+    "adaptation_score": 0.7818509615384617,
+    "adaptation_score_ci95": [
+      0.7640216012286324,
+      0.7985117855235044
+    ],
+    "accuracy": 0.8377568493150687,
+    "accuracy_ci95": [
+      0.8253424657534247,
+      0.8490296803652969
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 10.958333333333334,
+    "adaptation_lag_ci95": [
+      10.125,
+      11.833333333333334
+    ],
+    "wrong_fact_error": 0.1622431506849315,
+    "wrong_fact_error_ci95": [
+      0.15111301369863014,
+      0.17466110159817347
+    ],
+    "resident_correct_coverage": 0.8808504566210046,
+    "resident_correct_coverage_ci95": [
+      0.8762842465753424,
+      0.8851312785388128
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 167.83333333333334,
+    "eviction_count_ci95": [
+      165.58333333333334,
+      170.04166666666666
+    ],
+    "pre_reminder_recall": 0.0
+  },
+  {
+    "condition": "preference_revival-c16",
+    "method": "frequency",
+    "stable_retention": 0.9551504629629629,
+    "stable_retention_ci95": [
+      0.9173418209876543,
+      0.9863040123456791
+    ],
+    "adaptation_score": 0.5376379985754985,
+    "adaptation_score_ci95": [
+      0.5061289730235042,
+      0.5707687856125356
+    ],
+    "accuracy": 0.8382800608828006,
+    "accuracy_ci95": [
+      0.8198249619482496,
+      0.8543581145357687
+    ],
+    "stale_error": 0.06806506849315068,
+    "stale_error_ci95": [
+      0.06506849315068493,
+      0.07110920852359208
+    ],
+    "adaptation_lag": 22.38888888888889,
+    "adaptation_lag_ci95": [
+      20.784722222222218,
+      23.9375
+    ],
+    "wrong_fact_error": 0.09365487062404869,
+    "wrong_fact_error_ci95": [
+      0.07762438165905632,
+      0.11130255898021307
+    ],
+    "resident_correct_coverage": 0.8515981735159818,
+    "resident_correct_coverage_ci95": [
+      0.8354261796042618,
+      0.8653919330289194
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 9.041666666666666,
+    "eviction_count_ci95": [
+      8.597222222222223,
+      9.527777777777779
+    ],
+    "pre_reminder_recall": 0.9861111111111112
+  },
+  {
+    "condition": "preference_revival-c16",
+    "method": "adaptive_evolution",
+    "stable_retention": 0.9845679012345677,
+    "stable_retention_ci95": [
+      0.9682677469135802,
+      0.9965277777777777
+    ],
+    "adaptation_score": 0.7788572827635326,
+    "adaptation_score_ci95": [
+      0.7243759459579773,
+      0.8203915153133904
+    ],
+    "accuracy": 0.9094368340943683,
+    "accuracy_ci95": [
+      0.8931221461187215,
+      0.9237549942922373
+    ],
+    "stale_error": 0.008942161339421613,
+    "stale_error_ci95": [
+      0.0026160578386605782,
+      0.016837899543378994
+    ],
+    "adaptation_lag": 11.138888888888888,
+    "adaptation_lag_ci95": [
+      9.097222222222221,
+      13.840451388888885
+    ],
+    "wrong_fact_error": 0.08162100456621005,
+    "wrong_fact_error_ci95": [
+      0.0661624809741248,
+      0.09898211567732114
+    ],
+    "resident_correct_coverage": 0.9456335616438355,
+    "resident_correct_coverage_ci95": [
+      0.9384988584474886,
+      0.9521499238964992
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 125.875,
+    "eviction_count_ci95": [
+      123.75,
+      128.0277777777778
+    ],
+    "pre_reminder_recall": 0.17708333333333334
+  },
+  {
+    "condition": "preference_revival-c8",
+    "method": "fixed_decay",
+    "stable_retention": 0.48408564814814814,
+    "stable_retention_ci95": [
+      0.4771412037037037,
+      0.49074074074074076
+    ],
+    "adaptation_score": 0.6304086538461539,
+    "adaptation_score_ci95": [
+      0.5804220085470085,
+      0.6778887887286325
+    ],
+    "accuracy": 0.4686073059360731,
+    "accuracy_ci95": [
+      0.463898401826484,
+      0.4731735159817352
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 18.416666666666668,
+    "adaptation_lag_ci95": [
+      16.104166666666668,
+      20.9375
+    ],
+    "wrong_fact_error": 0.531392694063927,
+    "wrong_fact_error_ci95": [
+      0.5268264840182648,
+      0.536244292237443
+    ],
+    "resident_correct_coverage": 0.48130707762557073,
+    "resident_correct_coverage_ci95": [
+      0.4788812785388128,
+      0.4837328767123288
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 277.7083333333333,
+    "eviction_count_ci95": [
+      276.25,
+      279.16770833333334
+    ],
+    "pre_reminder_recall": 0.0
+  },
+  {
+    "condition": "preference_revival-c8",
+    "method": "frequency",
+    "stable_retention": 0.5626929012345679,
+    "stable_retention_ci95": [
+      0.5071373456790124,
+      0.6182484567901235
+    ],
+    "adaptation_score": 0.2568108974358974,
+    "adaptation_score_ci95": [
+      0.19297208867521368,
+      0.3187767094017094
+    ],
+    "accuracy": 0.46285197869101974,
+    "accuracy_ci95": [
+      0.4406357020547946,
+      0.4833999238964992
+    ],
+    "stale_error": 0.04123858447488584,
+    "stale_error_ci95": [
+      0.03534056316590563,
+      0.04742318302891931
+    ],
+    "adaptation_lag": 36.645833333333336,
+    "adaptation_lag_ci95": [
+      33.25659722222222,
+      39.903124999999996
+    ],
+    "wrong_fact_error": 0.4959094368340944,
+    "wrong_fact_error_ci95": [
+      0.47702625570776264,
+      0.515220700152207
+    ],
+    "resident_correct_coverage": 0.4646118721461187,
+    "resident_correct_coverage_ci95": [
+      0.44334926750380516,
+      0.48506706621004564
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 7.388888888888888,
+    "eviction_count_ci95": [
+      6.972222222222221,
+      7.819791666666663
+    ],
+    "pre_reminder_recall": 0.5243055555555556
+  },
+  {
+    "condition": "preference_revival-c8",
+    "method": "adaptive_evolution",
+    "stable_retention": 0.7267554012345679,
+    "stable_retention_ci95": [
+      0.6895254629629629,
+      0.7624469521604937
+    ],
+    "adaptation_score": 0.48473112535612534,
+    "adaptation_score_ci95": [
+      0.45031995637464384,
+      0.5166377314814815
+    ],
+    "accuracy": 0.7167522831050229,
+    "accuracy_ci95": [
+      0.7038622526636225,
+      0.7288337138508371
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 25.826388888888886,
+    "adaptation_lag_ci95": [
+      24.3125,
+      27.46545138888889
+    ],
+    "wrong_fact_error": 0.2832477168949772,
+    "wrong_fact_error_ci95": [
+      0.271498049847793,
+      0.29632919520547946
+    ],
+    "resident_correct_coverage": 0.7218892694063928,
+    "resident_correct_coverage_ci95": [
+      0.7092846270928463,
+      0.7336377473363775
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 147.16666666666666,
+    "eviction_count_ci95": [
+      139.846875,
+      154.625
+    ],
+    "pre_reminder_recall": 0.09027777777777778
+  },
+  {
+    "condition": "preference_update-c16",
+    "method": "fixed_decay",
+    "stable_retention": 0.8897569444444446,
+    "stable_retention_ci95": [
+      0.8735532407407408,
+      0.904513888888889
+    ],
+    "adaptation_score": 0.8680634458783191,
+    "adaptation_score_ci95": [
+      0.8575921503824313,
+      0.8777807518569634
+    ],
+    "accuracy": 0.8857060185185185,
+    "accuracy_ci95": [
+      0.8731192129629629,
+      0.8975694444444443
+    ],
+    "stale_error": 0.005497685185185185,
+    "stale_error_ci95": [
+      0.004340277777777777,
+      0.006799768518518518
+    ],
+    "adaptation_lag": 5.916666666666667,
+    "adaptation_lag_ci95": [
+      5.5,
+      6.416666666666667
+    ],
+    "wrong_fact_error": 0.10879629629629628,
+    "wrong_fact_error_ci95": [
+      0.09736689814814814,
+      0.12196180555555554
+    ],
+    "resident_correct_coverage": 0.911892361111111,
+    "resident_correct_coverage_ci95": [
+      0.9072627314814815,
+      0.9160879629629631
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 164.58333333333334,
+    "eviction_count_ci95": [
+      162.25,
+      166.75
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "preference_update-c16",
+    "method": "frequency",
+    "stable_retention": 0.9551504629629629,
+    "stable_retention_ci95": [
+      0.9170524691358025,
+      0.9864004629629629
+    ],
+    "adaptation_score": 0.0,
+    "adaptation_score_ci95": [
+      0.0,
+      0.0
+    ],
+    "accuracy": 0.6639660493827161,
+    "accuracy_ci95": [
+      0.6440960165895062,
+      0.6806037808641975
+    ],
+    "stale_error": 0.306664737654321,
+    "stale_error_ci95": [
+      0.2999131944444444,
+      0.31303047839506176
+    ],
+    "adaptation_lag": 44.833333333333336,
+    "adaptation_lag_ci95": [
+      44.291666666666664,
+      45.333333333333336
+    ],
+    "wrong_fact_error": 0.029369212962962965,
+    "wrong_fact_error_ci95": [
+      0.012056327160493827,
+      0.04864607445987604
+    ],
+    "resident_correct_coverage": 0.7158564814814815,
+    "resident_correct_coverage_ci95": [
+      0.6982060185185186,
+      0.7336046006944443
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 7.763888888888888,
+    "eviction_count_ci95": [
+      7.361111111111112,
+      8.180555555555555
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "preference_update-c16",
+    "method": "adaptive_evolution",
+    "stable_retention": 0.9821566358024691,
+    "stable_retention_ci95": [
+      0.9579475308641975,
+      0.9969135802469135
+    ],
+    "adaptation_score": 0.0,
+    "adaptation_score_ci95": [
+      0.0,
+      0.0
+    ],
+    "accuracy": 0.7338927469135802,
+    "accuracy_ci95": [
+      0.7167245370370369,
+      0.7487943672839507
+    ],
+    "stale_error": 0.2571855709876543,
+    "stale_error_ci95": [
+      0.2453209394290123,
+      0.27107566550925927
+    ],
+    "adaptation_lag": 44.833333333333336,
+    "adaptation_lag_ci95": [
+      44.291666666666664,
+      45.333333333333336
+    ],
+    "wrong_fact_error": 0.008921682098765432,
+    "wrong_fact_error_ci95": [
+      0.0015432098765432098,
+      0.020882764274691344
+    ],
+    "resident_correct_coverage": 0.9925250771604938,
+    "resident_correct_coverage_ci95": [
+      0.9870261863425925,
+      0.9971547067901234
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 126.41666666666667,
+    "eviction_count_ci95": [
+      124.26388888888887,
+      128.55555555555554
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "preference_update-c8",
+    "method": "fixed_decay",
+    "stable_retention": 0.4849537037037037,
+    "stable_retention_ci95": [
+      0.47800925925925924,
+      0.4918981481481482
+    ],
+    "adaptation_score": 0.7458608861792553,
+    "adaptation_score_ci95": [
+      0.6508144211462327,
+      0.8275818424344664
+    ],
+    "accuracy": 0.4875578703703704,
+    "accuracy_ci95": [
+      0.4820601851851853,
+      0.4923321759259259
+    ],
+    "stale_error": 0.00028935185185185184,
+    "stale_error_ci95": [
+      0.0,
+      0.0007233796296296297
+    ],
+    "adaptation_lag": 11.333333333333334,
+    "adaptation_lag_ci95": [
+      7.75,
+      15.583333333333334
+    ],
+    "wrong_fact_error": 0.5121527777777778,
+    "wrong_fact_error_ci95": [
+      0.5073784722222222,
+      0.5175057870370371
+    ],
+    "resident_correct_coverage": 0.49320023148148157,
+    "resident_correct_coverage_ci95": [
+      0.49073712384259255,
+      0.4958043981481482
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 277.0833333333333,
+    "eviction_count_ci95": [
+      275.75,
+      278.4166666666667
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "preference_update-c8",
+    "method": "frequency",
+    "stable_retention": 0.5626929012345679,
+    "stable_retention_ci95": [
+      0.5071373456790124,
+      0.6180603780864197
+    ],
+    "adaptation_score": 0.0,
+    "adaptation_score_ci95": [
+      0.0,
+      0.0
+    ],
+    "accuracy": 0.3754822530864197,
+    "accuracy_ci95": [
+      0.351514274691358,
+      0.3976200810185185
+    ],
+    "stale_error": 0.16801697530864199,
+    "stale_error_ci95": [
+      0.1510404610339506,
+      0.18711540316358025
+    ],
+    "adaptation_lag": 44.833333333333336,
+    "adaptation_lag_ci95": [
+      44.333333333333336,
+      45.333333333333336
+    ],
+    "wrong_fact_error": 0.4565007716049383,
+    "wrong_fact_error_ci95": [
+      0.4321952160493827,
+      0.48090277777777773
+    ],
+    "resident_correct_coverage": 0.37721836419753085,
+    "resident_correct_coverage_ci95": [
+      0.353395061728395,
+      0.4003194926697531
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 7.125,
+    "eviction_count_ci95": [
+      6.722222222222221,
+      7.527777777777779
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "preference_update-c8",
+    "method": "adaptive_evolution",
+    "stable_retention": 0.703221450617284,
+    "stable_retention_ci95": [
+      0.6668595679012346,
+      0.7390046296296297
+    ],
+    "adaptation_score": 0.012681159420289856,
+    "adaptation_score_ci95": [
+      0.0,
+      0.03804347826086957
+    ],
+    "accuracy": 0.6257716049382717,
+    "accuracy_ci95": [
+      0.6029586226851851,
+      0.6469437210648148
+    ],
+    "stale_error": 0.18870563271604937,
+    "stale_error_ci95": [
+      0.17168089313271603,
+      0.2074170524691358
+    ],
+    "adaptation_lag": 44.25,
+    "adaptation_lag_ci95": [
+      42.916666666666664,
+      45.166666666666664
+    ],
+    "wrong_fact_error": 0.185522762345679,
+    "wrong_fact_error_ci95": [
+      0.169945987654321,
+      0.20216049382716048
+    ],
+    "resident_correct_coverage": 0.6847993827160493,
+    "resident_correct_coverage_ci95": [
+      0.6649305555555556,
+      0.7040895061728395
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 146.31944444444446,
+    "eviction_count_ci95": [
+      134.4857638888889,
+      157.50034722222222
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "temporary_task-c16",
+    "method": "fixed_decay",
+    "stable_retention": 0.8877314814814815,
+    "stable_retention_ci95": [
+      0.8712384259259259,
+      0.9019097222222223
+    ],
+    "adaptation_score": 0.8385310665091378,
+    "adaptation_score_ci95": [
+      0.8224081266739571,
+      0.8523996623923159
+    ],
+    "accuracy": 0.8527199074074074,
+    "accuracy_ci95": [
+      0.8412905092592592,
+      0.8640046296296297
+    ],
+    "stale_error": 0.0021701388888888886,
+    "stale_error_ci95": [
+      0.0011574074074074073,
+      0.003186487268518466
+    ],
+    "adaptation_lag": 7.5,
+    "adaptation_lag_ci95": [
+      6.854166666666667,
+      8.270833333333334
+    ],
+    "wrong_fact_error": 0.1451099537037037,
+    "wrong_fact_error_ci95": [
+      0.13382523148148148,
+      0.1568287037037037
+    ],
+    "resident_correct_coverage": 0.9017650462962963,
+    "resident_correct_coverage_ci95": [
+      0.896701388888889,
+      0.9063946759259259
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 167.83333333333334,
+    "eviction_count_ci95": [
+      165.58333333333334,
+      170.08333333333334
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "temporary_task-c16",
+    "method": "frequency",
+    "stable_retention": 0.9551504629629629,
+    "stable_retention_ci95": [
+      0.9171489197530865,
+      0.9863040123456791
+    ],
+    "adaptation_score": 0.15222771960217193,
+    "adaptation_score_ci95": [
+      0.11479424738212812,
+      0.19408820118343625
+    ],
+    "accuracy": 0.7141685956790124,
+    "accuracy_ci95": [
+      0.695360725308642,
+      0.7306616512345679
+    ],
+    "stale_error": 0.13363233024691357,
+    "stale_error_ci95": [
+      0.1273148148148148,
+      0.14028742283950615
+    ],
+    "adaptation_lag": 39.048611111111114,
+    "adaptation_lag_ci95": [
+      37.0,
+      40.84722222222222
+    ],
+    "wrong_fact_error": 0.15219907407407407,
+    "wrong_fact_error_ci95": [
+      0.1353684413580247,
+      0.16922260802469136
+    ],
+    "resident_correct_coverage": 0.7561246141975309,
+    "resident_correct_coverage_ci95": [
+      0.7389564043209877,
+      0.7714132426697531
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 9.055555555555555,
+    "eviction_count_ci95": [
+      8.611111111111112,
+      9.5
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "temporary_task-c16",
+    "method": "adaptive_evolution",
+    "stable_retention": 0.9847608024691358,
+    "stable_retention_ci95": [
+      0.9677830825617284,
+      0.9968171296296297
+    ],
+    "adaptation_score": 0.5149145519698162,
+    "adaptation_score_ci95": [
+      0.45867263348804443,
+      0.5762496225845409
+    ],
+    "accuracy": 0.8633777006172839,
+    "accuracy_ci95": [
+      0.8514178240740741,
+      0.8736991222993826
+    ],
+    "stale_error": 0.08545524691358025,
+    "stale_error_ci95": [
+      0.07783564814814815,
+      0.09452160493827161
+    ],
+    "adaptation_lag": 21.805555555555557,
+    "adaptation_lag_ci95": [
+      18.96527777777778,
+      24.33350694444444
+    ],
+    "wrong_fact_error": 0.0511670524691358,
+    "wrong_fact_error_ci95": [
+      0.03978467399691358,
+      0.0630787037037037
+    ],
+    "resident_correct_coverage": 0.965133101851852,
+    "resident_correct_coverage_ci95": [
+      0.9583815586419754,
+      0.9719328703703702
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 124.68055555555556,
+    "eviction_count_ci95": [
+      122.54166666666667,
+      126.81944444444446
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "temporary_task-c8",
+    "method": "fixed_decay",
+    "stable_retention": 0.48408564814814814,
+    "stable_retention_ci95": [
+      0.4774305555555555,
+      0.49074074074074076
+    ],
+    "adaptation_score": 0.7029926519151747,
+    "adaptation_score_ci95": [
+      0.6579480113757951,
+      0.7461948276866084
+    ],
+    "accuracy": 0.47612847222222215,
+    "accuracy_ci95": [
+      0.4713541666666667,
+      0.4810474537037037
+    ],
+    "stale_error": 0.00043402777777777775,
+    "stale_error_ci95": [
+      0.0,
+      0.0008680555555555556
+    ],
+    "adaptation_lag": 13.916666666666666,
+    "adaptation_lag_ci95": [
+      11.791145833333333,
+      16.125
+    ],
+    "wrong_fact_error": 0.5234375,
+    "wrong_fact_error_ci95": [
+      0.5186631944444445,
+      0.5280671296296297
+    ],
+    "resident_correct_coverage": 0.4900173611111111,
+    "resident_correct_coverage_ci95": [
+      0.4874131944444444,
+      0.49247685185185186
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 277.7083333333333,
+    "eviction_count_ci95": [
+      276.2083333333333,
+      279.1666666666667
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "temporary_task-c8",
+    "method": "frequency",
+    "stable_retention": 0.5626929012345679,
+    "stable_retention_ci95": [
+      0.5069444444444445,
+      0.6180603780864197
+    ],
+    "adaptation_score": 0.012983091787439614,
+    "adaptation_score_ci95": [
+      0.0,
+      0.030811144815189304
+    ],
+    "accuracy": 0.40012538580246915,
+    "accuracy_ci95": [
+      0.37803698881172837,
+      0.4214904031635802
+    ],
+    "stale_error": 0.061053240740740734,
+    "stale_error_ci95": [
+      0.05159987461419752,
+      0.07108410493827161
+    ],
+    "adaptation_lag": 45.52777777777778,
+    "adaptation_lag_ci95": [
+      44.75,
+      46.16684027777777
+    ],
+    "wrong_fact_error": 0.53882137345679,
+    "wrong_fact_error_ci95": [
+      0.519288917824074,
+      0.5571952160493827
+    ],
+    "resident_correct_coverage": 0.4028742283950617,
+    "resident_correct_coverage_ci95": [
+      0.38131751543209874,
+      0.42313126929012335
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 7.361111111111112,
+    "eviction_count_ci95": [
+      6.944097222222221,
+      7.791666666666667
+    ],
+    "pre_reminder_recall": null
+  },
+  {
+    "condition": "temporary_task-c8",
+    "method": "adaptive_evolution",
+    "stable_retention": 0.7335069444444443,
+    "stable_retention_ci95": [
+      0.6977213541666667,
+      0.7700617283950617
+    ],
+    "adaptation_score": 0.3620158939694666,
+    "adaptation_score_ci95": [
+      0.3117061837807422,
+      0.42081694355503113
+    ],
+    "accuracy": 0.7163869598765431,
+    "accuracy_ci95": [
+      0.7021110628858025,
+      0.7309039834104938
+    ],
+    "stale_error": 0.06920331790123457,
+    "stale_error_ci95": [
+      0.06703317901234568,
+      0.07093942901234568
+    ],
+    "adaptation_lag": 29.104166666666668,
+    "adaptation_lag_ci95": [
+      26.51388888888889,
+      31.42361111111111
+    ],
+    "wrong_fact_error": 0.21440972222222224,
+    "wrong_fact_error_ci95": [
+      0.20061607831790124,
+      0.22810570987654322
+    ],
+    "resident_correct_coverage": 0.7241030092592592,
+    "resident_correct_coverage_ci95": [
+      0.7101164641203703,
+      0.7375578703703703
+    ],
+    "mismerge_rate": 0.0,
+    "mismerge_rate_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 128.8472222222222,
+    "eviction_count_ci95": [
+      120.04131944444445,
+      137.58333333333334
+    ],
+    "pre_reminder_recall": null
+  }
+]

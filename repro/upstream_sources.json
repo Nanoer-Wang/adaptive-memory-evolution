@@ -1,0 +1,517 @@
+{
+  "babi": {
+    "url": "https://s3.amazonaws.com/text-datasets/babi_tasks_1-20_v1-2.tar.gz",
+    "archive_sha256": "84f5296ab9a1ad0dc9464e08c491d65cd08830fca3acae9ab86f75e0fb81573c",
+    "files": {
+      "qa1_single-supporting-fact_test.txt": "55acf66cef2f6d798e2aa1d056e1ec8f24e910ea9215b639450574321132959b",
+      "qa1_single-supporting-fact_train.txt": "c64ba9b1a49bbb111ffc4cd2ae4f129d25c012399dd7ade9679eea464b9afb05"
+    },
+    "benchmark": "public synthetic bAbI en 1k qa1",
+    "upstream": "https://github.com/facebookarchive/bAbI-tasks"
+  },
+  "longmemeval": {
+    "repository": "xiaowu0162/longmemeval-cleaned",
+    "revision": "98d7416c24c778c2fee6e6f3006e7a073259d48f",
+    "url": "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/resolve/98d7416c24c778c2fee6e6f3006e7a073259d48f/longmemeval_s_cleaned.json",
+    "license": "MIT (upstream dataset card)",
+    "filename": "longmemeval_s_cleaned.json",
+    "bytes": 277383467,
+    "instances": 500,
+    "sha256": "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442"
+  },
+  "locomo": {
+    "revision": "3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376",
+    "url": "https://raw.githubusercontent.com/snap-research/locomo/3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376/data/locomo10.json",
+    "sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4"
+  },
+  "memorybench": {
+    "revision": "3acd60a4bd35b43b408f0e6db4c5f1e88df5e96d",
+    "files": {
+      "dataset/NFCats/test/data-00000-of-00001.arrow": {
+        "sha256": "842436b9135b04cdb1694a5b62c0fa3b566ae9385974cd45041b1ef03cf97243",
+        "url": "https://huggingface.co/datasets/THUIR/MemoryBench/resolve/3acd60a4bd35b43b408f0e6db4c5f1e88df5e96d/dataset/NFCats/test/data-00000-of-00001.arrow"
+      },
+      "dataset/NFCats/test/dataset_info.json": {
+        "sha256": "a44fae2a271f207ee8fd795e9e046d7235d6f285a838e668f5ae6600e96eae6d",
+        "url": "https://huggingface.co/datasets/THUIR/MemoryBench/resolve/3acd60a4bd35b43b408f0e6db4c5f1e88df5e96d/dataset/NFCats/test/dataset_info.json"
+      },
+      "dataset/NFCats/train/data-00000-of-00001.arrow": {
+        "sha256": "008f83c26858dccfbd2935ab6b662da5c708dbd08153f0db6dc4bd96f1ff1f31",
+        "url": "https://huggingface.co/datasets/THUIR/MemoryBench/resolve/3acd60a4bd35b43b408f0e6db4c5f1e88df5e96d/dataset/NFCats/train/data-00000-of-00001.arrow"
+      },
+      "dataset/NFCats/train/dataset_info.json": {
+        "sha256": "a44fae2a271f207ee8fd795e9e046d7235d6f285a838e668f5ae6600e96eae6d",
+        "url": "https://huggingface.co/datasets/THUIR/MemoryBench/resolve/3acd60a4bd35b43b408f0e6db4c5f1e88df5e96d/dataset/NFCats/train/dataset_info.json"
+      }
+    },
+    "official_repository": "https://github.com/THUIR/MemoryBench"
+  },
+  "memops": {
+    "commit": "312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35",
+    "source": "https://github.com/MemTensor/MemOps",
+    "files": [
+      {
+        "file": "A01_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A01_update.json",
+        "sha256": "a4f6b0c31dcfe4d0c5207ce5d2c292890c51ab54ab61278f197b3ac989decc87",
+        "git_blob": "6d65323bebad24c6ff93a00d68043c52d462639a"
+      },
+      {
+        "file": "A02_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A02_update.json",
+        "sha256": "e678d9969c90ca40e5a5b196dccb8831f08673d9b28377a03084bac67ce6eabe",
+        "git_blob": "ee3d648c60719ed901fb7537173780e72a771aad"
+      },
+      {
+        "file": "A05_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A05_update.json",
+        "sha256": "ae77817d56ebdca4fbe8f0c60a24790e149b7c1c36c20b6e20895550c4a8d358",
+        "git_blob": "f3fa845f0fb4553bb5114e8b7c703e6dd62e0f41"
+      },
+      {
+        "file": "A06_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A06_update.json",
+        "sha256": "76c37af0a54ac099dac21948dd6994cc86cf5ab864aae41c12c96467145dd067",
+        "git_blob": "8f73ac36b9888e97e690da51de7dbc177eff34de"
+      },
+      {
+        "file": "A11_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A11_update.json",
+        "sha256": "a80821f7d12932d1e005d8a3d73294379f691f806e0782a8d69f4145b8334dad",
+        "git_blob": "a6114ca4171c9a0eb5444726bd162f92774a30be"
+      },
+      {
+        "file": "A13_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A13_update.json",
+        "sha256": "0cf23a586a213e2c25cfdd54263a985b3c5ff4585d2d4f604b2858ce45f3b434",
+        "git_blob": "1091f7fa27f052833028a4a36adfac467a2b1220"
+      },
+      {
+        "file": "A14_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A14_update.json",
+        "sha256": "84f5a3d086be822377527fd0481db9e0059f1da319e15db70673ea61de4ade33",
+        "git_blob": "8736fa873f62528b4eb82ca92ebb936be7670534"
+      },
+      {
+        "file": "A16_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A16_update.json",
+        "sha256": "b567dcf34deb07fd05bca545e4ad42e830ee2d4e7c8cc92c3c64617f52d4ebdf",
+        "git_blob": "8dd07d7cbd275a2c1ab2e03f0b69c0952af436ee"
+      },
+      {
+        "file": "A19_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A19_update.json",
+        "sha256": "3f346e96fb0aaa49cb31d8acbc5384564b9c4420e9e7f7c4feefdc93ccb5feda",
+        "git_blob": "bff54cdf2a14706ed58920264afe0ee49d831021"
+      },
+      {
+        "file": "A26_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A26_update.json",
+        "sha256": "7447d62017bf7acddff5a7666eba11d0d1a1effbb5e1c22618fecb7a20100cdd",
+        "git_blob": "c3d114fa26752887c41b5aa3a3acd9ff1a77d02d"
+      },
+      {
+        "file": "A28_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A28_update.json",
+        "sha256": "28d7e6a8469d33b005ea6898483d7512704cb39187b54fd4817b4c398a14ef12",
+        "git_blob": "cba19a5e8f890c44f92eb5281794b8c9b4c7b1d5"
+      },
+      {
+        "file": "A29_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A29_update.json",
+        "sha256": "bf1334640990ec0e54e67747b4b26cb8ace191e9ce0212c6d7f72a15fa31ea89",
+        "git_blob": "0bef93f076fb323c1a1569ef1972435fc1303e6d"
+      },
+      {
+        "file": "A30_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A30_update.json",
+        "sha256": "3a134df633685989636582107d7548292c59b16f76786efa141650bd373b3c96",
+        "git_blob": "5a985505f5b699a46ab4f3a5303d6bdfc37eadad"
+      },
+      {
+        "file": "A31_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A31_update.json",
+        "sha256": "2a818fdfb9075cd56625c86d835c7968a3af7d74f9b57ed704c6f9354def4784",
+        "git_blob": "108dbc954263bf9eee36a5917652bc3756f4e2ae"
+      },
+      {
+        "file": "A32_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A32_update.json",
+        "sha256": "1dcf2326414248f6796d29c0968d5cc96337dbf0859d345b486c7508e5645293",
+        "git_blob": "e6de51208cd081b720c8b67e528f0c164a4a7f97"
+      },
+      {
+        "file": "A33_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/A33_update.json",
+        "sha256": "003903f125cd990a3a2885b68b85228599f9d312bcb9dc782831b40fc50780c4",
+        "git_blob": "ff1ee969b06f8332cb8a6b38bca644270974ad10"
+      },
+      {
+        "file": "B01_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B01_update.json",
+        "sha256": "57103aa23213218255182f99d9d0c1f8f0d9b0281dbf3c6fc7870b47fb1bd743",
+        "git_blob": "62f1f57fc07052455e3cabe5602ab9856c82a5bf"
+      },
+      {
+        "file": "B02_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B02_update.json",
+        "sha256": "35db302c355e62f327723a5d852dcd372bffb7c7b0bb2eaa79e561630e9cd460",
+        "git_blob": "444c285a57c9a3392bc12cca89d91d63956ff182"
+      },
+      {
+        "file": "B03_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B03_update.json",
+        "sha256": "06e4922d4e174b74e9cb13180031933d6caaefa1a38e769a107a29296174536e",
+        "git_blob": "fa61b73d6b019e8a60e6148d268d4012f9cc6dd7"
+      },
+      {
+        "file": "B04_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B04_update.json",
+        "sha256": "2c811a6f9e3a0956727f242744528592fa57b87dde794cfc416ae676ced612d7",
+        "git_blob": "31eeebef29a64bab40cdee68fd551f185a6cba59"
+      },
+      {
+        "file": "B05_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B05_update.json",
+        "sha256": "24d1f9e0c0c33c5c20375a12d5123dfe4046a95dd60dd5cdc280e799422cad96",
+        "git_blob": "2009b2f943782cc595ebe6e784b4e818150f4a1f"
+      },
+      {
+        "file": "B06_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B06_update.json",
+        "sha256": "440c0b2570fb5ae1b6ea8e76cac248369f4cb212dfcfee590ffd3e4584c02ab7",
+        "git_blob": "8dbef39a954d185483984dfb5efe6e970084a3a7"
+      },
+      {
+        "file": "B10_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B10_update.json",
+        "sha256": "bfa32752bb86e13664b7355486afb108c5d586c9bab07ee82e66f1dce5d49e20",
+        "git_blob": "99e30920e67e67dbc4151e49813fa83201807437"
+      },
+      {
+        "file": "B11_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B11_update.json",
+        "sha256": "1b84831a95d629ed7ff0815f0d2120e7b3dd04b8800ac08cb1a29c60cb344fbb",
+        "git_blob": "2e04df76d49140e732b63989f211a85fd88addb6"
+      },
+      {
+        "file": "B12_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B12_update.json",
+        "sha256": "33e02a6ed7daf4e05f717866e0492350f52ab41918cf6b29f3513ac64ec4ea09",
+        "git_blob": "5ad57ea7be42503aac2fb06b80e00f1c555f1b8d"
+      },
+      {
+        "file": "B21_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B21_update.json",
+        "sha256": "947ed3c56463d8ae3bae8fc5bfd014b6346dc95db427b2064a303ca164cd7c5b",
+        "git_blob": "ed6d6c55b8181208267f664303734abe5c11f236"
+      },
+      {
+        "file": "B22_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B22_update.json",
+        "sha256": "6f4b74bfa5f5f8d636e2a49338b2334056160d94fcc2a6e7bb0f005ec6854536",
+        "git_blob": "ff2f7f69f6226b512d4a5d4cd5eead0bedfe0fd9"
+      },
+      {
+        "file": "B23_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B23_update.json",
+        "sha256": "1513845283d1287291a29490285d931210c1e87967a8f6ad622caffafffbe15d",
+        "git_blob": "480b8453504c7b949791c305e01b83d525c78335"
+      },
+      {
+        "file": "B24_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B24_update.json",
+        "sha256": "96ae1e12e5e14e600a5ceff218ebab11ef981b087aa34f0d25903d0331056726",
+        "git_blob": "3fdd77716bab236d2ac7e76ca3d8d3055b022a8e"
+      },
+      {
+        "file": "B27_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B27_update.json",
+        "sha256": "0047ef8ddd4843d4f33da302f92e3cdc9cf92ac80b15133cd0610ddaefaa8712",
+        "git_blob": "fbb0c702fec36bffcc5c52efebbafc1c6b46cabd"
+      },
+      {
+        "file": "B28_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B28_update.json",
+        "sha256": "e3f2aecc42134249020350033f17e5c9ef654442c16e269400ac1fad09856f2a",
+        "git_blob": "0535fc52f23647c64afac452d464f64b6f36c690"
+      },
+      {
+        "file": "B29_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B29_update.json",
+        "sha256": "962e02c36ee880fc5206882789392e8dad4d22290f30cab8a05c0edbe792a288",
+        "git_blob": "212b74b5cc47f8a8da34867b93c12eea626b131f"
+      },
+      {
+        "file": "B30_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/B30_update.json",
+        "sha256": "3a76619c56af4ee9c480b218504369b7be937a862c90998d9cc2fb1536209843",
+        "git_blob": "afdd514368d25ce8bb538ca0b38fd6ef457b56fe"
+      },
+      {
+        "file": "C01_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C01_update.json",
+        "sha256": "4e684d5884c0d1ca2cc27b48a25e94ca52e0a45d71e310c546017e58f320d8c4",
+        "git_blob": "c8cbc4fcfb290afe255a815643d2c263e579787b"
+      },
+      {
+        "file": "C02_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C02_update.json",
+        "sha256": "45b714943c566e308b2083cb151e87089d9695ddd49bd960dd2d470f6a8b3ee6",
+        "git_blob": "c714a287041c373a36eca52b4d575f1e7aeac9c5"
+      },
+      {
+        "file": "C04_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C04_update.json",
+        "sha256": "dde3741acc8dc309e26a89703b4f8253a3d3b1968d9f254c43eb96a2692049b1",
+        "git_blob": "a256ca89681cc7c7aca2aa1bbc3b630cdba6f250"
+      },
+      {
+        "file": "C05_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C05_update.json",
+        "sha256": "0335cf348debd89721a818b17c14b7e3c68fda43241e89abc36fb62027e80de3",
+        "git_blob": "647c4a559563a7e706e56fa3e44baf4cce05a522"
+      },
+      {
+        "file": "C06_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C06_update.json",
+        "sha256": "a1c59a629fe7a4e2c4e0819231e676d6c93b42c72510ee32ddd6d2d652aa0de8",
+        "git_blob": "b41ffb2409decfb715e9b6c43dec2eef2d7f6d99"
+      },
+      {
+        "file": "C07_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C07_update.json",
+        "sha256": "9c3a76fb07173d0f1ec9e2867a1ab43d0c43c81e4867cea827a195d218f2b583",
+        "git_blob": "36f2648f19d58d12d84449f867f2dccf3880ad0b"
+      },
+      {
+        "file": "C10_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C10_update.json",
+        "sha256": "5d6de36b9673843fa93191a05838b5c307d2f78d95acb0a411c9ba4cb7a79a8c",
+        "git_blob": "fbcdfe44e3482704787acd64a3ccdf97053c37d2"
+      },
+      {
+        "file": "C11_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C11_update.json",
+        "sha256": "c7a3702c90f42c03a1db9dcd0eea9de913550c3479aa5ecc3ba8f8b120722127",
+        "git_blob": "6ef9259905c39b033b5224bd3a68b59766b403fd"
+      },
+      {
+        "file": "C21_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C21_update.json",
+        "sha256": "348588af0eaf23e1eb01fb29c46e57e9a04d46b69e784a6b72161719061adc0b",
+        "git_blob": "f67b66bf89cf66db0d46003681add2f92fab996c"
+      },
+      {
+        "file": "C22_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C22_update.json",
+        "sha256": "011ffd78bd6f7a341b7c01973bb1b0fa564023110f3b5d87aaed38d23c0a53d4",
+        "git_blob": "1592bfb06980e2e9f4817d2a33da276750f144be"
+      },
+      {
+        "file": "C23_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C23_update.json",
+        "sha256": "a5c92a7ebf49a2abc888fd9aa6f843e1c8406bf68e679cd2659bc22eaf0017df",
+        "git_blob": "f21f8dac0ce667872ba04412fc34debdca6c7f26"
+      },
+      {
+        "file": "C26_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C26_update.json",
+        "sha256": "490097629cee90daa883df4b1e74a5632e4ba0e5df055d3c54a600d6d2324da6",
+        "git_blob": "6c1705e20c36c30730ca63a36bda23ec5f410c2c"
+      },
+      {
+        "file": "C27_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C27_update.json",
+        "sha256": "a9b35bf4c4fce085a5f92a184860ca2fcdfdeffb43ca135f969765c94dcd9559",
+        "git_blob": "6c7645274be9371c2b4fd0548c0a9df843a24d33"
+      },
+      {
+        "file": "C28_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C28_update.json",
+        "sha256": "c7c9ce001faa61c1f28f6e37b390a897dd3c2092ebc699f6052d75150b0813a8",
+        "git_blob": "aaaec18dbccc8421b378c8a4de1a4e1a83c5d021"
+      },
+      {
+        "file": "C30_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C30_update.json",
+        "sha256": "37eb9afed0eb4781e1b1d83868d478270f34be09d0196b217ae1a03273a13baa",
+        "git_blob": "7c5a48cfbea5442c21b3f6d7c8b5e4b4fad1f4fa"
+      },
+      {
+        "file": "C31_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C31_update.json",
+        "sha256": "d1f4b94258728db4e1ccebe54050bb1dbda1e1c370486940e5485d37a9c6bd3e",
+        "git_blob": "03f8878fa9d75073ea274507df77c2f093544f67"
+      },
+      {
+        "file": "C32_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/C32_update.json",
+        "sha256": "eff9d9b86e079aa20a638054a62e00d7b1a1a20b8d53951b07e31dea287d532d",
+        "git_blob": "23613fe146b262978663bab2a2d3b372c4b3f492"
+      },
+      {
+        "file": "D02_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D02_update.json",
+        "sha256": "556463fc5bbb3751a100a9ff2fc89ae5099562fca3289947571f5544407f62a0",
+        "git_blob": "0d22b994df3734aecfdd763a990c7a4ea9f89741"
+      },
+      {
+        "file": "D05_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D05_update.json",
+        "sha256": "6cdd0dd52f44b2a011909f1b8ab2b9b39922cb9f12c1509afab61d8a25083d3d",
+        "git_blob": "a3ca46999d2de9b1fce0b56d56137eeb73be545e"
+      },
+      {
+        "file": "D14_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D14_update.json",
+        "sha256": "1ce020426977bbd8704b5930c51cc28be799dfc1b811cc3e7626a752f44b46be",
+        "git_blob": "9cb577c8052732741c9b389fdc4257d415487b33"
+      },
+      {
+        "file": "D16_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D16_update.json",
+        "sha256": "3a33631474ffba2a57d99e7c474264936ea140010c7fd42cd4a8b936632d8b93",
+        "git_blob": "9a23708d6670f66afdceb412d528585d59ce6715"
+      },
+      {
+        "file": "D17_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D17_update.json",
+        "sha256": "e76b736ed27914bef415eb1ebf280b808ba03da652a139d76ed1e75db3b12773",
+        "git_blob": "a2880338f9fb106cf997ad1fa89a294641473f64"
+      },
+      {
+        "file": "D18_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D18_update.json",
+        "sha256": "4bd2abf99b3f4da0f3c50c48a2a2a524a4f152b7b6ceb67ab1879237fe3ba068",
+        "git_blob": "cd7dd484613a641b2d947e1f37dcccf3df7e100b"
+      },
+      {
+        "file": "D19_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D19_update.json",
+        "sha256": "1e3bd1f36e7d4713f1b475f871da34915081f4475c8fcff143c02cdebee33c3c",
+        "git_blob": "9ce16de9d993762c1d138fa762ff266f40db3a1f"
+      },
+      {
+        "file": "D20_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D20_update.json",
+        "sha256": "b4ddee0c2083261e6daa2b4219493978abfb676d61491b9ab34fa9f0f89dd887",
+        "git_blob": "8e785e07e8455ea121600ad777cee978c21b9e00"
+      },
+      {
+        "file": "D22_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D22_update.json",
+        "sha256": "ff0587ae36eb562c505361c234179bba5643f13b78b4fe2cf31992049ccff8cb",
+        "git_blob": "f076cf34b459ab9f709ba19a9ba598ebc3786de1"
+      },
+      {
+        "file": "D23_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D23_update.json",
+        "sha256": "64ddf7e658701eaa36dbf398ce3956c42e957ec6f1af7313182b6bd773604198",
+        "git_blob": "6557004e872b39659041dc28293f675fb5e16fe0"
+      },
+      {
+        "file": "D24_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/D24_update.json",
+        "sha256": "cb007547729d3805fb68ea896128ff472d5f148a51fb7e025d10d993a150577d",
+        "git_blob": "0cde65921ef378b87f396b9749f4f50799b6b31b"
+      },
+      {
+        "file": "E03_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/E03_update.json",
+        "sha256": "12c595849b81f501fa6eacc32114f6c86fbde6c10795a32c3891581d54c4f31b",
+        "git_blob": "545a2905f0ebc1b35c9f4ef9934a49f7852bd631"
+      },
+      {
+        "file": "E07_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/E07_update.json",
+        "sha256": "8839da65a0d8806ccb0730e2e3bf6cf44c5da543e25c943462eb1d7c7b8a078a",
+        "git_blob": "ccbd9e20410880371a724cbae93a3565122b7eb0"
+      },
+      {
+        "file": "E08_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/E08_update.json",
+        "sha256": "bf0921c0843de6ffbd460911ea165694276e9b8e7de07994544fcd836eb0ec47",
+        "git_blob": "e34976aff69b92d1f56b581b7d43bd9e9d1b9201"
+      },
+      {
+        "file": "E11_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/E11_update.json",
+        "sha256": "2fc348ebaab8d7e44997a966b75437a6b1c8fc9053dc38dddc2c1a10d57a9d9b",
+        "git_blob": "136609dc139e06997b1d940bcb68ef8692a55247"
+      },
+      {
+        "file": "E12_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/E12_update.json",
+        "sha256": "c87fbe0249cf7c07033225eb59cef8a688a042f9b2e968fea84cf0d7245cc0fe",
+        "git_blob": "490be11d416657b50f1b991ce3fe5ca0d34bdc98"
+      },
+      {
+        "file": "E13_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/E13_update.json",
+        "sha256": "6eb2957d33ee7e99836811dabcc1a908a85c619cc9761cff87e554f0aafd2567",
+        "git_blob": "66485f6425f22cd755470301c3a4fdfae6014200"
+      },
+      {
+        "file": "E15_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/E15_update.json",
+        "sha256": "7086723408fce31ede9f4a67071792aaa88df25aba1aae47160ffaf1b4ec1b5e",
+        "git_blob": "85999d1be794f3159eef8f49b879a88136e2e3e0"
+      },
+      {
+        "file": "F01_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F01_update.json",
+        "sha256": "06b104add499e6632a0a5c8166a2818bb0da9751e5883bc6ae4e995960442a33",
+        "git_blob": "a25f3ef44168c6d436c01727d3128da73e5bb0bb"
+      },
+      {
+        "file": "F07_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F07_update.json",
+        "sha256": "ac4e0bb7b494622bbe66ac07c586b42d50c4abf098afa259857d89965bd83528",
+        "git_blob": "aca86b4bf26238d13233346a633c872d88431f02"
+      },
+      {
+        "file": "F08_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F08_update.json",
+        "sha256": "a1d4f3a75b0ce705f7fb6f15f019198749d2c0232633f4e717e0ec7be4d802fa",
+        "git_blob": "746443c2ef54a1ba05658d0d5f87dad6b4ca1762"
+      },
+      {
+        "file": "F11_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F11_update.json",
+        "sha256": "840e5d960b7e9ec6b704ca80a434336b0716bca220633ed822895eebb63fa148",
+        "git_blob": "b575fabe7f607952c21818f66454612cdcf6a329"
+      },
+      {
+        "file": "F12_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F12_update.json",
+        "sha256": "6e719e113b744e1c56adcd916b5b78d90f384107369633c6146cef7019a7884a",
+        "git_blob": "46056dc72e91b7c36dd2c88cf25c853ac595a5e5"
+      },
+      {
+        "file": "F13_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F13_update.json",
+        "sha256": "a6fea7f3fc457f8a416a38c48370d075fa1efe2852343f9c9bd20988505f505c",
+        "git_blob": "1918e099387b76df09d4a5d652ce54b0916c57b6"
+      },
+      {
+        "file": "F14_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F14_update.json",
+        "sha256": "b5438ccdac265a29b5a7db831949fe4bee8e0698b107a3bb48f2b47a0bbba633",
+        "git_blob": "62d5d8ee6ecc334af1dc716b73f54a0140279e75"
+      },
+      {
+        "file": "F16_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F16_update.json",
+        "sha256": "94e02f08465177221184ba51058f27713219eb26987a3d5b338d592f305cdbea",
+        "git_blob": "f04de82c41083d0ea0efbdad69dc2939bcd72646"
+      },
+      {
+        "file": "F17_update.json",
+        "url": "https://raw.githubusercontent.com/MemTensor/MemOps/312af65e2c7b6d1b70f062ffa8b4cde32aaf6f35/generated_result/2-evidence_conversation/F17_update.json",
+        "sha256": "06bae901ec84e13c7085ce4faaca25f3214d9803cecd95eae499aee12dd35e47",
+        "git_blob": "134d13f7af184867bcb78439f56675e1d13352fb"
+      }
+    ]
+  }
+}

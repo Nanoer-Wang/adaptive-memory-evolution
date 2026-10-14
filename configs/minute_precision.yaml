@@ -1,0 +1,40 @@
+data:
+  file: data/longmemeval/longmemeval_s_cleaned.json
+  prepared: artifacts/prepared-minute-v2
+  seed: 42
+  train_fraction: 0.6
+  val_fraction: 0.2
+model:
+  input_dim: 1024
+  memory_dim: 128
+  time_scale_days: 30.0
+  max_delta: 12.0
+  timestamp_precision: minute
+training:
+  lr: 0.003
+  epochs: 12
+  seed: 42
+  temperature: 0.2
+  future_weight: 0.0
+  stability_weight: 0.0
+  grad_clip: 1.0
+  threads: 4
+api:
+  base_url: https://api.agnes-ai.cn/v1
+  model: agnes-3.0-flash
+  rpm: 10
+  timeout_seconds: 120
+  max_retries: 5
+  max_tokens: 512
+  temperature: 0
+  rate_db: artifacts/api/rate_limit.sqlite3
+  cache_db: artifacts/api/responses.sqlite3
+retrieval:
+  feature_cache: artifacts/prepared/ranking_features
+  top_k: 5
+  context_chars: 16000
+  chunk_chars: 1600
+evaluation:
+  split: test
+  seed: 42
+  output_root: runs

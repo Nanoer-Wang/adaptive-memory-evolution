@@ -1,0 +1,23 @@
+\section{Related Work}
+\paragraph{Agent memory systems.}
+Generative Agents combine a memory stream with relevance, recency, importance, and reflection \citep{generative}. MemoryBank explicitly reinforces and forgets memories over time \citep{memorybank}; MemGPT manages memory across storage tiers \citep{memgpt}. A-MEM updates historical memory attributes and connections as new information arrives \citep{amem}. MemoryOS uses hierarchical updating \citep{memoryos}, Mem0 extracts and consolidates conversational evidence \citep{mem0}, and AgeMem learns memory operations within the agent policy \citep{agemem}. Evolving memory is therefore not unprecedented. We contribute a low-dimensional formulation and controlled characterization. Appendix~\ref{app:external} contrasts mechanisms and protocols; published scores are not matched-budget comparisons with ours.
+
+\paragraph{Continual learning.}
+Continual learning studies acquisition from changing streams without destructive forgetting \citep{continual}. For example, elastic weight consolidation constrains changes to parameters important for previous tasks \citep{ewc}. We share the concern with stability and plasticity, but our controlled variable is an external record's retention state, not the agent's network weights. The head's weights remain frozen during evaluation. Stable-fact retention is not equivalent to preventing catastrophic forgetting in a learned representation.
+
+\paragraph{Neural external memory.}
+Neural Turing Machines and differentiable neural computers learn interactions with external memory through differentiable controllers \citep{ntm,dnc}. We store content explicitly; a 123-parameter affine head sets bounded insertion and importance coefficients and a positive rate. Closed-form integration is a convenient realization of the state equations. Its comparison with event-only and numerical integration variants tests the role of the dynamics without claiming a liquid neural network advantage.
+
+\paragraph{Cognitive models and evaluation.}
+Memory accessibility depending on the history of environmental demand has a long tradition \citep{anderson}; strengthening and forgetting motivate our design without establishing cognitive fidelity. LongMemEval and LoCoMo expose temporal reasoning, knowledge updates, and multi-session recall challenges \citep{longmemeval,locomo}. MemoryBench evaluates memory and feedback-driven continual learning \citep{memorybench}, while MemOps provides lifecycle operations and grounded update traces \citep{memops}. Our small transfer subsets and controlled public-text recombinations are explicitly distinct from official full-benchmark evaluations.
+
+\section{Problem: Retention under Changing Demand}\label{sec:problem}
+Consider a timestamped stream $e_1,\ldots,e_N$ containing observations, context cues, queries, and post-answer feedback. At time $t$, a policy maintains a resident set $\mathcal M_t$ of at most $K$ content records. Observations may introduce new facts or revised versions; a query asks for the currently valid value. A policy observes only the causal prefix. Stable/volatile labels and reference answers belong to the evaluator, not the policy.
+
+Represent record $i$ as $m_i(t)=(x_i,z_i(t))$, with immutable versioned content $x_i$ and $z_i=(I_i,C_i,U_i,T_i)$. An addressing interface maps observations and queries to candidate identities. In structured experiments, identities and versions are supplied in the observed stream; semantic experiments infer them from resident embeddings. The latter is a substantially harder interface, not a change in the state equations.
+
+We characterize a vector of outcomes: overall accuracy, stable retention, obsolete-answer error, and post-shift recovery. For a fixed environment $\mathcal E$, the sampled operating set is
+\begin{equation}
+\mathcal O_{\mathcal E}=\{(\mathrm{SR}(\pi_{\boldsymbol\alpha}),\mathrm{AS}(\pi_{\boldsymbol\alpha})):\boldsymbol\alpha\in\mathcal G\}.
+\end{equation}
+Controllability here means that a prespecified rate intervention can change the balance of these endpoints. It does not mean classical state-space controllability, monotonic performance, or an optimal frontier over all possible policies. Content capacity also differs from a total byte budget: auxiliary identity and query-history metadata remain outside the resident slots.

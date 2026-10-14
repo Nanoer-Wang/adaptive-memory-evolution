@@ -1,0 +1,113 @@
+{
+  "scope": "Read-only audit of archived evidence and manuscript dependencies; no experiments rerun.",
+  "original_sources_verified": 53,
+  "source_manifest_entries": 53,
+  "all_available_source_hashes_match": true,
+  "formal_characterization_runs": 17568,
+  "supported_tradeoff_pairs": 27,
+  "supported_pairs_by_condition": {
+    "mixed-c8": 9,
+    "rapid_high-c16": 6,
+    "rapid_high-c8": 12
+  },
+  "c1_alpha_1_to_2": [
+    {
+      "metric": "stable_retention",
+      "delta_alpha2_minus_alpha1": -0.3337673611111111,
+      "ci95": [
+        -0.3602430555555555,
+        -0.30671296296296297
+      ],
+      "holm_p": 0.016798320167983202
+    },
+    {
+      "metric": "adaptation_score",
+      "delta_alpha2_minus_alpha1": 0.197265625,
+      "ci95": [
+        0.14149305555555555,
+        0.25109592013888893
+      ],
+      "holm_p": 0.016798320167983202
+    }
+  ],
+  "b1a_replacement_control_accuracy_contrast": {
+    "dynamics": "rapid_shift",
+    "pressure": "high",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2526041666666667,
+    "ci95": [
+      0.23538773148148148,
+      0.26996527777777773
+    ],
+    "p_unadjusted": 9.999000099990002e-05,
+    "replacement_means_matched": true,
+    "p_holm": 0.013198680131986803
+  },
+  "world_seed_ranges": {
+    "B2": {
+      "worlds": 24,
+      "first": 82100,
+      "last": 82123
+    },
+    "B3": {
+      "worlds": 24,
+      "first": 83100,
+      "last": 83123
+    },
+    "B4": {
+      "worlds": 24,
+      "first": 84100,
+      "last": 84123
+    },
+    "B5": {
+      "worlds": 24,
+      "first": 85100,
+      "last": 85123
+    },
+    "B6": {
+      "worlds": 24,
+      "first": 86100,
+      "last": 86123
+    },
+    "B7": {
+      "worlds": 24,
+      "first": 87100,
+      "last": 87123
+    },
+    "C1": {
+      "worlds": 24,
+      "first": 91100,
+      "last": 91123
+    },
+    "C2": {
+      "worlds": 24,
+      "first": 92100,
+      "last": 92123
+    },
+    "C3": {
+      "worlds": 24,
+      "first": 93100,
+      "last": 93123
+    },
+    "C4": {
+      "worlds": 24,
+      "first": 94100,
+      "last": 94123
+    }
+  },
+  "contribution_count": 3,
+  "references": 19,
+  "cited_references": 19,
+  "tex_inputs_verified": 26,
+  "figure_inputs_verified": 9,
+  "limitations_preserved": [
+    "Replacement mean matching does not identify a complete causal effect independent of replacement.",
+    "C1 compares a finite rate grid against fixed baseline configurations, not equally tuned policy families.",
+    "Alpha zero retains event jumps and temporal aging.",
+    "Larger capacities can favor fixed policies; capacity and interference identities co-vary.",
+    "Dormant retention, misleading feedback, and semantic addressing expose failures.",
+    "B8 is a small custom subset with one answer/judge backend; NFCats quality is not binary QA accuracy.",
+    "Content slots do not bound all metadata; measured dynamics adds computation."
+  ]
+}

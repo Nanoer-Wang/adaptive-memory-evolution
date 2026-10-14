@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "runs/liquid-consolidation-v2/vectors.json",
+      "sha256": "968ceffea2504b46d13fc076af884a539b543617ab9f2d33a82d4a4ae5d5b5ec",
+      "bytes": 106480
+    },
+    {
+      "path": "runs/ame-validation-v2/B1-attribution-v1/protocol.json",
+      "sha256": "d698a06ac0ca9688e6246c81b7f18affaf6c20d3746ffc66c789c0dd60e40881",
+      "bytes": 5275
+    },
+    {
+      "path": "runs/ame-validation-v3/B8/protocol.json",
+      "sha256": "60fb94fc6c7feee921a43a76ad1ed13ee54ad8d21be72ac615c073bd0d9b9af5",
+      "bytes": 4703
+    },
+    {
+      "path": "artifacts/encoders/minilm/source.json",
+      "sha256": "0454310f9efa85e8e4648bad7135c424b4c30c1fa0ce329c64e0213942032eeb",
+      "bytes": 1616
+    },
+    {
+      "path": "runs/evolving-memory-v1/checkpoints/learned-11.pt",
+      "sha256": "32efb7fadd2f0ac490cff2214421112ad8d673c8693e82a88f9b15320dfa1c37",
+      "bytes": 2493
+    },
+    {
+      "path": "runs/evolving-memory-v1/checkpoints/learned-23.pt",
+      "sha256": "c8207ffb449c9623c9be89c0ea93c915b6e6ff4ce46aab1d3b5c4caf262e3138",
+      "bytes": 2493
+    },
+    {
+      "path": "runs/evolving-memory-v1/checkpoints/learned-42.pt",
+      "sha256": "0392870b041618eece602978a1931500a08c1bfc5b101d1b3f63eaaa9beb8a5c",
+      "bytes": 2493
+    },
+    {
+      "path": "artifacts/source/2bab491ab757d3a5e3ced75aefe8e73c901f04fdfc7e8d68adbd0cc837c3103b.zip",
+      "sha256": "749f2085dab1fd12cd65cc2bf2a3bde42a1c007fdf41953fa11c9d596d195a08",
+      "bytes": 547831
+    }
+  ],
+  "stories_sha256": "45efc422233d189171494ad6a185cf48f00e0c30f19e625ad39147edfe458cf8",
+  "core_hashes": {
+    "src/memory/b1_policy.py": "ca30b1a14203662f163c82365b5269d1223c0d0d9a2a7ccf208123b16f92245a",
+    "src/memory/b1_attribution.py": "b86594a635ff5c19d000ab9b98adf150f7081f24afa020b64e449145d5847133"
+  }
+}

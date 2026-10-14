@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the repository and manuscript when using this research software."
+title: "Adaptive Memory Evolution: Controlling Stability-Plasticity in Agent Memory"
+type: software
+version: 0.2.0
+date-released: 2026-10-14
+authors:
+  - name: "Adaptive Memory Evolution contributors"
+repository-code: "https://github.com/Nanoer-Wang/adaptive-memory-evolution"
+url: "https://github.com/Nanoer-Wang/adaptive-memory-evolution"
+license: MIT
+keywords:
+  - agent memory
+  - stability-plasticity
+  - reproducible research

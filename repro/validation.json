@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-14",
+  "scope": "Clean index-export checkout; no original runs, data or API cache copied.",
+  "synthetic_preparation": "Downloaded public bAbI archive, verified hashes, reconstructed exact study stories; frozen heads and core hashes verified.",
+  "tests": {
+    "passed": 52,
+    "failed": 0,
+    "files": [
+      "test_b1_interleaved.py",
+      "test_b1_attribution.py",
+      "test_validation_matrix.py",
+      "test_characterization.py",
+      "test_semantic_characterization.py",
+      "test_stress_characterization.py"
+    ]
+  },
+  "C1_mini": {
+    "passed": true,
+    "checks": 44,
+    "exact_replay": true,
+    "alpha1_frozen_parity": true
+  },
+  "B2_mini": {
+    "passed": true,
+    "checks": 35
+  },
+  "full_experiments_rerun": false,
+  "api_calls": 0,
+  "secret_scan": "No actual .env key values or common token/private-key patterns found in selected files or the bundled historical source ZIP.",
+  "limits": [
+    "Fresh B8 generation/judging not rerun.",
+    "C3 external downloads not rerun in this packaging check.",
+    "Reference Python interpreter and installed dependencies reused; no separate dependency installation test."
+  ]
+}

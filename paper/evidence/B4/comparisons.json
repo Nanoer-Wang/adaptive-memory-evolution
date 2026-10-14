@@ -1,0 +1,1562 @@
+[
+  {
+    "condition": "clean",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.3002025462962963,
+    "ci95": [
+      0.2891330295138889,
+      0.31221064814814814
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0005063657407407407,
+    "ci95": [
+      0.0,
+      0.0011574074074074071
+    ],
+    "p": 0.24707529247075294,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "clean",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.4140625,
+    "ci95": [
+      0.390625,
+      0.4383716724537036
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.1805555555555555,
+    "ci95": [
+      -2.486111111111111,
+      2.9723958333333305
+    ],
+    "p": 0.9022097790220978,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "clean",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.26323784722222227,
+    "ci95": [
+      0.2339409722222222,
+      0.2921006944444445
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.11906828703703705,
+    "ci95": [
+      -0.125072337962963,
+      -0.11364113136574076
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.185474537037037,
+    "ci95": [
+      0.1365704571759259,
+      0.23133680555555558
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -13.583333333333334,
+    "ci95": [
+      -15.979340277777776,
+      -11.131770833333334
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.3219039351851852,
+    "ci95": [
+      0.3062771267361111,
+      0.3375289351851851
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0005063657407407407,
+    "ci95": [
+      0.0,
+      0.0010850694444444445
+    ],
+    "p": 0.250974902509749,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "clean",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.43185763888888884,
+    "ci95": [
+      0.4037868923611111,
+      0.4602141203703704
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -1.465277777777778,
+    "ci95": [
+      -4.1875,
+      1.2708333333333337
+    ],
+    "p": 0.32936706329367066,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "clean",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.09418402777777775,
+    "ci95": [
+      0.07769097222222221,
+      0.1116192853009259
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.03551793981481482,
+    "ci95": [
+      -0.04137731481481482,
+      -0.029224537037037035
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.12022569444444446,
+    "ci95": [
+      0.09027777777777779,
+      0.14973958333333334
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -7.0069444444444455,
+    "ci95": [
+      -9.659895833333332,
+      -4.340277777777778
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.23589409722222224,
+    "ci95": [
+      0.2222945601851852,
+      0.25050636574074076
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.01960358796296296,
+    "ci95": [
+      -0.02300347222222222,
+      -0.016276041666666668
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.1976273148148148,
+    "ci95": [
+      0.16956018518518523,
+      0.22526403356481475
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -12.236111111111112,
+    "ci95": [
+      -14.520833333333334,
+      -9.95121527777778
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.03913483796296297,
+    "ci95": [
+      0.025028935185185192,
+      0.054036458333333336
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "clean",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.00028935185185185184,
+    "ci95": [
+      0.0,
+      0.0007233796296296297
+    ],
+    "p": 0.49055094490550943,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "clean",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.036892361111111126,
+    "ci95": [
+      0.01489800347222224,
+      0.06105324074074076
+    ],
+    "p": 0.0052994700529947,
+    "matched": null,
+    "p_holm": 0.20137986201379862
+  },
+  {
+    "condition": "clean",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -3.736111111111111,
+    "ci95": [
+      -5.8055555555555545,
+      -1.88871527777778
+    ],
+    "p": 0.0007999200079992001,
+    "matched": null,
+    "p_holm": 0.034396560343965606
+  },
+  {
+    "condition": "noise10",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2943431712962963,
+    "ci95": [
+      0.2800925925925926,
+      0.30852141203703703
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0005063657407407407,
+    "ci95": [
+      0.0,
+      0.0010850694444444445
+    ],
+    "p": 0.23867613238676133,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise10",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.3819444444444445,
+    "ci95": [
+      0.3530056423611111,
+      0.4092881944444444
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -0.44444444444444464,
+    "ci95": [
+      -3.736458333333333,
+      2.9236111111111107
+    ],
+    "p": 0.7984201579842016,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise10",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2573784722222222,
+    "ci95": [
+      0.22815212673611113,
+      0.28790509259259256
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.11906828703703705,
+    "ci95": [
+      -0.125,
+      -0.11357060185185186
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.15335648148148148,
+    "ci95": [
+      0.1034360532407407,
+      0.20095486111111108
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -14.208333333333334,
+    "ci95": [
+      -16.79861111111111,
+      -11.444270833333334
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.3160445601851852,
+    "ci95": [
+      0.29810293692129636,
+      0.33319046585648143
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0005063657407407407,
+    "ci95": [
+      0.0,
+      0.0010850694444444445
+    ],
+    "p": 0.25377462253774624,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise10",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.3997395833333333,
+    "ci95": [
+      0.3680555555555555,
+      0.42925347222222227
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -2.090277777777778,
+    "ci95": [
+      -5.4307291666666675,
+      1.319618055555553
+    ],
+    "p": 0.2410758924107589,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise10",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.08998842592592592,
+    "ci95": [
+      0.07125108506944441,
+      0.10872395833333333
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.03624131944444445,
+    "ci95": [
+      -0.04210069444444444,
+      -0.030526620370370367
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.08608217592592593,
+    "ci95": [
+      0.04831814236111113,
+      0.12066333912037035
+    ],
+    "p": 0.00039996000399960006,
+    "matched": null,
+    "p_holm": 0.017998200179982004
+  },
+  {
+    "condition": "noise10",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -7.819444444444443,
+    "ci95": [
+      -10.576388888888888,
+      -4.881944444444444
+    ],
+    "p": 0.00019998000199980003,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2300347222222222,
+    "ci95": [
+      0.21484375,
+      0.24537037037037035
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.01960358796296296,
+    "ci95": [
+      -0.023003472222222224,
+      -0.016348379629629633
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.16550925925925927,
+    "ci95": [
+      0.13657407407407407,
+      0.19386574074074073
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -12.861111111111109,
+    "ci95": [
+      -15.201388888888891,
+      -10.4375
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.05237268518518518,
+    "ci95": [
+      0.038049768518518524,
+      0.06713143807870368
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.0010127314814814814,
+    "ci95": [
+      -0.002242476851851852,
+      0.0
+    ],
+    "p": 0.09709029097090291,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise10",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.06770833333333333,
+    "ci95": [
+      0.042386429398148136,
+      0.09606481481481481
+    ],
+    "p": 0.00019998000199980003,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise10",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -2.6319444444444446,
+    "ci95": [
+      -4.7015625,
+      -0.666666666666667
+    ],
+    "p": 0.0198980101989801,
+    "matched": null,
+    "p_holm": 0.6367363263673632
+  },
+  {
+    "condition": "noise25",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.26786747685185186,
+    "ci95": [
+      0.25151909722222227,
+      0.28522858796296297
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0007233796296296295,
+    "ci95": [
+      7.233796296296296e-05,
+      0.001519097222222222
+    ],
+    "p": 0.1351864813518648,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise25",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.3070023148148148,
+    "ci95": [
+      0.2712673611111111,
+      0.3424479166666667
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -2.0833333333333335,
+    "ci95": [
+      -5.347395833333334,
+      1.2013888888888884
+    ],
+    "p": 0.23987601239876014,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise25",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.23090277777777776,
+    "ci95": [
+      0.20073603877314816,
+      0.26186704282407397
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.11885127314814818,
+    "ci95": [
+      -0.12463831018518519,
+      -0.11357060185185185
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.07841435185185182,
+    "ci95": [
+      0.023726851851851815,
+      0.1299298321759257
+    ],
+    "p": 0.011698830116988301,
+    "matched": null,
+    "p_holm": 0.42115788421157885
+  },
+  {
+    "condition": "noise25",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -15.847222222222223,
+    "ci95": [
+      -18.21545138888889,
+      -13.229166666666666
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.28956886574074076,
+    "ci95": [
+      0.2722800925925926,
+      0.3067853009259259
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0007233796296296295,
+    "ci95": [
+      7.233796296296296e-05,
+      0.001519097222222222
+    ],
+    "p": 0.12398760123987601,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise25",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.3247974537037037,
+    "ci95": [
+      0.2899305555555555,
+      0.3580729166666667
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -3.7291666666666665,
+    "ci95": [
+      -6.993402777777779,
+      -0.5277777777777781
+    ],
+    "p": 0.036196380361963806,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise25",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.0675636574074074,
+    "ci95": [
+      0.04615162037037041,
+      0.08839699074074074
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.03718171296296296,
+    "ci95": [
+      -0.04427083333333332,
+      -0.030526620370370367
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.02416087962962962,
+    "ci95": [
+      -0.00795717592592593,
+      0.05512514467592585
+    ],
+    "p": 0.1586841315868413,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise25",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -8.701388888888891,
+    "ci95": [
+      -10.777777777777777,
+      -6.51371527777778
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2035590277777778,
+    "ci95": [
+      0.1859085648148148,
+      0.22157118055555555
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.019386574074074073,
+    "ci95": [
+      -0.022931134259259255,
+      -0.01613136574074074
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.09056712962962964,
+    "ci95": [
+      0.05613425925925925,
+      0.12384259259259256
+    ],
+    "p": 0.00029997000299970003,
+    "matched": false,
+    "p_holm": 0.013798620137986202
+  },
+  {
+    "condition": "noise25",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -14.5,
+    "ci95": [
+      -16.6875,
+      -12.270833333333334
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.06886574074074074,
+    "ci95": [
+      0.05078125000000002,
+      0.08810944733796296
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 7.233796296296296e-05,
+    "ci95": [
+      -0.0005787037037037037,
+      0.0007233796296296297
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise25",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.10604745370370368,
+    "ci95": [
+      0.07277199074074073,
+      0.14134837962962962
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise25",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -0.6666666666666669,
+    "ci95": [
+      -2.388888888888889,
+      0.9305555555555554
+    ],
+    "p": 0.44575542445755423,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise50",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.19278067129629628,
+    "ci95": [
+      0.17476851851851852,
+      0.21144567418981483
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0009403935185185185,
+    "ci95": [
+      0.00036168981481481485,
+      0.0015914351851851853
+    ],
+    "p": 0.016998300169983,
+    "matched": null,
+    "p_holm": 0.5609439056094391
+  },
+  {
+    "condition": "noise50",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.12152777777777779,
+    "ci95": [
+      0.07855902777777779,
+      0.16536820023148144
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -3.4444444444444446,
+    "ci95": [
+      -6.5069444444444455,
+      -0.2706597222222247
+    ],
+    "p": 0.0471952804719528,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise50",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.1558159722222222,
+    "ci95": [
+      0.12167245370370372,
+      0.1888038917824074
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.11863425925925926,
+    "ci95": [
+      -0.12471064814814814,
+      -0.11320891203703705
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": -0.10706018518518519,
+    "ci95": [
+      -0.17954282407407407,
+      -0.034573929398148184
+    ],
+    "p": 0.0110988901109889,
+    "matched": null,
+    "p_holm": 0.4106589341065893
+  },
+  {
+    "condition": "noise50",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -17.208333333333332,
+    "ci95": [
+      -19.13888888888889,
+      -15.270659722222225
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2144820601851852,
+    "ci95": [
+      0.197337962962963,
+      0.23133861400462963
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0009403935185185185,
+    "ci95": [
+      0.00036168981481481485,
+      0.0015914351851851853
+    ],
+    "p": 0.015398460153984602,
+    "matched": null,
+    "p_holm": 0.5235476452354765
+  },
+  {
+    "condition": "noise50",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.13932291666666666,
+    "ci95": [
+      0.09751157407407407,
+      0.18287037037037035
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -5.090277777777779,
+    "ci95": [
+      -8.396006944444444,
+      -1.6527777777777777
+    ],
+    "p": 0.011698830116988301,
+    "matched": null,
+    "p_holm": 0.42115788421157885
+  },
+  {
+    "condition": "noise50",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.004918981481481487,
+    "ci95": [
+      -0.026620370370370374,
+      0.01576967592592592
+    ],
+    "p": 0.6657334266573343,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise50",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.03732638888888889,
+    "ci95": [
+      -0.0435474537037037,
+      -0.03146520543981484
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": -0.1607349537037037,
+    "ci95": [
+      -0.20124421296296294,
+      -0.12051504629629632
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -10.45138888888889,
+    "ci95": [
+      -12.298611111111112,
+      -8.541666666666668
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.12847222222222224,
+    "ci95": [
+      0.1078540943287037,
+      0.14901620370370372
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.019169560185185185,
+    "ci95": [
+      -0.022352430555555552,
+      -0.016059027777777776
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": -0.0949074074074074,
+    "ci95": [
+      -0.1380208333333333,
+      -0.050339988425926
+    ],
+    "p": 0.0008999100089991,
+    "matched": false,
+    "p_holm": 0.0377962203779622
+  },
+  {
+    "condition": "noise50",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -15.861111111111112,
+    "ci95": [
+      -17.819444444444443,
+      -13.784548611111115
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.03935185185185186,
+    "ci95": [
+      0.02915219907407407,
+      0.05121708622685186
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.00028935185185185184,
+    "ci95": [
+      -0.00028935185185185184,
+      0.0008680555555555556
+    ],
+    "p": 0.5033496650334967,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "noise50",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.07118055555555555,
+    "ci95": [
+      0.052662037037037035,
+      0.09129050925925926
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "noise50",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.20138888888888876,
+    "ci95": [
+      -1.2571180555555557,
+      1.9652777777777775
+    ],
+    "p": 0.843015698430157,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.050130208333333336,
+    "ci95": [
+      0.02358036747685183,
+      0.07646303530092592
+    ],
+    "p": 0.001999800019998,
+    "matched": null,
+    "p_holm": 0.07999200079992
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.00014467592592592592,
+    "ci95": [
+      0.0,
+      0.00036168981481481485
+    ],
+    "p": 0.49495050494950504,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.35300925925925924,
+    "ci95": [
+      0.3039641203703704,
+      0.3981481481481482
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 14.479166666666666,
+    "ci95": [
+      11.5,
+      17.333333333333332
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.013165509259259254,
+    "ci95": [
+      -0.01924370659722223,
+      0.043185763888888874
+    ],
+    "p": 0.43665633436656337,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.11942997685185186,
+    "ci95": [
+      -0.1254340277777778,
+      -0.11378761574074074
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.12442129629629628,
+    "ci95": [
+      0.05758101851851851,
+      0.18142361111111108
+    ],
+    "p": 0.0015998400159984002,
+    "matched": null,
+    "p_holm": 0.0655934406559344
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.7152777777777777,
+    "ci95": [
+      -0.8541666666666666,
+      2.2708333333333335
+    ],
+    "p": 0.41175882411758824,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.07183159722222222,
+    "ci95": [
+      0.04383680555555555,
+      0.099609375
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.00014467592592592592,
+    "ci95": [
+      0.0,
+      0.00036168981481481485
+    ],
+    "p": 0.5051494850514948,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.37080439814814814,
+    "ci95": [
+      0.3182834201388889,
+      0.4221643518518518
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 12.833333333333334,
+    "ci95": [
+      9.791666666666666,
+      15.6875
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.17165798611111116,
+    "ci95": [
+      -0.19733796296296294,
+      -0.14561631944444448
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.05230034722222222,
+    "ci95": [
+      -0.05830439814814814,
+      -0.04651331018518518
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": -0.044560185185185196,
+    "ci95": [
+      -0.10026765046296299,
+      0.009696903935185125
+    ],
+    "p": 0.11988801119888011,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 3.7013888888888893,
+    "ci95": [
+      1.437326388888889,
+      5.6875
+    ],
+    "p": 0.0046995300469953,
+    "matched": null,
+    "p_holm": 0.1832816718328167
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.014178240740740736,
+    "ci95": [
+      -0.04065393518518519,
+      0.01034613715277777
+    ],
+    "p": 0.2946705329467053,
+    "matched": false,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.01996527777777778,
+    "ci95": [
+      -0.023292824074074073,
+      -0.016710069444444444
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.13657407407407407,
+    "ci95": [
+      0.09273365162037035,
+      0.1772280092592593
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 2.0625,
+    "ci95": [
+      -0.09739583333333338,
+      3.9930555555555554
+    ],
+    "p": 0.0735926407359264,
+    "matched": false,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.023003472222222227,
+    "ci95": [
+      0.01179108796296297,
+      0.036241319444444454
+    ],
+    "p": 0.00039996000399960006,
+    "matched": null,
+    "p_holm": 0.017998200179982004
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.00014467592592592592,
+    "ci95": [
+      0.0,
+      0.00036168981481481485
+    ],
+    "p": 0.49465053494650535,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.02097800925925926,
+    "ci95": [
+      -0.0021701388888888903,
+      0.048900462962962965
+    ],
+    "p": 0.13558644135586442,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "misleading_importance",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.375,
+    "ci95": [
+      0.0,
+      1.125
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  }
+]

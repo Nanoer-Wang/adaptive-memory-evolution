@@ -1,0 +1,23 @@
+\begin{longtable}{llrrr}\caption{Fixed-subset language transfer. Quality is binary judged correctness for conversational QA and normalized rubric quality for NFCats; these scales must not be pooled.}\label{tab:language}\\\toprule Dataset & Policy & Quality & 95\% CI & Evidence hit\\\midrule\endfirsthead\toprule Dataset & Policy & Quality & 95\% CI & Evidence hit\\\midrule\endhead
+LoCoMo & Fixed decay & 0.033 & [0.000,0.100] & 0.067\\
+LoCoMo & Frequency & 0.100 & [0.017,0.233] & 0.094\\
+LoCoMo & LRU & 0.050 & [0.000,0.133] & 0.067\\
+LoCoMo & Frozen state & 0.011 & [0.000,0.033] & 0.061\\
+LoCoMo & Replacement control$^{\dagger}$ & 0.044 & [0.000,0.122] & 0.089\\
+LoCoMo & Adaptive rule & 0.094 & [0.000,0.211] & 0.094\\
+LoCoMo & AME & 0.111 & [0.017,0.222] & 0.111\\
+LongMemEval & Fixed decay & 0.153 & [0.028,0.306] & 0.167\\
+LongMemEval & Frequency & 0.069 & [0.028,0.125] & 0.736\\
+LongMemEval & LRU & 0.139 & [0.014,0.278] & 0.208\\
+LongMemEval & Frozen state & 0.111 & [0.028,0.208] & 0.528\\
+LongMemEval & Replacement control$^{\dagger}$ & 0.250 & [0.097,0.417] & 0.278\\
+LongMemEval & Adaptive rule & 0.083 & [0.000,0.208] & 0.264\\
+LongMemEval & AME & 0.042 & [0.000,0.111] & 0.306\\
+NFCats & Fixed decay & 0.733 & [0.583,0.854] & --\\
+NFCats & Frequency & 0.736 & [0.618,0.840] & --\\
+NFCats & LRU & 0.740 & [0.604,0.865] & --\\
+NFCats & Frozen state & 0.642 & [0.507,0.767] & --\\
+NFCats & Replacement control$^{\dagger}$ & 0.743 & [0.611,0.858] & --\\
+NFCats & Adaptive rule & 0.660 & [0.517,0.788] & --\\
+NFCats & AME & 0.740 & [0.632,0.840] & --\\
+\bottomrule\end{longtable}

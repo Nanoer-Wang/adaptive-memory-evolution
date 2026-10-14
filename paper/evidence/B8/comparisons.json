@@ -1,0 +1,218 @@
+[
+  {
+    "dataset": "LoCoMo",
+    "baseline": "fixed_decay",
+    "metric": "quality",
+    "delta": 0.07777777777777778,
+    "ci95": [
+      -0.03333333333333333,
+      0.2
+    ],
+    "p": 0.37176282371762825,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LoCoMo",
+    "baseline": "frequency",
+    "metric": "quality",
+    "delta": 0.011111111111111117,
+    "ci95": [
+      -0.10555555555555554,
+      0.1388888888888889
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LoCoMo",
+    "baseline": "lru",
+    "metric": "quality",
+    "delta": 0.061111111111111116,
+    "ci95": [
+      -0.03333333333333333,
+      0.16666666666666666
+    ],
+    "p": 0.3838616138386161,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LoCoMo",
+    "baseline": "static_state_adaptive",
+    "metric": "quality",
+    "delta": 0.09999999999999999,
+    "ci95": [
+      0.0,
+      0.21666666666666665
+    ],
+    "p": 0.24697530246975302,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LoCoMo",
+    "baseline": "replacement_matched",
+    "metric": "quality",
+    "delta": 0.06666666666666667,
+    "ci95": [
+      0.0,
+      0.13333333333333336
+    ],
+    "p": 0.24917508249175083,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LoCoMo",
+    "baseline": "adaptive_rule",
+    "metric": "quality",
+    "delta": 0.016666666666666666,
+    "ci95": [
+      0.0,
+      0.05
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LongMemEval",
+    "baseline": "fixed_decay",
+    "metric": "quality",
+    "delta": -0.11111111111111112,
+    "ci95": [
+      -0.25,
+      0.013888888888888888
+    ],
+    "p": 0.2435756424357564,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LongMemEval",
+    "baseline": "frequency",
+    "metric": "quality",
+    "delta": -0.02777777777777778,
+    "ci95": [
+      -0.09722222222222221,
+      0.05555555555555555
+    ],
+    "p": 0.7436256374362564,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LongMemEval",
+    "baseline": "lru",
+    "metric": "quality",
+    "delta": -0.09722222222222222,
+    "ci95": [
+      -0.25,
+      0.027777777777777776
+    ],
+    "p": 0.24947505249475052,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LongMemEval",
+    "baseline": "static_state_adaptive",
+    "metric": "quality",
+    "delta": -0.06944444444444446,
+    "ci95": [
+      -0.19444444444444442,
+      0.041666666666666664
+    ],
+    "p": 0.38176182381761825,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "LongMemEval",
+    "baseline": "replacement_matched",
+    "metric": "quality",
+    "delta": -0.20833333333333334,
+    "ci95": [
+      -0.38888888888888884,
+      -0.04166666666666668
+    ],
+    "p": 0.04229577042295771,
+    "p_holm": 0.7613238676132388
+  },
+  {
+    "dataset": "LongMemEval",
+    "baseline": "adaptive_rule",
+    "metric": "quality",
+    "delta": -0.041666666666666664,
+    "ci95": [
+      -0.1388888888888889,
+      0.027777777777777776
+    ],
+    "p": 0.7521247875212479,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "baseline": "fixed_decay",
+    "metric": "quality",
+    "delta": 0.006944444444444445,
+    "ci95": [
+      -0.07638888888888888,
+      0.09722222222222221
+    ],
+    "p": 0.941005899410059,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "baseline": "frequency",
+    "metric": "quality",
+    "delta": 0.0034722222222222238,
+    "ci95": [
+      -0.06597222222222221,
+      0.05902777777777779
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "baseline": "lru",
+    "metric": "quality",
+    "delta": 0.0,
+    "ci95": [
+      -0.09375,
+      0.09375
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "baseline": "static_state_adaptive",
+    "metric": "quality",
+    "delta": 0.09722222222222221,
+    "ci95": [
+      4.510281037539738e-18,
+      0.20486111111111108
+    ],
+    "p": 0.09209079092090791,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "baseline": "replacement_matched",
+    "metric": "quality",
+    "delta": -0.0034722222222222216,
+    "ci95": [
+      -0.09375,
+      0.09374999999999999
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "baseline": "adaptive_rule",
+    "metric": "quality",
+    "delta": 0.0798611111111111,
+    "ci95": [
+      -0.020833333333333343,
+      0.18055555555555558
+    ],
+    "p": 0.1616838316168383,
+    "p_holm": 1.0
+  }
+]

@@ -1,0 +1,1346 @@
+[
+  {
+    "dataset": "LoCoMo",
+    "method": "fixed_decay",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 10,
+    "quality": 0.03333333333333333,
+    "quality_ci95": [
+      0.0,
+      0.1
+    ],
+    "accuracy": 0.03333333333333333,
+    "accuracy_ci95": [
+      0.0,
+      0.1
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.03947210322109009,
+    "token_f1_ci95": [
+      0.011892378854535065,
+      0.08248337633834484
+    ],
+    "evidence_hit": 0.06666666666666667,
+    "evidence_hit_ci95": [
+      0.0,
+      0.16666666666666666
+    ],
+    "evidence_recall": 0.05,
+    "evidence_recall_ci95": [
+      0.0,
+      0.11666666666666667
+    ],
+    "resident_payload_bytes": 107640.73333333332,
+    "resident_payload_bytes_ci95": [
+      107176.295,
+      108098.53916666667
+    ],
+    "adapter_seconds": 0.5395752667708115,
+    "adapter_seconds_ci95": [
+      0.4644171383813954,
+      0.6098171184484897
+    ],
+    "retrieval_seconds": 0.42536351290634933,
+    "retrieval_seconds_ci95": [
+      0.3598223592957947,
+      0.48113356780221994
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 524.2,
+    "eviction_count_ci95": [
+      451.3,
+      588.0024999999999
+    ],
+    "prompt_tokens": 447.7333333333333,
+    "prompt_tokens_ci95": [
+      431.62763888888884,
+      465.65111111111105
+    ],
+    "completion_tokens": 54.261111111111106,
+    "completion_tokens_ci95": [
+      37.26083333333333,
+      73.45
+    ]
+  },
+  {
+    "dataset": "LoCoMo",
+    "method": "frequency",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 10,
+    "quality": 0.09999999999999999,
+    "quality_ci95": [
+      0.016666666666666666,
+      0.2333333333333333
+    ],
+    "accuracy": 0.09999999999999999,
+    "accuracy_ci95": [
+      0.0,
+      0.24999999999999994
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.04172605260032022,
+    "token_f1_ci95": [
+      0.017900162406020898,
+      0.08072155087210126
+    ],
+    "evidence_hit": 0.09444444444444443,
+    "evidence_hit_ci95": [
+      0.0,
+      0.2333333333333333
+    ],
+    "evidence_recall": 0.08611111111111111,
+    "evidence_recall_ci95": [
+      0.0,
+      0.22222222222222224
+    ],
+    "resident_payload_bytes": 107524.56666666668,
+    "resident_payload_bytes_ci95": [
+      106863.80333333333,
+      108203.41166666667
+    ],
+    "adapter_seconds": 0.5096976273434444,
+    "adapter_seconds_ci95": [
+      0.43599991059474025,
+      0.5766694740611514
+    ],
+    "retrieval_seconds": 0.4075498484385511,
+    "retrieval_seconds_ci95": [
+      0.34575048480370446,
+      0.4625310420385924
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 98.3,
+    "eviction_count_ci95": [
+      94.86583333333333,
+      102.00000000000001
+    ],
+    "prompt_tokens": 429.18888888888887,
+    "prompt_tokens_ci95": [
+      414.15527777777777,
+      445.48416666666657
+    ],
+    "completion_tokens": 45.761111111111106,
+    "completion_tokens_ci95": [
+      34.81055555555555,
+      57.727916666666665
+    ]
+  },
+  {
+    "dataset": "LoCoMo",
+    "method": "lru",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 10,
+    "quality": 0.05,
+    "quality_ci95": [
+      0.0,
+      0.13333333333333333
+    ],
+    "accuracy": 0.05,
+    "accuracy_ci95": [
+      0.0,
+      0.13333333333333333
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.04542895399181719,
+    "token_f1_ci95": [
+      0.009739667531965443,
+      0.09218281878562543
+    ],
+    "evidence_hit": 0.06666666666666667,
+    "evidence_hit_ci95": [
+      0.0,
+      0.16666666666666666
+    ],
+    "evidence_recall": 0.05,
+    "evidence_recall_ci95": [
+      0.0,
+      0.13333333333333333
+    ],
+    "resident_payload_bytes": 107518.33333333333,
+    "resident_payload_bytes_ci95": [
+      107007.67083333334,
+      108039.93666666665
+    ],
+    "adapter_seconds": 0.5471562733666764,
+    "adapter_seconds_ci95": [
+      0.46809485575501136,
+      0.6198212311397462
+    ],
+    "retrieval_seconds": 0.4266897431419542,
+    "retrieval_seconds_ci95": [
+      0.36291483132395014,
+      0.483694032799168
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 524.2,
+    "eviction_count_ci95": [
+      449.0975,
+      587.5
+    ],
+    "prompt_tokens": 442.3666666666667,
+    "prompt_tokens_ci95": [
+      429.9273611111111,
+      455.81763888888895
+    ],
+    "completion_tokens": 57.71111111111111,
+    "completion_tokens_ci95": [
+      39.349583333333335,
+      79.06263888888886
+    ]
+  },
+  {
+    "dataset": "LoCoMo",
+    "method": "static_state_adaptive",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 10,
+    "quality": 0.01111111111111111,
+    "quality_ci95": [
+      0.0,
+      0.03333333333333333
+    ],
+    "accuracy": 0.01111111111111111,
+    "accuracy_ci95": [
+      0.0,
+      0.03333333333333333
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.023948135439888725,
+    "token_f1_ci95": [
+      0.009886373845630738,
+      0.045028164884992145
+    ],
+    "evidence_hit": 0.0611111111111111,
+    "evidence_hit_ci95": [
+      0.0,
+      0.13333333333333333
+    ],
+    "evidence_recall": 0.03611111111111111,
+    "evidence_recall_ci95": [
+      0.0,
+      0.075
+    ],
+    "resident_payload_bytes": 109257.86666666665,
+    "resident_payload_bytes_ci95": [
+      108831.72166666665,
+      109782.15166666666
+    ],
+    "adapter_seconds": 0.5891940435110073,
+    "adapter_seconds_ci95": [
+      0.5087780093681714,
+      0.6676053789371832
+    ],
+    "retrieval_seconds": 0.44890963747424795,
+    "retrieval_seconds_ci95": [
+      0.3799732467689319,
+      0.5077622156729921
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 143.7,
+    "eviction_count_ci95": [
+      133.7666666666667,
+      151.6
+    ],
+    "prompt_tokens": 477.38888888888886,
+    "prompt_tokens_ci95": [
+      460.03249999999997,
+      493.81208333333336
+    ],
+    "completion_tokens": 39.55555555555556,
+    "completion_tokens_ci95": [
+      32.516527777777775,
+      46.129027777777765
+    ]
+  },
+  {
+    "dataset": "LoCoMo",
+    "method": "replacement_matched",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 10,
+    "quality": 0.04444444444444444,
+    "quality_ci95": [
+      0.0,
+      0.1222222222222222
+    ],
+    "accuracy": 0.04444444444444444,
+    "accuracy_ci95": [
+      0.0,
+      0.1222222222222222
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.05504730290360636,
+    "token_f1_ci95": [
+      0.0197970769806883,
+      0.1098600413115234
+    ],
+    "evidence_hit": 0.08888888888888888,
+    "evidence_hit_ci95": [
+      0.0,
+      0.18888888888888886
+    ],
+    "evidence_recall": 0.061111111111111116,
+    "evidence_recall_ci95": [
+      0.0,
+      0.13333333333333333
+    ],
+    "resident_payload_bytes": 107504.5,
+    "resident_payload_bytes_ci95": [
+      106899.2575,
+      108107.96916666668
+    ],
+    "adapter_seconds": 0.5764164011563278,
+    "adapter_seconds_ci95": [
+      0.4885411604795889,
+      0.6524958345364493
+    ],
+    "retrieval_seconds": 0.4301071431513668,
+    "retrieval_seconds_ci95": [
+      0.3668381095760399,
+      0.48683771627644695
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 391.8666666666667,
+    "eviction_count_ci95": [
+      339.43083333333334,
+      438.23500000000007
+    ],
+    "prompt_tokens": 446.2388888888889,
+    "prompt_tokens_ci95": [
+      431.1718055555556,
+      462.8672222222222
+    ],
+    "completion_tokens": 47.99444444444444,
+    "completion_tokens_ci95": [
+      39.966249999999995,
+      55.75569444444443
+    ]
+  },
+  {
+    "dataset": "LoCoMo",
+    "method": "adaptive_rule",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 10,
+    "quality": 0.09444444444444444,
+    "quality_ci95": [
+      0.0,
+      0.2111111111111111
+    ],
+    "accuracy": 0.09444444444444444,
+    "accuracy_ci95": [
+      0.0,
+      0.2111111111111111
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.0709900140852878,
+    "token_f1_ci95": [
+      0.02404133327068953,
+      0.134030691483458
+    ],
+    "evidence_hit": 0.09444444444444444,
+    "evidence_hit_ci95": [
+      0.0,
+      0.20569444444444243
+    ],
+    "evidence_recall": 0.09444444444444444,
+    "evidence_recall_ci95": [
+      0.0,
+      0.2111111111111111
+    ],
+    "resident_payload_bytes": 107562.23333333332,
+    "resident_payload_bytes_ci95": [
+      106971.70499999999,
+      108201.23333333332
+    ],
+    "adapter_seconds": 0.5905348750452201,
+    "adapter_seconds_ci95": [
+      0.5076439783990564,
+      0.6692247512012384
+    ],
+    "retrieval_seconds": 0.4215379104199302,
+    "retrieval_seconds_ci95": [
+      0.35496480431795746,
+      0.48305907178340324
+    ],
+    "state_updates": 81686.0,
+    "state_updates_ci95": [
+      70586.01000000001,
+      91589.50749999999
+    ],
+    "eviction_count": 337.5666666666667,
+    "eviction_count_ci95": [
+      216.23249999999996,
+      451.1424999999999
+    ],
+    "prompt_tokens": 459.7944444444444,
+    "prompt_tokens_ci95": [
+      437.9281944444444,
+      479.4613888888889
+    ],
+    "completion_tokens": 48.227777777777774,
+    "completion_tokens_ci95": [
+      41.28847222222222,
+      57.02791666666667
+    ]
+  },
+  {
+    "dataset": "LoCoMo",
+    "method": "adaptive_evolution",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 10,
+    "quality": 0.11111111111111112,
+    "quality_ci95": [
+      0.016666666666666666,
+      0.22222222222222224
+    ],
+    "accuracy": 0.11111111111111112,
+    "accuracy_ci95": [
+      0.016666666666666666,
+      0.21680555555555356
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.05749037048945053,
+    "token_f1_ci95": [
+      0.016702763468237816,
+      0.1090928595541347
+    ],
+    "evidence_hit": 0.11111111111111112,
+    "evidence_hit_ci95": [
+      0.02222222222222222,
+      0.22777777777777777
+    ],
+    "evidence_recall": 0.11111111111111112,
+    "evidence_recall_ci95": [
+      0.016666666666666666,
+      0.22777777777777777
+    ],
+    "resident_payload_bytes": 107854.93333333332,
+    "resident_payload_bytes_ci95": [
+      107208.99916666666,
+      108546.60916666668
+    ],
+    "adapter_seconds": 0.5903598799965241,
+    "adapter_seconds_ci95": [
+      0.5043853304971707,
+      0.6717471365627392
+    ],
+    "retrieval_seconds": 0.42738552696019816,
+    "retrieval_seconds_ci95": [
+      0.3594321339874295,
+      0.48928531664578867
+    ],
+    "state_updates": 81686.0,
+    "state_updates_ci95": [
+      70666.86,
+      91132.8875
+    ],
+    "eviction_count": 330.06666666666666,
+    "eviction_count_ci95": [
+      215.13083333333336,
+      446.8333333333333
+    ],
+    "prompt_tokens": 464.87777777777785,
+    "prompt_tokens_ci95": [
+      439.64416666666665,
+      488.3354166666666
+    ],
+    "completion_tokens": 56.81111111111111,
+    "completion_tokens_ci95": [
+      44.216666666666676,
+      69.62277777777778
+    ]
+  },
+  {
+    "dataset": "LongMemEval",
+    "method": "fixed_decay",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.15277777777777776,
+    "quality_ci95": [
+      0.027777777777777776,
+      0.3055555555555555
+    ],
+    "accuracy": 0.15277777777777776,
+    "accuracy_ci95": [
+      0.027777777777777776,
+      0.3055555555555555
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.03745825719013582,
+    "token_f1_ci95": [
+      0.013471576543511948,
+      0.0654747456770669
+    ],
+    "evidence_hit": 0.16666666666666666,
+    "evidence_hit_ci95": [
+      0.041666666666666664,
+      0.3333333333333333
+    ],
+    "evidence_recall": 0.125,
+    "evidence_recall_ci95": [
+      0.020833333333333332,
+      0.25
+    ],
+    "resident_payload_bytes": 140722.34722222222,
+    "resident_payload_bytes_ci95": [
+      139166.8104166667,
+      142312.10937499997
+    ],
+    "adapter_seconds": 1.435075319566143,
+    "adapter_seconds_ci95": [
+      1.3930624532438942,
+      1.481775766449088
+    ],
+    "retrieval_seconds": 1.3326243916785137,
+    "retrieval_seconds_ci95": [
+      1.2903117854975992,
+      1.3782491542217838
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 675.875,
+    "eviction_count_ci95": [
+      664.125,
+      689.2927083333333
+    ],
+    "prompt_tokens": 898.2777777777778,
+    "prompt_tokens_ci95": [
+      830.9805555555556,
+      970.3763888888889
+    ],
+    "completion_tokens": 46.84722222222222,
+    "completion_tokens_ci95": [
+      25.416666666666668,
+      74.75173611111109
+    ]
+  },
+  {
+    "dataset": "LongMemEval",
+    "method": "frequency",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.06944444444444443,
+    "quality_ci95": [
+      0.027777777777777776,
+      0.125
+    ],
+    "accuracy": 0.06944444444444443,
+    "accuracy_ci95": [
+      0.027777777777777776,
+      0.125
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.054341989448693236,
+    "token_f1_ci95": [
+      0.02598405566604189,
+      0.0877237660995848
+    ],
+    "evidence_hit": 0.736111111111111,
+    "evidence_hit_ci95": [
+      0.5972222222222222,
+      0.861111111111111
+    ],
+    "evidence_recall": 0.6041666666666666,
+    "evidence_recall_ci95": [
+      0.4791666666666667,
+      0.7222222222222222
+    ],
+    "resident_payload_bytes": 135142.94444444447,
+    "resident_payload_bytes_ci95": [
+      134021.72048611112,
+      136230.8354166667
+    ],
+    "adapter_seconds": 1.366596777211978,
+    "adapter_seconds_ci95": [
+      1.3173414476337106,
+      1.4181540829218444
+    ],
+    "retrieval_seconds": 1.2663986470239859,
+    "retrieval_seconds_ci95": [
+      1.2173538111058102,
+      1.3164592006641518
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 107.95833333333333,
+    "eviction_count_ci95": [
+      105.37465277777778,
+      110.62534722222222
+    ],
+    "prompt_tokens": 859.6527777777778,
+    "prompt_tokens_ci95": [
+      793.263888888889,
+      927.6034722222222
+    ],
+    "completion_tokens": 54.90277777777777,
+    "completion_tokens_ci95": [
+      41.92986111111111,
+      69.528125
+    ]
+  },
+  {
+    "dataset": "LongMemEval",
+    "method": "lru",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.13888888888888887,
+    "quality_ci95": [
+      0.013888888888888888,
+      0.27777777777777773
+    ],
+    "accuracy": 0.13888888888888887,
+    "accuracy_ci95": [
+      0.013888888888888888,
+      0.2916666666666667
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.03802490155364081,
+    "token_f1_ci95": [
+      0.013685263935408653,
+      0.06403185694845953
+    ],
+    "evidence_hit": 0.20833333333333334,
+    "evidence_hit_ci95": [
+      0.06944444444444443,
+      0.375
+    ],
+    "evidence_recall": 0.16666666666666666,
+    "evidence_recall_ci95": [
+      0.05555555555555555,
+      0.2986111111111111
+    ],
+    "resident_payload_bytes": 140069.93055555553,
+    "resident_payload_bytes_ci95": [
+      138445.40451388888,
+      141653.6
+    ],
+    "adapter_seconds": 1.4134916289347326,
+    "adapter_seconds_ci95": [
+      1.3714229882547644,
+      1.4634263611295157
+    ],
+    "retrieval_seconds": 1.3152135587426728,
+    "retrieval_seconds_ci95": [
+      1.2724365582726829,
+      1.363037452153609
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 675.8611111111111,
+    "eviction_count_ci95": [
+      663.9583333333334,
+      689.5576388888888
+    ],
+    "prompt_tokens": 879.263888888889,
+    "prompt_tokens_ci95": [
+      810.9552083333334,
+      946.0628472222221
+    ],
+    "completion_tokens": 54.72222222222222,
+    "completion_tokens_ci95": [
+      30.88645833333333,
+      85.4736111111111
+    ]
+  },
+  {
+    "dataset": "LongMemEval",
+    "method": "static_state_adaptive",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.1111111111111111,
+    "quality_ci95": [
+      0.027777777777777776,
+      0.20833333333333334
+    ],
+    "accuracy": 0.1111111111111111,
+    "accuracy_ci95": [
+      0.027777777777777776,
+      0.20833333333333334
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.04409749001646904,
+    "token_f1_ci95": [
+      0.022293688980593196,
+      0.06911061446823435
+    ],
+    "evidence_hit": 0.5277777777777778,
+    "evidence_hit_ci95": [
+      0.375,
+      0.6805555555555555
+    ],
+    "evidence_recall": 0.47222222222222215,
+    "evidence_recall_ci95": [
+      0.3263888888888889,
+      0.625
+    ],
+    "resident_payload_bytes": 132720.86111111112,
+    "resident_payload_bytes_ci95": [
+      131511.53263888892,
+      133841.1829861111
+    ],
+    "adapter_seconds": 1.311794479429308,
+    "adapter_seconds_ci95": [
+      1.2615905730744188,
+      1.3607446612261505
+    ],
+    "retrieval_seconds": 1.191342081978089,
+    "retrieval_seconds_ci95": [
+      1.1395004049726092,
+      1.2383129617871922
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 158.06944444444446,
+    "eviction_count_ci95": [
+      151.81875,
+      164.6392361111111
+    ],
+    "prompt_tokens": 845.2083333333334,
+    "prompt_tokens_ci95": [
+      785.5402777777778,
+      901.0711805555555
+    ],
+    "completion_tokens": 40.541666666666664,
+    "completion_tokens_ci95": [
+      30.944097222222222,
+      51.555555555555564
+    ]
+  },
+  {
+    "dataset": "LongMemEval",
+    "method": "replacement_matched",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.25,
+    "quality_ci95": [
+      0.09722222222222222,
+      0.4166666666666667
+    ],
+    "accuracy": 0.25,
+    "accuracy_ci95": [
+      0.09722222222222222,
+      0.4166666666666667
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.0675455237624862,
+    "token_f1_ci95": [
+      0.02909801251280228,
+      0.1190154578809326
+    ],
+    "evidence_hit": 0.27777777777777773,
+    "evidence_hit_ci95": [
+      0.1111111111111111,
+      0.4583333333333333
+    ],
+    "evidence_recall": 0.23611111111111108,
+    "evidence_recall_ci95": [
+      0.09027777777777778,
+      0.40277777777777773
+    ],
+    "resident_payload_bytes": 140776.81944444444,
+    "resident_payload_bytes_ci95": [
+      139297.665625,
+      142136.8097222222
+    ],
+    "adapter_seconds": 1.4907738915256534,
+    "adapter_seconds_ci95": [
+      1.4476733928460614,
+      1.5402605416140025
+    ],
+    "retrieval_seconds": 1.3538248555721821,
+    "retrieval_seconds_ci95": [
+      1.3115256684208159,
+      1.4001817559055374
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 500.4444444444445,
+    "eviction_count_ci95": [
+      491.67986111111105,
+      510.51388888888886
+    ],
+    "prompt_tokens": 933.2916666666666,
+    "prompt_tokens_ci95": [
+      869.2746527777778,
+      1002.9881944444443
+    ],
+    "completion_tokens": 48.20833333333334,
+    "completion_tokens_ci95": [
+      29.444097222222226,
+      72.44479166666666
+    ]
+  },
+  {
+    "dataset": "LongMemEval",
+    "method": "adaptive_rule",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.08333333333333333,
+    "quality_ci95": [
+      0.0,
+      0.20833333333333334
+    ],
+    "accuracy": 0.08333333333333333,
+    "accuracy_ci95": [
+      0.0,
+      0.20833333333333334
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.03429759661130627,
+    "token_f1_ci95": [
+      0.013256825468507299,
+      0.05780255866975534
+    ],
+    "evidence_hit": 0.2638888888888889,
+    "evidence_hit_ci95": [
+      0.1111111111111111,
+      0.4444444444444444
+    ],
+    "evidence_recall": 0.19444444444444442,
+    "evidence_recall_ci95": [
+      0.06944444444444443,
+      0.3333333333333333
+    ],
+    "resident_payload_bytes": 140501.88888888888,
+    "resident_payload_bytes_ci95": [
+      138632.86284722222,
+      142343.62256944444
+    ],
+    "adapter_seconds": 1.4937623162533982,
+    "adapter_seconds_ci95": [
+      1.4363633061388907,
+      1.551177062061227
+    ],
+    "retrieval_seconds": 1.3460327739335805,
+    "retrieval_seconds_ci95": [
+      1.289021987045352,
+      1.401433890374513
+    ],
+    "state_updates": 71645.08333333333,
+    "state_updates_ci95": [
+      70259.61145833334,
+      73176.18125000001
+    ],
+    "eviction_count": 327.27777777777777,
+    "eviction_count_ci95": [
+      286.94374999999997,
+      367.7642361111111
+    ],
+    "prompt_tokens": 948.0277777777777,
+    "prompt_tokens_ci95": [
+      862.5677083333334,
+      1036.1284722222222
+    ],
+    "completion_tokens": 37.375,
+    "completion_tokens_ci95": [
+      27.319097222222222,
+      48.94479166666665
+    ]
+  },
+  {
+    "dataset": "LongMemEval",
+    "method": "adaptive_evolution",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.041666666666666664,
+    "quality_ci95": [
+      0.0,
+      0.1111111111111111
+    ],
+    "accuracy": 0.041666666666666664,
+    "accuracy_ci95": [
+      0.0,
+      0.1111111111111111
+    ],
+    "satisfactory_rate": null,
+    "token_f1": 0.034876113997694684,
+    "token_f1_ci95": [
+      0.01475340559797249,
+      0.05865852570405222
+    ],
+    "evidence_hit": 0.3055555555555555,
+    "evidence_hit_ci95": [
+      0.16666666666666666,
+      0.4444444444444445
+    ],
+    "evidence_recall": 0.21527777777777776,
+    "evidence_recall_ci95": [
+      0.1111111111111111,
+      0.3263888888888889
+    ],
+    "resident_payload_bytes": 138542.72222222222,
+    "resident_payload_bytes_ci95": [
+      136761.4076388889,
+      140321.63819444441
+    ],
+    "adapter_seconds": 1.449405995359282,
+    "adapter_seconds_ci95": [
+      1.3926739499731209,
+      1.5061058001958172
+    ],
+    "retrieval_seconds": 1.295194406793194,
+    "retrieval_seconds_ci95": [
+      1.2403691305162892,
+      1.349979480681779
+    ],
+    "state_updates": 71645.08333333333,
+    "state_updates_ci95": [
+      70246.346875,
+      73218.11458333333
+    ],
+    "eviction_count": 189.18055555555554,
+    "eviction_count_ci95": [
+      154.31770833333334,
+      229.04513888888883
+    ],
+    "prompt_tokens": 862.2222222222222,
+    "prompt_tokens_ci95": [
+      797.2611111111111,
+      926.754861111111
+    ],
+    "completion_tokens": 32.38888888888889,
+    "completion_tokens_ci95": [
+      24.944444444444446,
+      40.821180555555536
+    ]
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "method": "fixed_decay",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.7326388888888888,
+    "quality_ci95": [
+      0.5833333333333334,
+      0.8541666666666666
+    ],
+    "accuracy": null,
+    "satisfactory_rate": 0.7777777777777777,
+    "satisfactory_rate_ci95": [
+      0.5972222222222222,
+      0.9305555555555555
+    ],
+    "token_f1": null,
+    "evidence_hit": null,
+    "evidence_recall": null,
+    "resident_payload_bytes": 136329.0,
+    "resident_payload_bytes_ci95": [
+      136329.0,
+      136329.0
+    ],
+    "adapter_seconds": 1.4853345016793658,
+    "adapter_seconds_ci95": [
+      1.4852556152430936,
+      1.4854274857386673
+    ],
+    "retrieval_seconds": 1.364443509425554,
+    "retrieval_seconds_ci95": [
+      1.3643624029966304,
+      1.3645319886980964
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 677.0,
+    "eviction_count_ci95": [
+      677.0,
+      677.0
+    ],
+    "prompt_tokens": 486.5416666666667,
+    "prompt_tokens_ci95": [
+      481.47222222222223,
+      491.8892361111111
+    ],
+    "completion_tokens": 194.61111111111111,
+    "completion_tokens_ci95": [
+      170.17916666666667,
+      218.19444444444446
+    ]
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "method": "frequency",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.736111111111111,
+    "quality_ci95": [
+      0.6180555555555555,
+      0.8402777777777777
+    ],
+    "accuracy": null,
+    "satisfactory_rate": 0.736111111111111,
+    "satisfactory_rate_ci95": [
+      0.611111111111111,
+      0.8472222222222223
+    ],
+    "token_f1": null,
+    "evidence_hit": null,
+    "evidence_recall": null,
+    "resident_payload_bytes": 128049.33333333333,
+    "resident_payload_bytes_ci95": [
+      128049.33333333333,
+      128049.33333333333
+    ],
+    "adapter_seconds": 1.322375736956019,
+    "adapter_seconds_ci95": [
+      1.3223373389937072,
+      1.322422736955438
+    ],
+    "retrieval_seconds": 1.2059188880310912,
+    "retrieval_seconds_ci95": [
+      1.2058830059114067,
+      1.2059652762164155
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 114.33333333333333,
+    "eviction_count_ci95": [
+      114.33333333333333,
+      114.33333333333333
+    ],
+    "prompt_tokens": 497.2777777777778,
+    "prompt_tokens_ci95": [
+      484.58229166666666,
+      512.0701388888889
+    ],
+    "completion_tokens": 197.95833333333334,
+    "completion_tokens_ci95": [
+      184.91666666666666,
+      211.63923611111113
+    ]
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "method": "lru",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.7395833333333334,
+    "quality_ci95": [
+      0.6041666666666666,
+      0.8645833333333334
+    ],
+    "accuracy": null,
+    "satisfactory_rate": 0.7638888888888888,
+    "satisfactory_rate_ci95": [
+      0.5972222222222222,
+      0.9166666666666666
+    ],
+    "token_f1": null,
+    "evidence_hit": null,
+    "evidence_recall": null,
+    "resident_payload_bytes": 133510.33333333334,
+    "resident_payload_bytes_ci95": [
+      133510.33333333334,
+      133510.33333333334
+    ],
+    "adapter_seconds": 1.4049275857655124,
+    "adapter_seconds_ci95": [
+      1.4048269094124812,
+      1.4050660640056272
+    ],
+    "retrieval_seconds": 1.290283666296293,
+    "retrieval_seconds_ci95": [
+      1.2901855281955148,
+      1.29042555082916
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 677.0,
+    "eviction_count_ci95": [
+      677.0,
+      677.0
+    ],
+    "prompt_tokens": 485.25,
+    "prompt_tokens_ci95": [
+      480.2083333333333,
+      490.7083333333333
+    ],
+    "completion_tokens": 208.97222222222226,
+    "completion_tokens_ci95": [
+      185.20694444444445,
+      232.43229166666666
+    ]
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "method": "static_state_adaptive",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.6423611111111112,
+    "quality_ci95": [
+      0.5069444444444444,
+      0.7673611111111112
+    ],
+    "accuracy": null,
+    "satisfactory_rate": 0.6388888888888888,
+    "satisfactory_rate_ci95": [
+      0.486111111111111,
+      0.7916666666666666
+    ],
+    "token_f1": null,
+    "evidence_hit": null,
+    "evidence_recall": null,
+    "resident_payload_bytes": 131931.66666666666,
+    "resident_payload_bytes_ci95": [
+      131931.66666666666,
+      131931.66666666666
+    ],
+    "adapter_seconds": 1.4854533202855642,
+    "adapter_seconds_ci95": [
+      1.485345480576507,
+      1.4855988747367517
+    ],
+    "retrieval_seconds": 1.3465955442322108,
+    "retrieval_seconds_ci95": [
+      1.3464903721210755,
+      1.3467267790621718
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 146.66666666666666,
+    "eviction_count_ci95": [
+      146.66666666666666,
+      146.66666666666666
+    ],
+    "prompt_tokens": 526.0277777777777,
+    "prompt_tokens_ci95": [
+      514.0270833333334,
+      539.2788194444445
+    ],
+    "completion_tokens": 199.875,
+    "completion_tokens_ci95": [
+      185.8607638888889,
+      214.26458333333335
+    ]
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "method": "replacement_matched",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.7430555555555557,
+    "quality_ci95": [
+      0.611111111111111,
+      0.857638888888889
+    ],
+    "accuracy": null,
+    "satisfactory_rate": 0.7777777777777777,
+    "satisfactory_rate_ci95": [
+      0.611111111111111,
+      0.9166666666666666
+    ],
+    "token_f1": null,
+    "evidence_hit": null,
+    "evidence_recall": null,
+    "resident_payload_bytes": 136086.33333333334,
+    "resident_payload_bytes_ci95": [
+      136086.33333333334,
+      136086.33333333334
+    ],
+    "adapter_seconds": 1.5233715845711735,
+    "adapter_seconds_ci95": [
+      1.5232601880658576,
+      1.5234927904767877
+    ],
+    "retrieval_seconds": 1.3706086995080113,
+    "retrieval_seconds_ci95": [
+      1.3705048928847343,
+      1.370724162315956
+    ],
+    "state_updates": 0.0,
+    "state_updates_ci95": [
+      0.0,
+      0.0
+    ],
+    "eviction_count": 501.0,
+    "eviction_count_ci95": [
+      501.0,
+      501.0
+    ],
+    "prompt_tokens": 487.2222222222222,
+    "prompt_tokens_ci95": [
+      481.34687499999995,
+      493.2083333333333
+    ],
+    "completion_tokens": 201.08333333333334,
+    "completion_tokens_ci95": [
+      185.25,
+      216.83402777777778
+    ]
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "method": "adaptive_rule",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.6597222222222222,
+    "quality_ci95": [
+      0.517361111111111,
+      0.7881944444444443
+    ],
+    "accuracy": null,
+    "satisfactory_rate": 0.6527777777777778,
+    "satisfactory_rate_ci95": [
+      0.4583333333333333,
+      0.8333333333333334
+    ],
+    "token_f1": null,
+    "evidence_hit": null,
+    "evidence_recall": null,
+    "resident_payload_bytes": 154553.66666666666,
+    "resident_payload_bytes_ci95": [
+      154553.66666666666,
+      154553.66666666666
+    ],
+    "adapter_seconds": 2.1347791875854862,
+    "adapter_seconds_ci95": [
+      2.1346820124166297,
+      2.1348789310734393
+    ],
+    "retrieval_seconds": 1.9522698449824627,
+    "retrieval_seconds_ci95": [
+      1.9521762980149815,
+      1.9523692929913523
+    ],
+    "state_updates": 97869.0,
+    "state_updates_ci95": [
+      97869.0,
+      97869.0
+    ],
+    "eviction_count": 246.0,
+    "eviction_count_ci95": [
+      246.0,
+      246.0
+    ],
+    "prompt_tokens": 522.7638888888889,
+    "prompt_tokens_ci95": [
+      508.2083333333333,
+      542.8774305555555
+    ],
+    "completion_tokens": 190.7638888888889,
+    "completion_tokens_ci95": [
+      161.51354166666667,
+      220.25104166666665
+    ]
+  },
+  {
+    "dataset": "MemoryBench-NFCats",
+    "method": "adaptive_evolution",
+    "questions": 24,
+    "seeds": 3,
+    "clusters": 24,
+    "quality": 0.7395833333333334,
+    "quality_ci95": [
+      0.6319444444444444,
+      0.8402777777777777
+    ],
+    "accuracy": null,
+    "satisfactory_rate": 0.736111111111111,
+    "satisfactory_rate_ci95": [
+      0.610763888888889,
+      0.861111111111111
+    ],
+    "token_f1": null,
+    "evidence_hit": null,
+    "evidence_recall": null,
+    "resident_payload_bytes": 152969.0,
+    "resident_payload_bytes_ci95": [
+      152969.0,
+      152969.0
+    ],
+    "adapter_seconds": 2.0911477357472497,
+    "adapter_seconds_ci95": [
+      2.0910859344680732,
+      2.0912147877133167
+    ],
+    "retrieval_seconds": 1.8968962360458035,
+    "retrieval_seconds_ci95": [
+      1.8968377322901184,
+      1.8969623874277912
+    ],
+    "state_updates": 97869.0,
+    "state_updates_ci95": [
+      97869.0,
+      97869.0
+    ],
+    "eviction_count": 200.0,
+    "eviction_count_ci95": [
+      200.0,
+      200.0
+    ],
+    "prompt_tokens": 565.6527777777777,
+    "prompt_tokens_ci95": [
+      552.9857638888889,
+      579.5430555555555
+    ],
+    "completion_tokens": 209.29166666666666,
+    "completion_tokens_ci95": [
+      193.91562499999998,
+      224.5423611111111
+    ]
+  }
+]

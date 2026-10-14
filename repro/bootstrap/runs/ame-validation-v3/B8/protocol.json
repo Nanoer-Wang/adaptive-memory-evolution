@@ -1,0 +1,76 @@
+{
+  "source": "e5b25c40e07da5d426ac1fda2a900fdd6641333c13cd52051b73d4150f2f4999",
+  "archive": "artifacts/source/e5b25c40e07da5d426ac1fda2a900fdd6641333c13cd52051b73d4150f2f4999.zip",
+  "runtime": {
+    "python": "3.13.9",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "numpy": "2.3.5",
+      "scikit-learn": "1.7.2",
+      "httpx": "0.28.1",
+      "PyYAML": "6.0.3",
+      "python-dotenv": "1.1.0",
+      "filelock": "3.20.0",
+      "psutil": "7.0.0",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "device": "cpu",
+    "timestamp_utc": "2026-10-13T11:11:30.769314+00:00"
+  },
+  "capacity": 64,
+  "top_k": 5,
+  "context_chars": 12000,
+  "policy_seeds": [
+    11,
+    23,
+    42
+  ],
+  "methods": [
+    "fixed_decay",
+    "frequency",
+    "lru",
+    "static_state_adaptive",
+    "replacement_matched",
+    "adaptive_rule",
+    "adaptive_evolution"
+  ],
+  "data_seed": 20261013,
+  "training_steps": 0,
+  "formal_questions_per_dataset": 24,
+  "input_hashes": {
+    "data/longmemeval/longmemeval_s_cleaned.json": "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442",
+    "data/locomo/locomo10.json": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4",
+    "data/memorybench/dataset/NFCats/test/data-00000-of-00001.arrow": "842436b9135b04cdb1694a5b62c0fa3b566ae9385974cd45041b1ef03cf97243",
+    "data/memorybench/dataset/NFCats/train/data-00000-of-00001.arrow": "008f83c26858dccfbd2935ab6b662da5c708dbd08153f0db6dc4bd96f1ff1f31"
+  },
+  "core_hashes": {
+    "src/memory/b1_policy.py": "ca30b1a14203662f163c82365b5269d1223c0d0d9a2a7ccf208123b16f92245a",
+    "src/memory/b1_attribution.py": "b86594a635ff5c19d000ab9b98adf150f7081f24afa020b64e449145d5847133"
+  },
+  "checkpoints": {
+    "runs/liquid-consolidation-v2/stories.json": "45efc422233d189171494ad6a185cf48f00e0c30f19e625ad39147edfe458cf8",
+    "runs/liquid-consolidation-v2/vectors.json": "968ceffea2504b46d13fc076af884a539b543617ab9f2d33a82d4a4ae5d5b5ec",
+    "runs/evolving-memory-v1/checkpoints/learned-11.pt": "32efb7fadd2f0ac490cff2214421112ad8d673c8693e82a88f9b15320dfa1c37",
+    "runs/evolving-memory-v1/checkpoints/learned-23.pt": "c8207ffb449c9623c9be89c0ea93c915b6e6ff4ce46aab1d3b5c4caf262e3138",
+    "runs/evolving-memory-v1/checkpoints/learned-42.pt": "0392870b041618eece602978a1931500a08c1bfc5b101d1b3f63eaaa9beb8a5c"
+  },
+  "replacement_control": "Transfer B2capacity64 calibration (.75 admission,0minimumage) without QA tuning; real lifetime distribution is separately audited. Name does not guarantee matching.",
+  "semantics": "Exhaustive1200character spans, observed role/speaker only; no semantic fact/version inference. Topic=fixed32D projection first-coordinate sign. MiniLM384semantic+lexical hybrid retrieval of resident items only.",
+  "time": "One unit=one elapsed day for dated dialogues, original equal-session timestamps preserved. NFCats uses one unit per training dialog; no real dates supplied. Time-unit transfer is uncalibrated.",
+  "demand": "Only observed user turns containing ? trigger historical top1 retrieval. Heldout query is never seen during consolidation. Final query top5,12000chars.",
+  "feedback": "LongMemEval/LoCoMo no correctness feedback, never filled with gold. NFCats uses fixed released dialog_mistral plus like/dislike off-policy user signals, shared across all policies.",
+  "scoring": "LongMemEval/LoCoMo blinded same-model judge of answer against heldout reference; auxiliary tokenF1. NFCats reference-free1..5 rubric, satisfactory>=4 and normalized quality. This is a custom fixed-subset transfer test, NOT official full benchmark scores.",
+  "statistics": "Average seeds per question; clusterLoCoMo by conversation, others byquestion. NFCats all questions share one training history; inference is conditional on this history. No population-level independent-trajectory claim.",
+  "missing_metrics": "Stale error/stable retention/adaptation lag unidentifiable without explicit fact versions/stability/shift labels; report null, not fabricated from any wrong answer. Knowledge-update subgroup answer quality reported separately.",
+  "selection": "LME4per6categories;LoCoMo24 across10conversations, answer-bearing categories1..4 only, captions included but no image pixels;NFCats24/50test rows with200releasedtrainingdialogs. Three disjoint miniquestions.",
+  "api": {
+    "base_url": "https://api.agnes-ai.cn/v1",
+    "model": "agnes-3.0-flash",
+    "rpm": 9,
+    "max_tokens": 384,
+    "temperature": 0
+  },
+  "prompts_hash": "Defined by source snapshot; answer and evaluation labels are stored separately."
+}

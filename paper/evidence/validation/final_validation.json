@@ -1,0 +1,45 @@
+{
+  "batches": [
+    {
+      "batch": "B2",
+      "files": 2575,
+      "passed": true
+    },
+    {
+      "batch": "B3",
+      "files": 530,
+      "passed": true
+    },
+    {
+      "batch": "B4",
+      "files": 2575,
+      "passed": true
+    },
+    {
+      "batch": "B5",
+      "files": 532,
+      "passed": true
+    },
+    {
+      "batch": "B6",
+      "files": 822,
+      "passed": true
+    },
+    {
+      "batch": "B7",
+      "files": 749,
+      "passed": true
+    },
+    {
+      "batch": "B8",
+      "files": 2401,
+      "passed": true
+    }
+  ],
+  "synthetic_runs": 7560,
+  "formal_language_records": 1512,
+  "mini_language_records": 21,
+  "tests_passed": 241,
+  "interpretation_sha256": "1869df651f647d09b1e7eaa34d7f530d1993a6db1c78991659ae4c2dc9ddd9e9",
+  "real_language_interpretation_sha256": "1f0a6085237d760f95c8690a4de176b39540c37544c8c5d14c8891edc0d94091"
+}

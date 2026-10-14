@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "selection": "First12 lexically sorted archived traces, before inspecting method outcomes",
+  "files": [
+    "93100-contradictory_preference-c16-11-adaptive_evolution.json.gz",
+    "93100-contradictory_preference-c16-11-fixed_decay.json.gz",
+    "93100-contradictory_preference-c16-11-frequency.json.gz",
+    "93100-contradictory_preference-c16-23-adaptive_evolution.json.gz",
+    "93100-contradictory_preference-c16-23-fixed_decay.json.gz",
+    "93100-contradictory_preference-c16-23-frequency.json.gz",
+    "93100-contradictory_preference-c16-42-adaptive_evolution.json.gz",
+    "93100-contradictory_preference-c16-42-fixed_decay.json.gz",
+    "93100-contradictory_preference-c16-42-frequency.json.gz",
+    "93100-contradictory_preference-c8-11-adaptive_evolution.json.gz",
+    "93100-contradictory_preference-c8-11-fixed_decay.json.gz",
+    "93100-contradictory_preference-c8-11-frequency.json.gz"
+  ],
+  "identical_fields": [
+    "trace",
+    "queries",
+    "lifetimes",
+    "origins"
+  ],
+  "changed": "Only eligibility of adaptation episodes and derived metrics"
+}

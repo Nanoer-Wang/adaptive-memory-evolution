@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering\small
+\caption{Constrained structured memory: eight slots, sixteen interference keys. Percentages except lag (target queries). All seven policies share the same streams; 24 worlds, three policy seeds. Full intervals accompany the machine-readable evidence (Appendix~\ref{app:tables}).}\label{tab:main}
+\begin{tabular}{lrrrr}\toprule
+Method & Acc.$\uparrow$ & Stale$\downarrow$ & Ret.$\uparrow$ & Lag$\downarrow$\\\midrule
+Fixed decay & 46.48 & 0.00 & 46.64 & 12.88\\
+Frequency & 48.50 & 14.03 & 69.76 & 117.17\\
+LRU & 41.91 & 0.00 & 42.10 & 17.29\\
+Frozen state & 75.46 & 3.96 & 78.84 & 29.72\\
+Replacement control$^{\dagger}$ & 54.93 & 1.81 & 74.84 & 103.77\\
+Adaptive rule & 71.02 & 0.01 & 79.09 & 42.33\\
+AME & 78.06 & 0.02 & 87.48 & 23.03\\
+\bottomrule\end{tabular}
+\par\vspace{2pt}\footnotesize $\dagger$ Calibrated admission/lifetime control; distributional matching failed. This row is not an exactly matched counterfactual.
+\end{table}

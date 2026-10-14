@@ -1,0 +1,36 @@
+{
+  "evidence": [
+    {
+      "batch": "C1",
+      "runs": 3168,
+      "mini_passed": true,
+      "files_verified": 3228,
+      "completion_sha256": "605daf05a06af261fb6292bad2db6ac1e3cedc77113b3f447ad3eccaf61d5bf8"
+    },
+    {
+      "batch": "C2",
+      "runs": 9216,
+      "mini_passed": true,
+      "files_verified": 9359,
+      "completion_sha256": "364a0ea337838f0253d55a6c246126a16011a7ce3db5d9e8fdaa74294f27d42a"
+    },
+    {
+      "batch": "C3",
+      "runs": 1728,
+      "mini_passed": true,
+      "files_verified": 1766,
+      "completion_sha256": "c8b36a0eedd85b50f5a72c11f98103dd20a84f48516da9c7f26491f6610c4c3a"
+    },
+    {
+      "batch": "C4",
+      "runs": 3456,
+      "mini_passed": true,
+      "files_verified": 3523,
+      "completion_sha256": "a4f9d0c6be93ccb814b69884a853ee62f6c01daf6a32c62926da9bf33dd9a892"
+    }
+  ],
+  "total_formal_runs": 17568,
+  "package_bytes": 15897755,
+  "package_sha256": "170f12e38a15617558e7557933bd55230f7ba4ac6127c1b21988522af3a28729",
+  "report_sha256": "0b125d05732ceb53576ee11466564f442ba02895356efbf5477cb526c8230b69"
+}

@@ -1,0 +1,314 @@
+[
+  {
+    "condition": "version_update",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.29369212962962965,
+    "ci95": [
+      0.2760416666666667,
+      0.31040219907407407
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0008680555555555555,
+    "ci95": [
+      0.0,
+      0.001953125
+    ],
+    "p": 0.24467553244675533,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "version_update",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.41941550925925924,
+    "ci95": [
+      0.40017361111111116,
+      0.43692491319444443
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -1.611111111111111,
+    "ci95": [
+      -5.354166666666667,
+      2.125
+    ],
+    "p": 0.407959204079592,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "version_update",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2377025462962963,
+    "ci95": [
+      0.21462673611111116,
+      0.2604166666666667
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.11219618055555557,
+    "ci95": [
+      -0.12275752314814814,
+      -0.10127314814814814
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.1506076388888889,
+    "ci95": [
+      0.10503472222222225,
+      0.1964735243055555
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -13.513888888888891,
+    "ci95": [
+      -15.527951388888889,
+      -11.409548611111113
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.30996817129629634,
+    "ci95": [
+      0.29296875000000006,
+      0.32718641493055556
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0008680555555555555,
+    "ci95": [
+      0.0,
+      0.001953125
+    ],
+    "p": 0.24917508249175083,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "version_update",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.4341724537037037,
+    "ci95": [
+      0.41116898148148157,
+      0.4578993055555556
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -0.736111111111111,
+    "ci95": [
+      -3.597222222222222,
+      2.2432291666666644
+    ],
+    "p": 0.6364363563643636,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "version_update",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.07826967592592594,
+    "ci95": [
+      0.059025969328703694,
+      0.09620949074074076
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.033203125,
+    "ci95": [
+      -0.041811342592592594,
+      -0.025969328703703703
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.13917824074074076,
+    "ci95": [
+      0.11457971643518518,
+      0.16377314814814814
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -4.618055555555555,
+    "ci95": [
+      -6.763888888888888,
+      -2.0276041666666695
+    ],
+    "p": 0.0016998300169983002,
+    "matched": null,
+    "p_holm": 0.011898810118988102
+  },
+  {
+    "condition": "version_update",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.23017939814814814,
+    "ci95": [
+      0.21346932870370372,
+      0.24819335937499998
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.023075810185185185,
+    "ci95": [
+      -0.026475694444444444,
+      -0.01982060185185185
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.21238425925925927,
+    "ci95": [
+      0.18243634259259264,
+      0.24320023148148148
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -10.652777777777779,
+    "ci95": [
+      -12.777777777777777,
+      -8.291493055555557
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.05107060185185187,
+    "ci95": [
+      0.03595196759259261,
+      0.0671314380787037
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.0023997600239976003
+  },
+  {
+    "condition": "version_update",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      -0.0006510416666666666,
+      0.0006510416666666666
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "version_update",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.05439814814814816,
+    "ci95": [
+      0.026906105324074073,
+      0.08449074074074076
+    ],
+    "p": 0.0007999200079992001,
+    "matched": null,
+    "p_holm": 0.006399360063993601
+  },
+  {
+    "condition": "version_update",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -4.67361111111111,
+    "ci95": [
+      -7.569618055555555,
+      -1.708333333333333
+    ],
+    "p": 0.005699430056994301,
+    "matched": null,
+    "p_holm": 0.03419658034196581
+  }
+]

@@ -1,0 +1,4686 @@
+{
+  "runtime": {
+    "python": "3.13.9",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "numpy": "2.3.5",
+      "scikit-learn": "1.7.2",
+      "httpx": "0.28.1",
+      "PyYAML": "6.0.3",
+      "python-dotenv": "1.1.0",
+      "filelock": "3.20.0",
+      "psutil": "7.0.0",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "device": "cpu",
+    "timestamp_utc": "2026-10-13T11:05:06.855354+00:00"
+  },
+  "records": [
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.018064219504594803,
+      "timing_seconds": {
+        "update_state": 0.007191298063844442,
+        "observe": 0.0013734125532209873,
+        "retrieve": 0.0009356103837490082,
+        "evict": 0.00788189610466361,
+        "feedback": 0.0006820023991167545
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6723,
+        "overflow_opportunities": 747,
+        "resident_evictions": 747,
+        "rejected_writes": 0,
+        "accepted_writes": 751,
+        "duplicate_refreshes": 29
+      },
+      "policy_object_graph_bytes": 315956,
+      "resident_items_graph_bytes": 4563,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 300306
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.01599527895450592,
+      "timing_seconds": {
+        "update_state": 0.007061294745653868,
+        "observe": 0.0012482916936278343,
+        "retrieve": 0.0009526009671390057,
+        "evict": 0.006065994966775179,
+        "feedback": 0.0006670965813100338
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 5103,
+        "overflow_opportunities": 567,
+        "resident_evictions": 7,
+        "rejected_writes": 560,
+        "accepted_writes": 11,
+        "duplicate_refreshes": 209
+      },
+      "policy_object_graph_bytes": 23199,
+      "resident_items_graph_bytes": 4728,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 3477
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.017080594319850206,
+      "timing_seconds": {
+        "update_state": 0.007210590876638889,
+        "observe": 0.0013384008780121803,
+        "retrieve": 0.0009262003004550934,
+        "evict": 0.006913702469319105,
+        "feedback": 0.0006916997954249382
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6462,
+        "overflow_opportunities": 718,
+        "resident_evictions": 718,
+        "rejected_writes": 0,
+        "accepted_writes": 722,
+        "duplicate_refreshes": 58
+      },
+      "policy_object_graph_bytes": 304673,
+      "resident_items_graph_bytes": 4614,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 288911
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.029143796768039465,
+      "timing_seconds": {
+        "update_state": 0.01915479451417923,
+        "observe": 0.0014653070829808712,
+        "retrieve": 0.0011672955006361008,
+        "evict": 0.0066276974976062775,
+        "feedback": 0.0007287021726369858
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4419,
+        "overflow_opportunities": 491,
+        "resident_evictions": 32,
+        "rejected_writes": 459,
+        "accepted_writes": 36,
+        "duplicate_refreshes": 285
+      },
+      "policy_object_graph_bytes": 34131,
+      "resident_items_graph_bytes": 5122,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 13706
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.02007860317826271,
+      "timing_seconds": {
+        "update_state": 0.007412401027977467,
+        "observe": 0.0013191970065236092,
+        "retrieve": 0.0010276054963469505,
+        "evict": 0.009602499194443226,
+        "feedback": 0.0007169004529714584
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4500,
+        "overflow_opportunities": 500,
+        "resident_evictions": 23,
+        "rejected_writes": 477,
+        "accepted_writes": 27,
+        "duplicate_refreshes": 276
+      },
+      "policy_object_graph_bytes": 29677,
+      "resident_items_graph_bytes": 4742,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10140
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.02731490135192871,
+      "timing_seconds": {
+        "update_state": 0.01720339199528098,
+        "observe": 0.0014576106332242489,
+        "retrieve": 0.0011312994174659252,
+        "evict": 0.006659802049398422,
+        "feedback": 0.0008627972565591335
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 0,
+        "score_evaluations": 4203,
+        "overflow_opportunities": 467,
+        "resident_evictions": 24,
+        "rejected_writes": 443,
+        "accepted_writes": 28,
+        "duplicate_refreshes": 309
+      },
+      "policy_object_graph_bytes": 30515,
+      "resident_items_graph_bytes": 5522,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10590
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.0397223886102438,
+      "timing_seconds": {
+        "update_state": 0.029652205761522055,
+        "observe": 0.0015363963320851326,
+        "retrieve": 0.0012607970274984837,
+        "evict": 0.00634929770603776,
+        "feedback": 0.0009236917831003666
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 2344,
+        "score_evaluations": 3951,
+        "overflow_opportunities": 439,
+        "resident_evictions": 25,
+        "rejected_writes": 414,
+        "accepted_writes": 29,
+        "duplicate_refreshes": 337
+      },
+      "policy_object_graph_bytes": 31975,
+      "resident_items_graph_bytes": 5499,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10989
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.040833295322954655,
+      "timing_seconds": {
+        "update_state": 0.01616270188242197,
+        "observe": 0.0013683992438018322,
+        "retrieve": 0.0023262975737452507,
+        "evict": 0.020271497778594494,
+        "feedback": 0.0007043988443911076
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 19955,
+        "overflow_opportunities": 307,
+        "resident_evictions": 59,
+        "rejected_writes": 248,
+        "accepted_writes": 119,
+        "duplicate_refreshes": 413
+      },
+      "policy_object_graph_bytes": 82012,
+      "resident_items_graph_bytes": 31626,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 26020
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.03839201247319579,
+      "timing_seconds": {
+        "update_state": 0.015902206767350435,
+        "observe": 0.0013495017774403095,
+        "retrieve": 0.0023044031113386154,
+        "evict": 0.018130799755454063,
+        "feedback": 0.0007051010616123676
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 318,
+        "rejected_writes": 0,
+        "accepted_writes": 378,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 175966,
+      "resident_items_graph_bytes": 30972,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 129810
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.05507708014920354,
+      "timing_seconds": {
+        "update_state": 0.028745601419359446,
+        "observe": 0.0014859908260405064,
+        "retrieve": 0.0025112000294029713,
+        "evict": 0.021587494295090437,
+        "feedback": 0.0007467935793101788
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17810,
+        "overflow_opportunities": 274,
+        "resident_evictions": 96,
+        "rejected_writes": 178,
+        "accepted_writes": 156,
+        "duplicate_refreshes": 446
+      },
+      "policy_object_graph_bytes": 99616,
+      "resident_items_graph_bytes": 33181,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 41301
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.05771469138562679,
+      "timing_seconds": {
+        "update_state": 0.016501586884260178,
+        "observe": 0.0013939072377979755,
+        "retrieve": 0.0024131983518600464,
+        "evict": 0.036695499904453754,
+        "feedback": 0.0007104990072548389
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 235,
+        "rejected_writes": 93,
+        "accepted_writes": 295,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 146718,
+      "resident_items_graph_bytes": 31120,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 96885
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.1134276008233428,
+      "timing_seconds": {
+        "update_state": 0.08251001127064228,
+        "observe": 0.0016325907781720161,
+        "retrieve": 0.002518594264984131,
+        "evict": 0.025854800827801228,
+        "feedback": 0.000911603681743145
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139719,
+        "coefficient_calls": 0,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 277,
+        "rejected_writes": 51,
+        "accepted_writes": 337,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 167771,
+      "resident_items_graph_bytes": 37182,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 113832
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.12670249305665493,
+      "timing_seconds": {
+        "update_state": 0.0957378982566297,
+        "observe": 0.0016485992819070816,
+        "retrieve": 0.0025600953958928585,
+        "evict": 0.025811090599745512,
+        "feedback": 0.0009448095224797726
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139719,
+        "coefficient_calls": 2344,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 277,
+        "rejected_writes": 51,
+        "accepted_writes": 337,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 168836,
+      "resident_items_graph_bytes": 37182,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 113832
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.04001180175691843,
+      "timing_seconds": {
+        "update_state": 0.015819089021533728,
+        "observe": 0.0013336064293980598,
+        "retrieve": 0.0022604973055422306,
+        "evict": 0.019912708085030317,
+        "feedback": 0.0006859009154140949
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 318,
+        "rejected_writes": 0,
+        "accepted_writes": 378,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 175922,
+      "resident_items_graph_bytes": 30972,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 129810
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.01687760418280959,
+      "timing_seconds": {
+        "update_state": 0.007178491912782192,
+        "observe": 0.001364902127534151,
+        "retrieve": 0.0009160963818430901,
+        "evict": 0.0067277043126523495,
+        "feedback": 0.0006904094479978085
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6291,
+        "overflow_opportunities": 699,
+        "resident_evictions": 699,
+        "rejected_writes": 0,
+        "accepted_writes": 703,
+        "duplicate_refreshes": 77
+      },
+      "policy_object_graph_bytes": 297265,
+      "resident_items_graph_bytes": 4601,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 281522
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.028834607917815447,
+      "timing_seconds": {
+        "update_state": 0.01910950755700469,
+        "observe": 0.0014625117182731628,
+        "retrieve": 0.0011749924160540104,
+        "evict": 0.0063621969893574715,
+        "feedback": 0.000725399237126112
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4176,
+        "overflow_opportunities": 464,
+        "resident_evictions": 35,
+        "rejected_writes": 429,
+        "accepted_writes": 39,
+        "duplicate_refreshes": 312
+      },
+      "policy_object_graph_bytes": 35179,
+      "resident_items_graph_bytes": 5019,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 14905
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.020237703807651997,
+      "timing_seconds": {
+        "update_state": 0.007384610828012228,
+        "observe": 0.0013271947391331196,
+        "retrieve": 0.000992393121123314,
+        "evict": 0.009809706825762987,
+        "feedback": 0.000723798293620348
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4536,
+        "overflow_opportunities": 504,
+        "resident_evictions": 20,
+        "rejected_writes": 484,
+        "accepted_writes": 24,
+        "duplicate_refreshes": 272
+      },
+      "policy_object_graph_bytes": 28470,
+      "resident_items_graph_bytes": 4725,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 8903
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.02758690156042576,
+      "timing_seconds": {
+        "update_state": 0.017409613355994225,
+        "observe": 0.0015266966074705124,
+        "retrieve": 0.0011335969902575016,
+        "evict": 0.0066527933813631535,
+        "feedback": 0.0008642012253403664
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 0,
+        "score_evaluations": 4149,
+        "overflow_opportunities": 461,
+        "resident_evictions": 30,
+        "rejected_writes": 431,
+        "accepted_writes": 34,
+        "duplicate_refreshes": 315
+      },
+      "policy_object_graph_bytes": 32826,
+      "resident_items_graph_bytes": 5498,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 13120
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.0401561981998384,
+      "timing_seconds": {
+        "update_state": 0.029861294198781252,
+        "observe": 0.001588698010891676,
+        "retrieve": 0.0012186015956103802,
+        "evict": 0.006565301679074764,
+        "feedback": 0.0009223027154803276
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4059,
+        "overflow_opportunities": 451,
+        "resident_evictions": 23,
+        "rejected_writes": 428,
+        "accepted_writes": 27,
+        "duplicate_refreshes": 325
+      },
+      "policy_object_graph_bytes": 31139,
+      "resident_items_graph_bytes": 5557,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10192
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.018150600604712963,
+      "timing_seconds": {
+        "update_state": 0.00728859705850482,
+        "observe": 0.0013799001462757587,
+        "retrieve": 0.0009248983114957809,
+        "evict": 0.007837201468646526,
+        "feedback": 0.0007200036197900772
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6714,
+        "overflow_opportunities": 746,
+        "resident_evictions": 746,
+        "rejected_writes": 0,
+        "accepted_writes": 750,
+        "duplicate_refreshes": 30
+      },
+      "policy_object_graph_bytes": 315671,
+      "resident_items_graph_bytes": 4576,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 300014
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.01593390665948391,
+      "timing_seconds": {
+        "update_state": 0.00725878681987524,
+        "observe": 0.0012619970366358757,
+        "retrieve": 0.0009569046087563038,
+        "evict": 0.005799911916255951,
+        "feedback": 0.0006563062779605389
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4878,
+        "overflow_opportunities": 542,
+        "resident_evictions": 6,
+        "rejected_writes": 536,
+        "accepted_writes": 10,
+        "duplicate_refreshes": 234
+      },
+      "policy_object_graph_bytes": 22831,
+      "resident_items_graph_bytes": 4757,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 3081
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.0553776896558702,
+      "timing_seconds": {
+        "update_state": 0.028841699473559856,
+        "observe": 0.0015243925154209137,
+        "retrieve": 0.0025085024535655975,
+        "evict": 0.021748291794210672,
+        "feedback": 0.0007548034191131592
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17875,
+        "overflow_opportunities": 275,
+        "resident_evictions": 104,
+        "rejected_writes": 171,
+        "accepted_writes": 164,
+        "duplicate_refreshes": 445
+      },
+      "policy_object_graph_bytes": 102233,
+      "resident_items_graph_bytes": 33140,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 44157
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.058115688152611256,
+      "timing_seconds": {
+        "update_state": 0.017012988682836294,
+        "observe": 0.0015492923557758331,
+        "retrieve": 0.0025556054897606373,
+        "evict": 0.0362283973954618,
+        "feedback": 0.0007694042287766933
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20410,
+        "overflow_opportunities": 314,
+        "resident_evictions": 222,
+        "rejected_writes": 92,
+        "accepted_writes": 282,
+        "duplicate_refreshes": 406
+      },
+      "policy_object_graph_bytes": 141988,
+      "resident_items_graph_bytes": 31110,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 91765
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.11529396940022707,
+      "timing_seconds": {
+        "update_state": 0.08439869247376919,
+        "observe": 0.0016545988619327545,
+        "retrieve": 0.002554688137024641,
+        "evict": 0.025767486542463303,
+        "feedback": 0.0009185033850371838
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139878,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 274,
+        "rejected_writes": 44,
+        "accepted_writes": 334,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 166681,
+      "resident_items_graph_bytes": 37187,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 112511
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.1370696066878736,
+      "timing_seconds": {
+        "update_state": 0.10385369369760156,
+        "observe": 0.0018477956764400005,
+        "retrieve": 0.002785810735076666,
+        "evict": 0.027569401543587446,
+        "feedback": 0.0010129050351679325
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139878,
+        "coefficient_calls": 2344,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 274,
+        "rejected_writes": 44,
+        "accepted_writes": 334,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 167746,
+      "resident_items_graph_bytes": 37187,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 112511
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.04111819667741656,
+      "timing_seconds": {
+        "update_state": 0.016128089278936386,
+        "observe": 0.0013835979625582695,
+        "retrieve": 0.0022849105298519135,
+        "evict": 0.020622498355805874,
+        "feedback": 0.0006991005502641201
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 323,
+        "rejected_writes": 0,
+        "accepted_writes": 383,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 177752,
+      "resident_items_graph_bytes": 31049,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131789
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.0397605886682868,
+      "timing_seconds": {
+        "update_state": 0.016391788609325886,
+        "observe": 0.00131519278511405,
+        "retrieve": 0.0023230048827826977,
+        "evict": 0.019049400929361582,
+        "feedback": 0.0006812014617025852
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 18785,
+        "overflow_opportunities": 289,
+        "resident_evictions": 61,
+        "rejected_writes": 228,
+        "accepted_writes": 121,
+        "duplicate_refreshes": 431
+      },
+      "policy_object_graph_bytes": 82762,
+      "resident_items_graph_bytes": 31517,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 26645
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.040603325702250004,
+      "timing_seconds": {
+        "update_state": 0.016889104153960943,
+        "observe": 0.00149600300937891,
+        "retrieve": 0.0024070078507065773,
+        "evict": 0.01907190354540944,
+        "feedback": 0.0007393071427941322
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 323,
+        "rejected_writes": 0,
+        "accepted_writes": 383,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 177796,
+      "resident_items_graph_bytes": 31049,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131789
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.020016188267618418,
+      "timing_seconds": {
+        "update_state": 0.0073694027960300446,
+        "observe": 0.0013382998295128345,
+        "retrieve": 0.0010099001228809357,
+        "evict": 0.009561292827129364,
+        "feedback": 0.000737292692065239
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4410,
+        "overflow_opportunities": 490,
+        "resident_evictions": 21,
+        "rejected_writes": 469,
+        "accepted_writes": 25,
+        "duplicate_refreshes": 286
+      },
+      "policy_object_graph_bytes": 28949,
+      "resident_items_graph_bytes": 4723,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 9299
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.02722829021513462,
+      "timing_seconds": {
+        "update_state": 0.017441302072256804,
+        "observe": 0.0014831949956715107,
+        "retrieve": 0.001146197784692049,
+        "evict": 0.006292699836194515,
+        "feedback": 0.0008648955263197422
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18705,
+        "coefficient_calls": 0,
+        "score_evaluations": 4059,
+        "overflow_opportunities": 451,
+        "resident_evictions": 27,
+        "rejected_writes": 424,
+        "accepted_writes": 31,
+        "duplicate_refreshes": 325
+      },
+      "policy_object_graph_bytes": 31921,
+      "resident_items_graph_bytes": 5530,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 11885
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.03975077997893095,
+      "timing_seconds": {
+        "update_state": 0.029706587549299,
+        "observe": 0.0015627923421561718,
+        "retrieve": 0.0012364047579467297,
+        "evict": 0.006323992740362883,
+        "feedback": 0.0009210025891661644
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18705,
+        "coefficient_calls": 2344,
+        "score_evaluations": 3996,
+        "overflow_opportunities": 444,
+        "resident_evictions": 24,
+        "rejected_writes": 420,
+        "accepted_writes": 28,
+        "duplicate_refreshes": 332
+      },
+      "policy_object_graph_bytes": 31655,
+      "resident_items_graph_bytes": 5529,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 10529
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.019055016804486513,
+      "timing_seconds": {
+        "update_state": 0.007548687048256397,
+        "observe": 0.001474703662097454,
+        "retrieve": 0.000982311088591814,
+        "evict": 0.008308611810207367,
+        "feedback": 0.0007407031953334808
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6687,
+        "overflow_opportunities": 743,
+        "resident_evictions": 743,
+        "rejected_writes": 0,
+        "accepted_writes": 747,
+        "duplicate_refreshes": 33
+      },
+      "policy_object_graph_bytes": 314443,
+      "resident_items_graph_bytes": 4576,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 298759
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.01657761726528406,
+      "timing_seconds": {
+        "update_state": 0.007185212802141905,
+        "observe": 0.0013153096660971642,
+        "retrieve": 0.000978301279246807,
+        "evict": 0.0064189014956355095,
+        "feedback": 0.0006798920221626759
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 5346,
+        "overflow_opportunities": 594,
+        "resident_evictions": 4,
+        "rejected_writes": 590,
+        "accepted_writes": 8,
+        "duplicate_refreshes": 182
+      },
+      "policy_object_graph_bytes": 22216,
+      "resident_items_graph_bytes": 4777,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 2209
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.017686109989881516,
+      "timing_seconds": {
+        "update_state": 0.007437402382493019,
+        "observe": 0.0013889973051846027,
+        "retrieve": 0.0009457021951675415,
+        "evict": 0.007212803233414888,
+        "feedback": 0.0007012048736214638
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6453,
+        "overflow_opportunities": 717,
+        "resident_evictions": 717,
+        "rejected_writes": 0,
+        "accepted_writes": 721,
+        "duplicate_refreshes": 59
+      },
+      "policy_object_graph_bytes": 304333,
+      "resident_items_graph_bytes": 4630,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 288534
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.029224574100226164,
+      "timing_seconds": {
+        "update_state": 0.01929529383778572,
+        "observe": 0.0014604046009480953,
+        "retrieve": 0.0011421944946050644,
+        "evict": 0.006554096471518278,
+        "feedback": 0.0007725846953690052
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4248,
+        "overflow_opportunities": 472,
+        "resident_evictions": 32,
+        "rejected_writes": 440,
+        "accepted_writes": 36,
+        "duplicate_refreshes": 304
+      },
+      "policy_object_graph_bytes": 34146,
+      "resident_items_graph_bytes": 5148,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 13714
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.11445818562060595,
+      "timing_seconds": {
+        "update_state": 0.08334958367049694,
+        "observe": 0.0017977049574255943,
+        "retrieve": 0.0025260066613554955,
+        "evict": 0.025772192049771547,
+        "feedback": 0.0010126982815563679
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 140112,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 286,
+        "rejected_writes": 37,
+        "accepted_writes": 346,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 170827,
+      "resident_items_graph_bytes": 37184,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 117253
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.13105180207639933,
+      "timing_seconds": {
+        "update_state": 0.09929780382663012,
+        "observe": 0.0018319948576390743,
+        "retrieve": 0.0026765093207359314,
+        "evict": 0.026271294802427292,
+        "feedback": 0.0009741992689669132
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 140112,
+        "coefficient_calls": 2344,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 286,
+        "rejected_writes": 37,
+        "accepted_writes": 346,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 171892,
+      "resident_items_graph_bytes": 37184,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 117253
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.0412967256270349,
+      "timing_seconds": {
+        "update_state": 0.016181199811398983,
+        "observe": 0.0014212150126695633,
+        "retrieve": 0.0023058010265231133,
+        "evict": 0.02063580835238099,
+        "feedback": 0.000752701424062252
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20930,
+        "overflow_opportunities": 322,
+        "resident_evictions": 322,
+        "rejected_writes": 0,
+        "accepted_writes": 382,
+        "duplicate_refreshes": 398
+      },
+      "policy_object_graph_bytes": 177362,
+      "resident_items_graph_bytes": 31050,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131396
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.04352390067651868,
+      "timing_seconds": {
+        "update_state": 0.016645783092826605,
+        "observe": 0.0015058084391057491,
+        "retrieve": 0.0024120002053678036,
+        "evict": 0.022225105669349432,
+        "feedback": 0.0007352032698690891
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21190,
+        "overflow_opportunities": 326,
+        "resident_evictions": 50,
+        "rejected_writes": 276,
+        "accepted_writes": 110,
+        "duplicate_refreshes": 394
+      },
+      "policy_object_graph_bytes": 78916,
+      "resident_items_graph_bytes": 31515,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 22081
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.03962320787832141,
+      "timing_seconds": {
+        "update_state": 0.016345607582479715,
+        "observe": 0.0014266096986830235,
+        "retrieve": 0.0023390967398881912,
+        "evict": 0.01879139430820942,
+        "feedback": 0.00072049954906106
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20930,
+        "overflow_opportunities": 322,
+        "resident_evictions": 322,
+        "rejected_writes": 0,
+        "accepted_writes": 382,
+        "duplicate_refreshes": 398
+      },
+      "policy_object_graph_bytes": 177427,
+      "resident_items_graph_bytes": 31071,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131396
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.056248997803777456,
+      "timing_seconds": {
+        "update_state": 0.02933030342683196,
+        "observe": 0.0015623979270458221,
+        "retrieve": 0.0025602071546018124,
+        "evict": 0.022019900381565094,
+        "feedback": 0.0007761889137327671
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17875,
+        "overflow_opportunities": 275,
+        "resident_evictions": 104,
+        "rejected_writes": 171,
+        "accepted_writes": 164,
+        "duplicate_refreshes": 445
+      },
+      "policy_object_graph_bytes": 102152,
+      "resident_items_graph_bytes": 33251,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 44398
+    },
+    {
+      "repeat": 0,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.058376607950776815,
+      "timing_seconds": {
+        "update_state": 0.01675561349838972,
+        "observe": 0.0014645000919699669,
+        "retrieve": 0.002451798412948847,
+        "evict": 0.03697430109605193,
+        "feedback": 0.0007303948514163494
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21060,
+        "overflow_opportunities": 324,
+        "resident_evictions": 226,
+        "rejected_writes": 98,
+        "accepted_writes": 286,
+        "duplicate_refreshes": 396
+      },
+      "policy_object_graph_bytes": 143513,
+      "resident_items_graph_bytes": 31105,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 93230
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.01671041175723076,
+      "timing_seconds": {
+        "update_state": 0.007397001143544912,
+        "observe": 0.0013358024880290031,
+        "retrieve": 0.000995404552668333,
+        "evict": 0.006281397771090269,
+        "feedback": 0.000700805801898241
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 5103,
+        "overflow_opportunities": 567,
+        "resident_evictions": 7,
+        "rejected_writes": 560,
+        "accepted_writes": 11,
+        "duplicate_refreshes": 209
+      },
+      "policy_object_graph_bytes": 23199,
+      "resident_items_graph_bytes": 4728,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 3477
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.01724368892610073,
+      "timing_seconds": {
+        "update_state": 0.0072949957102537155,
+        "observe": 0.001344596967101097,
+        "retrieve": 0.0009138020686805248,
+        "evict": 0.006995791103690863,
+        "feedback": 0.0006945030763745308
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6462,
+        "overflow_opportunities": 718,
+        "resident_evictions": 718,
+        "rejected_writes": 0,
+        "accepted_writes": 722,
+        "duplicate_refreshes": 58
+      },
+      "policy_object_graph_bytes": 304673,
+      "resident_items_graph_bytes": 4614,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 288911
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.02960931695997715,
+      "timing_seconds": {
+        "update_state": 0.01946029346436262,
+        "observe": 0.0014930120669305325,
+        "retrieve": 0.0011794096790254116,
+        "evict": 0.006730296649038792,
+        "feedback": 0.0007463051006197929
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4419,
+        "overflow_opportunities": 491,
+        "resident_evictions": 32,
+        "rejected_writes": 459,
+        "accepted_writes": 36,
+        "duplicate_refreshes": 285
+      },
+      "policy_object_graph_bytes": 34131,
+      "resident_items_graph_bytes": 5122,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 13706
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.020467087626457214,
+      "timing_seconds": {
+        "update_state": 0.007533284369856119,
+        "observe": 0.001367202028632164,
+        "retrieve": 0.0010475912131369114,
+        "evict": 0.009785507339984179,
+        "feedback": 0.0007335026748478413
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4500,
+        "overflow_opportunities": 500,
+        "resident_evictions": 23,
+        "rejected_writes": 477,
+        "accepted_writes": 27,
+        "duplicate_refreshes": 276
+      },
+      "policy_object_graph_bytes": 29677,
+      "resident_items_graph_bytes": 4742,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10140
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.028212409000843763,
+      "timing_seconds": {
+        "update_state": 0.017893798649311066,
+        "observe": 0.0015130946412682533,
+        "retrieve": 0.00113230524584651,
+        "evict": 0.00680170301347971,
+        "feedback": 0.0008715074509382248
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 0,
+        "score_evaluations": 4203,
+        "overflow_opportunities": 467,
+        "resident_evictions": 24,
+        "rejected_writes": 443,
+        "accepted_writes": 28,
+        "duplicate_refreshes": 309
+      },
+      "policy_object_graph_bytes": 30515,
+      "resident_items_graph_bytes": 5522,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10590
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.0404919795691967,
+      "timing_seconds": {
+        "update_state": 0.030200302600860596,
+        "observe": 0.0016064937226474285,
+        "retrieve": 0.0012808009050786495,
+        "evict": 0.006472088862210512,
+        "feedback": 0.0009322934783995152
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 2344,
+        "score_evaluations": 3951,
+        "overflow_opportunities": 439,
+        "resident_evictions": 25,
+        "rejected_writes": 414,
+        "accepted_writes": 29,
+        "duplicate_refreshes": 337
+      },
+      "policy_object_graph_bytes": 31975,
+      "resident_items_graph_bytes": 5499,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10989
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.01863829093053937,
+      "timing_seconds": {
+        "update_state": 0.007464093156158924,
+        "observe": 0.0014107977040112019,
+        "retrieve": 0.0009419023990631104,
+        "evict": 0.008097104262560606,
+        "feedback": 0.0007243934087455273
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6723,
+        "overflow_opportunities": 747,
+        "resident_evictions": 747,
+        "rejected_writes": 0,
+        "accepted_writes": 751,
+        "duplicate_refreshes": 29
+      },
+      "policy_object_graph_bytes": 315956,
+      "resident_items_graph_bytes": 4563,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 300306
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.039110485929995775,
+      "timing_seconds": {
+        "update_state": 0.016307804733514786,
+        "observe": 0.0013820985332131386,
+        "retrieve": 0.00228898786008358,
+        "evict": 0.01842489093542099,
+        "feedback": 0.0007067038677632809
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 318,
+        "rejected_writes": 0,
+        "accepted_writes": 378,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 175966,
+      "resident_items_graph_bytes": 30972,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 129810
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.0562649006024003,
+      "timing_seconds": {
+        "update_state": 0.029442098457366228,
+        "observe": 0.0015584984794259071,
+        "retrieve": 0.0025605023838579655,
+        "evict": 0.021931497380137444,
+        "feedback": 0.0007723039016127586
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17810,
+        "overflow_opportunities": 274,
+        "resident_evictions": 96,
+        "rejected_writes": 178,
+        "accepted_writes": 156,
+        "duplicate_refreshes": 446
+      },
+      "policy_object_graph_bytes": 99616,
+      "resident_items_graph_bytes": 33181,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 41301
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.05839228630065918,
+      "timing_seconds": {
+        "update_state": 0.016688994131982327,
+        "observe": 0.0014529996551573277,
+        "retrieve": 0.002443397883325815,
+        "evict": 0.03707539429888129,
+        "feedback": 0.000731500331312418
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 235,
+        "rejected_writes": 93,
+        "accepted_writes": 295,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 146718,
+      "resident_items_graph_bytes": 31120,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 96885
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.11472911667078733,
+      "timing_seconds": {
+        "update_state": 0.08342561032623053,
+        "observe": 0.0016897008754312992,
+        "retrieve": 0.0025674006901681423,
+        "evict": 0.02610499318689108,
+        "feedback": 0.000941411592066288
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139719,
+        "coefficient_calls": 0,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 277,
+        "rejected_writes": 51,
+        "accepted_writes": 337,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 167771,
+      "resident_items_graph_bytes": 37182,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 113832
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.13046999974176288,
+      "timing_seconds": {
+        "update_state": 0.09850740246474743,
+        "observe": 0.001796194352209568,
+        "retrieve": 0.00264009740203619,
+        "evict": 0.026550105772912502,
+        "feedback": 0.0009761997498571873
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139719,
+        "coefficient_calls": 2344,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 277,
+        "rejected_writes": 51,
+        "accepted_writes": 337,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 168836,
+      "resident_items_graph_bytes": 37182,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 113832
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.040954976342618465,
+      "timing_seconds": {
+        "update_state": 0.016162488609552383,
+        "observe": 0.0014067944139242172,
+        "retrieve": 0.0023384029045701027,
+        "evict": 0.02033159462735057,
+        "feedback": 0.0007156957872211933
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 318,
+        "rejected_writes": 0,
+        "accepted_writes": 378,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 175922,
+      "resident_items_graph_bytes": 30972,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 129810
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.0425124978646636,
+      "timing_seconds": {
+        "update_state": 0.016693605575710535,
+        "observe": 0.001507094595581293,
+        "retrieve": 0.0024526026099920273,
+        "evict": 0.02109819557517767,
+        "feedback": 0.000760999508202076
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 19955,
+        "overflow_opportunities": 307,
+        "resident_evictions": 59,
+        "rejected_writes": 248,
+        "accepted_writes": 119,
+        "duplicate_refreshes": 413
+      },
+      "policy_object_graph_bytes": 82012,
+      "resident_items_graph_bytes": 31626,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 26020
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.02923018392175436,
+      "timing_seconds": {
+        "update_state": 0.019339988939464092,
+        "observe": 0.001484097447246313,
+        "retrieve": 0.00118199922144413,
+        "evict": 0.006475794594734907,
+        "feedback": 0.0007483037188649178
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4176,
+        "overflow_opportunities": 464,
+        "resident_evictions": 35,
+        "rejected_writes": 429,
+        "accepted_writes": 39,
+        "duplicate_refreshes": 312
+      },
+      "policy_object_graph_bytes": 35179,
+      "resident_items_graph_bytes": 5019,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 14905
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.020097089000046253,
+      "timing_seconds": {
+        "update_state": 0.007389483042061329,
+        "observe": 0.0013218033127486706,
+        "retrieve": 0.0009821970015764236,
+        "evict": 0.009673705324530602,
+        "feedback": 0.0007299003191292286
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4536,
+        "overflow_opportunities": 504,
+        "resident_evictions": 20,
+        "rejected_writes": 484,
+        "accepted_writes": 24,
+        "duplicate_refreshes": 272
+      },
+      "policy_object_graph_bytes": 28470,
+      "resident_items_graph_bytes": 4725,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 8903
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.29607880068942904,
+      "timing_seconds": {
+        "update_state": 0.017978501971811056,
+        "observe": 0.001550290733575821,
+        "retrieve": 0.0011432045139372349,
+        "evict": 0.27453140262514353,
+        "feedback": 0.0008754008449614048
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 0,
+        "score_evaluations": 4149,
+        "overflow_opportunities": 461,
+        "resident_evictions": 30,
+        "rejected_writes": 431,
+        "accepted_writes": 34,
+        "duplicate_refreshes": 315
+      },
+      "policy_object_graph_bytes": 32826,
+      "resident_items_graph_bytes": 5498,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 13120
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.04043817846104503,
+      "timing_seconds": {
+        "update_state": 0.030011388938874006,
+        "observe": 0.001651193480938673,
+        "retrieve": 0.0012225951068103313,
+        "evict": 0.006634596735239029,
+        "feedback": 0.0009184041991829872
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4059,
+        "overflow_opportunities": 451,
+        "resident_evictions": 23,
+        "rejected_writes": 428,
+        "accepted_writes": 27,
+        "duplicate_refreshes": 325
+      },
+      "policy_object_graph_bytes": 31139,
+      "resident_items_graph_bytes": 5557,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10192
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.018271793611347675,
+      "timing_seconds": {
+        "update_state": 0.0074151926673948765,
+        "observe": 0.00136169558390975,
+        "retrieve": 0.000922102015465498,
+        "evict": 0.007878202013671398,
+        "feedback": 0.0006946013309061527
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6714,
+        "overflow_opportunities": 746,
+        "resident_evictions": 746,
+        "rejected_writes": 0,
+        "accepted_writes": 750,
+        "duplicate_refreshes": 30
+      },
+      "policy_object_graph_bytes": 315671,
+      "resident_items_graph_bytes": 4576,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 300014
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.01704471744596958,
+      "timing_seconds": {
+        "update_state": 0.007561920676380396,
+        "observe": 0.0013939044438302517,
+        "retrieve": 0.0010548005811870098,
+        "evict": 0.006316197570413351,
+        "feedback": 0.0007178941741585732
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4878,
+        "overflow_opportunities": 542,
+        "resident_evictions": 6,
+        "rejected_writes": 536,
+        "accepted_writes": 10,
+        "duplicate_refreshes": 234
+      },
+      "policy_object_graph_bytes": 22831,
+      "resident_items_graph_bytes": 4757,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 3081
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.017276098020374775,
+      "timing_seconds": {
+        "update_state": 0.0073362067341804504,
+        "observe": 0.0013666944578289986,
+        "retrieve": 0.0009351875633001328,
+        "evict": 0.0069069042801856995,
+        "feedback": 0.0007311049848794937
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6291,
+        "overflow_opportunities": 699,
+        "resident_evictions": 699,
+        "rejected_writes": 0,
+        "accepted_writes": 703,
+        "duplicate_refreshes": 77
+      },
+      "policy_object_graph_bytes": 297265,
+      "resident_items_graph_bytes": 4601,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 281522
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.056577617302536964,
+      "timing_seconds": {
+        "update_state": 0.01661301078274846,
+        "observe": 0.001418404746800661,
+        "retrieve": 0.002431109081953764,
+        "evict": 0.03538739448413253,
+        "feedback": 0.0007276982069015503
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20410,
+        "overflow_opportunities": 314,
+        "resident_evictions": 222,
+        "rejected_writes": 92,
+        "accepted_writes": 282,
+        "duplicate_refreshes": 406
+      },
+      "policy_object_graph_bytes": 141988,
+      "resident_items_graph_bytes": 31110,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 91765
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.11280708434060216,
+      "timing_seconds": {
+        "update_state": 0.08262429013848305,
+        "observe": 0.0016199029050767422,
+        "retrieve": 0.002482994459569454,
+        "evict": 0.02518089907243848,
+        "feedback": 0.0008989977650344372
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139878,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 274,
+        "rejected_writes": 44,
+        "accepted_writes": 334,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 166681,
+      "resident_items_graph_bytes": 37187,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 112511
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.128425904083997,
+      "timing_seconds": {
+        "update_state": 0.09772721258923411,
+        "observe": 0.001735398080199957,
+        "retrieve": 0.0025874031707644463,
+        "evict": 0.02540729194879532,
+        "feedback": 0.0009685982950031757
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139878,
+        "coefficient_calls": 2344,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 274,
+        "rejected_writes": 44,
+        "accepted_writes": 334,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 167746,
+      "resident_items_graph_bytes": 37187,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 112511
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.04280000226572156,
+      "timing_seconds": {
+        "update_state": 0.016779099591076374,
+        "observe": 0.0015597091987729073,
+        "retrieve": 0.002413992304354906,
+        "evict": 0.021277406252920628,
+        "feedback": 0.0007697949185967445
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 323,
+        "rejected_writes": 0,
+        "accepted_writes": 383,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 177752,
+      "resident_items_graph_bytes": 31049,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131789
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.04019430931657553,
+      "timing_seconds": {
+        "update_state": 0.016347311437129974,
+        "observe": 0.0013745040632784367,
+        "retrieve": 0.002369494643062353,
+        "evict": 0.019398093689233065,
+        "feedback": 0.0007049054838716984
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 18785,
+        "overflow_opportunities": 289,
+        "resident_evictions": 61,
+        "rejected_writes": 228,
+        "accepted_writes": 121,
+        "duplicate_refreshes": 431
+      },
+      "policy_object_graph_bytes": 82762,
+      "resident_items_graph_bytes": 31517,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 26645
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.039427085779607296,
+      "timing_seconds": {
+        "update_state": 0.016299106180667877,
+        "observe": 0.0013797003775835037,
+        "retrieve": 0.0023032906465232372,
+        "evict": 0.018734695855528116,
+        "feedback": 0.0007102927193045616
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 323,
+        "rejected_writes": 0,
+        "accepted_writes": 383,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 177796,
+      "resident_items_graph_bytes": 31049,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131789
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.05680701741948724,
+      "timing_seconds": {
+        "update_state": 0.0297777084633708,
+        "observe": 0.0015784045681357384,
+        "retrieve": 0.0025550033897161484,
+        "evict": 0.022113008424639702,
+        "feedback": 0.0007828925736248493
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17875,
+        "overflow_opportunities": 275,
+        "resident_evictions": 104,
+        "rejected_writes": 171,
+        "accepted_writes": 164,
+        "duplicate_refreshes": 445
+      },
+      "policy_object_graph_bytes": 102233,
+      "resident_items_graph_bytes": 33140,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 44157
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.0277511035092175,
+      "timing_seconds": {
+        "update_state": 0.017727713100612164,
+        "observe": 0.0015314952470362186,
+        "retrieve": 0.0011826977133750916,
+        "evict": 0.006419304292649031,
+        "feedback": 0.0008898931555449963
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18705,
+        "coefficient_calls": 0,
+        "score_evaluations": 4059,
+        "overflow_opportunities": 451,
+        "resident_evictions": 27,
+        "rejected_writes": 424,
+        "accepted_writes": 31,
+        "duplicate_refreshes": 325
+      },
+      "policy_object_graph_bytes": 31921,
+      "resident_items_graph_bytes": 5530,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 11885
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.040783625561743975,
+      "timing_seconds": {
+        "update_state": 0.030689908657222986,
+        "observe": 0.0015655038878321648,
+        "retrieve": 0.001250209752470255,
+        "evict": 0.0063524022698402405,
+        "feedback": 0.0009256009943783283
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18705,
+        "coefficient_calls": 2344,
+        "score_evaluations": 3996,
+        "overflow_opportunities": 444,
+        "resident_evictions": 24,
+        "rejected_writes": 420,
+        "accepted_writes": 28,
+        "duplicate_refreshes": 332
+      },
+      "policy_object_graph_bytes": 31655,
+      "resident_items_graph_bytes": 5529,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 10529
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.018079489935189486,
+      "timing_seconds": {
+        "update_state": 0.007154999300837517,
+        "observe": 0.0013806968927383423,
+        "retrieve": 0.0009222975932061672,
+        "evict": 0.007920196279883385,
+        "feedback": 0.0007012998685240746
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6687,
+        "overflow_opportunities": 743,
+        "resident_evictions": 743,
+        "rejected_writes": 0,
+        "accepted_writes": 747,
+        "duplicate_refreshes": 33
+      },
+      "policy_object_graph_bytes": 314443,
+      "resident_items_graph_bytes": 4576,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 298759
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.016340128146111965,
+      "timing_seconds": {
+        "update_state": 0.007022013887763023,
+        "observe": 0.0013033919967710972,
+        "retrieve": 0.0009461091831326485,
+        "evict": 0.006391504779458046,
+        "feedback": 0.0006771082989871502
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 5346,
+        "overflow_opportunities": 594,
+        "resident_evictions": 4,
+        "rejected_writes": 590,
+        "accepted_writes": 8,
+        "duplicate_refreshes": 182
+      },
+      "policy_object_graph_bytes": 22216,
+      "resident_items_graph_bytes": 4777,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 2209
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.01729449024423957,
+      "timing_seconds": {
+        "update_state": 0.007231888361275196,
+        "observe": 0.001381395384669304,
+        "retrieve": 0.0009240028448402882,
+        "evict": 0.0070484960451722145,
+        "feedback": 0.0007087076082825661
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6453,
+        "overflow_opportunities": 717,
+        "resident_evictions": 717,
+        "rejected_writes": 0,
+        "accepted_writes": 721,
+        "duplicate_refreshes": 59
+      },
+      "policy_object_graph_bytes": 304333,
+      "resident_items_graph_bytes": 4630,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 288534
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.030690704472362995,
+      "timing_seconds": {
+        "update_state": 0.020215695723891258,
+        "observe": 0.0015885969623923302,
+        "retrieve": 0.0012316983193159103,
+        "evict": 0.0068639046512544155,
+        "feedback": 0.0007908088155090809
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4248,
+        "overflow_opportunities": 472,
+        "resident_evictions": 32,
+        "rejected_writes": 440,
+        "accepted_writes": 36,
+        "duplicate_refreshes": 304
+      },
+      "policy_object_graph_bytes": 34146,
+      "resident_items_graph_bytes": 5148,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 13714
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.019972211215645075,
+      "timing_seconds": {
+        "update_state": 0.0073493910022079945,
+        "observe": 0.0013576028868556023,
+        "retrieve": 0.0010143090039491653,
+        "evict": 0.009523405227810144,
+        "feedback": 0.0007275030948221684
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4410,
+        "overflow_opportunities": 490,
+        "resident_evictions": 21,
+        "rejected_writes": 469,
+        "accepted_writes": 25,
+        "duplicate_refreshes": 286
+      },
+      "policy_object_graph_bytes": 28949,
+      "resident_items_graph_bytes": 4723,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 9299
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.12853582249954343,
+      "timing_seconds": {
+        "update_state": 0.09732680022716522,
+        "observe": 0.0017296094447374344,
+        "retrieve": 0.0026118033565580845,
+        "evict": 0.02589490683749318,
+        "feedback": 0.0009727026335895061
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 140112,
+        "coefficient_calls": 2344,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 286,
+        "rejected_writes": 37,
+        "accepted_writes": 346,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 171892,
+      "resident_items_graph_bytes": 37184,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 117253
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.04123545438051224,
+      "timing_seconds": {
+        "update_state": 0.016173868905752897,
+        "observe": 0.0014248979277908802,
+        "retrieve": 0.002287595998495817,
+        "evict": 0.020632893312722445,
+        "feedback": 0.0007161982357501984
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20930,
+        "overflow_opportunities": 322,
+        "resident_evictions": 322,
+        "rejected_writes": 0,
+        "accepted_writes": 382,
+        "duplicate_refreshes": 398
+      },
+      "policy_object_graph_bytes": 177362,
+      "resident_items_graph_bytes": 31050,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131396
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.04244308266788721,
+      "timing_seconds": {
+        "update_state": 0.016057191416621208,
+        "observe": 0.0013866000808775425,
+        "retrieve": 0.002324396278709173,
+        "evict": 0.02196059376001358,
+        "feedback": 0.0007143011316657066
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21190,
+        "overflow_opportunities": 326,
+        "resident_evictions": 50,
+        "rejected_writes": 276,
+        "accepted_writes": 110,
+        "duplicate_refreshes": 394
+      },
+      "policy_object_graph_bytes": 78916,
+      "resident_items_graph_bytes": 31515,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 22081
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.03915591584518552,
+      "timing_seconds": {
+        "update_state": 0.016055105719715357,
+        "observe": 0.0013988027349114418,
+        "retrieve": 0.0023161983117461205,
+        "evict": 0.01868230476975441,
+        "feedback": 0.0007035043090581894
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20930,
+        "overflow_opportunities": 322,
+        "resident_evictions": 322,
+        "rejected_writes": 0,
+        "accepted_writes": 382,
+        "duplicate_refreshes": 398
+      },
+      "policy_object_graph_bytes": 177427,
+      "resident_items_graph_bytes": 31071,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131396
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.05618669558316469,
+      "timing_seconds": {
+        "update_state": 0.02922509890049696,
+        "observe": 0.0015443023294210434,
+        "retrieve": 0.0025275936350226402,
+        "evict": 0.022119899280369282,
+        "feedback": 0.0007698014378547668
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17875,
+        "overflow_opportunities": 275,
+        "resident_evictions": 104,
+        "rejected_writes": 171,
+        "accepted_writes": 164,
+        "duplicate_refreshes": 445
+      },
+      "policy_object_graph_bytes": 102152,
+      "resident_items_graph_bytes": 33251,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 44398
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.058022990357130766,
+      "timing_seconds": {
+        "update_state": 0.01659040478989482,
+        "observe": 0.0014500967226922512,
+        "retrieve": 0.0024626036174595356,
+        "evict": 0.03677299479022622,
+        "feedback": 0.0007468904368579388
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21060,
+        "overflow_opportunities": 324,
+        "resident_evictions": 226,
+        "rejected_writes": 98,
+        "accepted_writes": 286,
+        "duplicate_refreshes": 396
+      },
+      "policy_object_graph_bytes": 143513,
+      "resident_items_graph_bytes": 31105,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 93230
+    },
+    {
+      "repeat": 1,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.11880197236314416,
+      "timing_seconds": {
+        "update_state": 0.08670838223770261,
+        "observe": 0.002002793364226818,
+        "retrieve": 0.0027617011219263077,
+        "evict": 0.026383897755295038,
+        "feedback": 0.0009451978839933872
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 140112,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 286,
+        "rejected_writes": 37,
+        "accepted_writes": 346,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 170827,
+      "resident_items_graph_bytes": 37184,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 117253
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.01821567676961422,
+      "timing_seconds": {
+        "update_state": 0.007669679820537567,
+        "observe": 0.0014240927994251251,
+        "retrieve": 0.001022391952574253,
+        "evict": 0.0073722051456570625,
+        "feedback": 0.0007273070514202118
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6462,
+        "overflow_opportunities": 718,
+        "resident_evictions": 718,
+        "rejected_writes": 0,
+        "accepted_writes": 722,
+        "duplicate_refreshes": 58
+      },
+      "policy_object_graph_bytes": 304673,
+      "resident_items_graph_bytes": 4614,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 288911
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.029873196966946125,
+      "timing_seconds": {
+        "update_state": 0.01951119815930724,
+        "observe": 0.0015250942669808865,
+        "retrieve": 0.001178503967821598,
+        "evict": 0.0068962047807872295,
+        "feedback": 0.0007621957920491695
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4419,
+        "overflow_opportunities": 491,
+        "resident_evictions": 32,
+        "rejected_writes": 459,
+        "accepted_writes": 36,
+        "duplicate_refreshes": 285
+      },
+      "policy_object_graph_bytes": 34131,
+      "resident_items_graph_bytes": 5122,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 13706
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.020378186833113432,
+      "timing_seconds": {
+        "update_state": 0.007527495268732309,
+        "observe": 0.0013443958014249802,
+        "retrieve": 0.0010489048436284065,
+        "evict": 0.009730995632708073,
+        "feedback": 0.0007263952866196632
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4500,
+        "overflow_opportunities": 500,
+        "resident_evictions": 23,
+        "rejected_writes": 477,
+        "accepted_writes": 27,
+        "duplicate_refreshes": 276
+      },
+      "policy_object_graph_bytes": 29677,
+      "resident_items_graph_bytes": 4742,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10140
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.0295352041721344,
+      "timing_seconds": {
+        "update_state": 0.018974503967911005,
+        "observe": 0.001492595300078392,
+        "retrieve": 0.001135504338890314,
+        "evict": 0.0070389010943472385,
+        "feedback": 0.0008936994709074497
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 0,
+        "score_evaluations": 4203,
+        "overflow_opportunities": 467,
+        "resident_evictions": 24,
+        "rejected_writes": 443,
+        "accepted_writes": 28,
+        "duplicate_refreshes": 309
+      },
+      "policy_object_graph_bytes": 30515,
+      "resident_items_graph_bytes": 5522,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10590
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.0413882895372808,
+      "timing_seconds": {
+        "update_state": 0.0309433089569211,
+        "observe": 0.0016208007000386715,
+        "retrieve": 0.001305596437305212,
+        "evict": 0.0065747895278036594,
+        "feedback": 0.0009437939152121544
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 2344,
+        "score_evaluations": 3951,
+        "overflow_opportunities": 439,
+        "resident_evictions": 25,
+        "rejected_writes": 414,
+        "accepted_writes": 29,
+        "duplicate_refreshes": 337
+      },
+      "policy_object_graph_bytes": 31975,
+      "resident_items_graph_bytes": 5499,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10989
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.020416692830622196,
+      "timing_seconds": {
+        "update_state": 0.008210903964936733,
+        "observe": 0.0016286005266010761,
+        "retrieve": 0.0010681911371648312,
+        "evict": 0.008738402742892504,
+        "feedback": 0.0007705944590270519
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6723,
+        "overflow_opportunities": 747,
+        "resident_evictions": 747,
+        "rejected_writes": 0,
+        "accepted_writes": 751,
+        "duplicate_refreshes": 29
+      },
+      "policy_object_graph_bytes": 315956,
+      "resident_items_graph_bytes": 4563,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 300306
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.016471801325678825,
+      "timing_seconds": {
+        "update_state": 0.0072863963432610035,
+        "observe": 0.001313596498221159,
+        "retrieve": 0.0010004080832004547,
+        "evict": 0.006173895671963692,
+        "feedback": 0.0006975047290325165
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 5103,
+        "overflow_opportunities": 567,
+        "resident_evictions": 7,
+        "rejected_writes": 560,
+        "accepted_writes": 11,
+        "duplicate_refreshes": 209
+      },
+      "policy_object_graph_bytes": 23199,
+      "resident_items_graph_bytes": 4728,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 3477
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.05630841152742505,
+      "timing_seconds": {
+        "update_state": 0.02944852178916335,
+        "observe": 0.0015308009460568428,
+        "retrieve": 0.0025590951554477215,
+        "evict": 0.022009704262018204,
+        "feedback": 0.0007602893747389317
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17810,
+        "overflow_opportunities": 274,
+        "resident_evictions": 96,
+        "rejected_writes": 178,
+        "accepted_writes": 156,
+        "duplicate_refreshes": 446
+      },
+      "policy_object_graph_bytes": 99616,
+      "resident_items_graph_bytes": 33181,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 41301
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.058728008065372705,
+      "timing_seconds": {
+        "update_state": 0.016836810391396284,
+        "observe": 0.0014309938997030258,
+        "retrieve": 0.0024543064646422863,
+        "evict": 0.0372856012545526,
+        "feedback": 0.0007202960550785065
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 235,
+        "rejected_writes": 93,
+        "accepted_writes": 295,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 146718,
+      "resident_items_graph_bytes": 31120,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 96885
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.1223635864444077,
+      "timing_seconds": {
+        "update_state": 0.08889230201020837,
+        "observe": 0.0018971948884427547,
+        "retrieve": 0.0027417996898293495,
+        "evict": 0.027797994203865528,
+        "feedback": 0.0010342956520617008
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139719,
+        "coefficient_calls": 0,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 277,
+        "rejected_writes": 51,
+        "accepted_writes": 337,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 167771,
+      "resident_items_graph_bytes": 37182,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 113832
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.13542021485045552,
+      "timing_seconds": {
+        "update_state": 0.10230130748823285,
+        "observe": 0.0019018999300897121,
+        "retrieve": 0.0027805990539491177,
+        "evict": 0.027408204972743988,
+        "feedback": 0.0010282034054398537
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139719,
+        "coefficient_calls": 2344,
+        "score_evaluations": 21320,
+        "overflow_opportunities": 328,
+        "resident_evictions": 277,
+        "rejected_writes": 51,
+        "accepted_writes": 337,
+        "duplicate_refreshes": 392
+      },
+      "policy_object_graph_bytes": 168836,
+      "resident_items_graph_bytes": 37182,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 113832
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.04137248732149601,
+      "timing_seconds": {
+        "update_state": 0.016202493105083704,
+        "observe": 0.0014187023043632507,
+        "retrieve": 0.002318508457392454,
+        "evict": 0.020726595539599657,
+        "feedback": 0.0007061879150569439
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 318,
+        "rejected_writes": 0,
+        "accepted_writes": 378,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 175922,
+      "resident_items_graph_bytes": 30972,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 129810
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.0411211964674294,
+      "timing_seconds": {
+        "update_state": 0.016345597337931395,
+        "observe": 0.0013971040025353432,
+        "retrieve": 0.0023633954115211964,
+        "evict": 0.02029630308970809,
+        "feedback": 0.0007187966257333755
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 19955,
+        "overflow_opportunities": 307,
+        "resident_evictions": 59,
+        "rejected_writes": 248,
+        "accepted_writes": 119,
+        "duplicate_refreshes": 413
+      },
+      "policy_object_graph_bytes": 82012,
+      "resident_items_graph_bytes": 31626,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 26020
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82100,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.039403490256518126,
+      "timing_seconds": {
+        "update_state": 0.01637019868940115,
+        "observe": 0.0014220969751477242,
+        "retrieve": 0.002355201169848442,
+        "evict": 0.01853699656203389,
+        "feedback": 0.0007189968600869179
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 318,
+        "rejected_writes": 0,
+        "accepted_writes": 378,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 175966,
+      "resident_items_graph_bytes": 30972,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 129810
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.02039300464093685,
+      "timing_seconds": {
+        "update_state": 0.007509103510528803,
+        "observe": 0.0013496950268745422,
+        "retrieve": 0.0010001016780734062,
+        "evict": 0.009806202724575996,
+        "feedback": 0.0007279017008841038
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4536,
+        "overflow_opportunities": 504,
+        "resident_evictions": 20,
+        "rejected_writes": 484,
+        "accepted_writes": 24,
+        "duplicate_refreshes": 272
+      },
+      "policy_object_graph_bytes": 28470,
+      "resident_items_graph_bytes": 4725,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 8903
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.02939800126478076,
+      "timing_seconds": {
+        "update_state": 0.018880104646086693,
+        "observe": 0.0015818006359040737,
+        "retrieve": 0.0011535980738699436,
+        "evict": 0.006906605325639248,
+        "feedback": 0.0008758925832808018
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 0,
+        "score_evaluations": 4149,
+        "overflow_opportunities": 461,
+        "resident_evictions": 30,
+        "rejected_writes": 431,
+        "accepted_writes": 34,
+        "duplicate_refreshes": 315
+      },
+      "policy_object_graph_bytes": 32826,
+      "resident_items_graph_bytes": 5498,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 13120
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.04191121505573392,
+      "timing_seconds": {
+        "update_state": 0.031171919777989388,
+        "observe": 0.001721701119095087,
+        "retrieve": 0.0012581953778862953,
+        "evict": 0.006822704337537289,
+        "feedback": 0.0009366944432258606
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18723,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4059,
+        "overflow_opportunities": 451,
+        "resident_evictions": 23,
+        "rejected_writes": 428,
+        "accepted_writes": 27,
+        "duplicate_refreshes": 325
+      },
+      "policy_object_graph_bytes": 31139,
+      "resident_items_graph_bytes": 5557,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 10192
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.020797308534383774,
+      "timing_seconds": {
+        "update_state": 0.00823140051215887,
+        "observe": 0.0016354070976376534,
+        "retrieve": 0.0010638963431119919,
+        "evict": 0.009059907868504524,
+        "feedback": 0.0008066967129707336
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6714,
+        "overflow_opportunities": 746,
+        "resident_evictions": 746,
+        "rejected_writes": 0,
+        "accepted_writes": 750,
+        "duplicate_refreshes": 30
+      },
+      "policy_object_graph_bytes": 315671,
+      "resident_items_graph_bytes": 4576,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 300014
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.016528481151908636,
+      "timing_seconds": {
+        "update_state": 0.0073801930993795395,
+        "observe": 0.001358495093882084,
+        "retrieve": 0.001013000961393118,
+        "evict": 0.0060786958783864975,
+        "feedback": 0.0006980961188673973
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4878,
+        "overflow_opportunities": 542,
+        "resident_evictions": 6,
+        "rejected_writes": 536,
+        "accepted_writes": 10,
+        "duplicate_refreshes": 234
+      },
+      "policy_object_graph_bytes": 22831,
+      "resident_items_graph_bytes": 4757,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 3081
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.01799200940877199,
+      "timing_seconds": {
+        "update_state": 0.007585413753986359,
+        "observe": 0.0014440002851188183,
+        "retrieve": 0.0010966998524963856,
+        "evict": 0.007149898912757635,
+        "feedback": 0.0007159966044127941
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6291,
+        "overflow_opportunities": 699,
+        "resident_evictions": 699,
+        "rejected_writes": 0,
+        "accepted_writes": 703,
+        "duplicate_refreshes": 77
+      },
+      "policy_object_graph_bytes": 297265,
+      "resident_items_graph_bytes": 4601,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 281522
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.029924814589321613,
+      "timing_seconds": {
+        "update_state": 0.019797205459326506,
+        "observe": 0.0015360917896032333,
+        "retrieve": 0.0012193131260573864,
+        "evict": 0.006621701642870903,
+        "feedback": 0.0007505025714635849
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4176,
+        "overflow_opportunities": 464,
+        "resident_evictions": 35,
+        "rejected_writes": 429,
+        "accepted_writes": 39,
+        "duplicate_refreshes": 312
+      },
+      "policy_object_graph_bytes": 35179,
+      "resident_items_graph_bytes": 5019,
+      "ledger_graph_bytes": 3218,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4626,
+      "retained_lifetime_log_bytes": 14905
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.11790928523987532,
+      "timing_seconds": {
+        "update_state": 0.0865711928345263,
+        "observe": 0.0017086979933083057,
+        "retrieve": 0.0025766040198504925,
+        "evict": 0.026105597615242004,
+        "feedback": 0.0009471927769482136
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139878,
+        "coefficient_calls": 0,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 274,
+        "rejected_writes": 44,
+        "accepted_writes": 334,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 166681,
+      "resident_items_graph_bytes": 37187,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 112511
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.13165929773822427,
+      "timing_seconds": {
+        "update_state": 0.09981728717684746,
+        "observe": 0.0019065034575760365,
+        "retrieve": 0.002656799741089344,
+        "evict": 0.02630770578980446,
+        "feedback": 0.000971001572906971
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 139878,
+        "coefficient_calls": 2344,
+        "score_evaluations": 20670,
+        "overflow_opportunities": 318,
+        "resident_evictions": 274,
+        "rejected_writes": 44,
+        "accepted_writes": 334,
+        "duplicate_refreshes": 402
+      },
+      "policy_object_graph_bytes": 167746,
+      "resident_items_graph_bytes": 37187,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 112511
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.043679500464349985,
+      "timing_seconds": {
+        "update_state": 0.01666229870170355,
+        "observe": 0.0014975997619330883,
+        "retrieve": 0.002409599721431732,
+        "evict": 0.022310901898890734,
+        "feedback": 0.0007991003803908825
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 323,
+        "rejected_writes": 0,
+        "accepted_writes": 383,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 177752,
+      "resident_items_graph_bytes": 31049,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131789
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.04194428725168109,
+      "timing_seconds": {
+        "update_state": 0.017097885254770517,
+        "observe": 0.0015488984063267708,
+        "retrieve": 0.0025524040684103966,
+        "evict": 0.01998100522905588,
+        "feedback": 0.0007640942931175232
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 18785,
+        "overflow_opportunities": 289,
+        "resident_evictions": 61,
+        "rejected_writes": 228,
+        "accepted_writes": 121,
+        "duplicate_refreshes": 431
+      },
+      "policy_object_graph_bytes": 82762,
+      "resident_items_graph_bytes": 31517,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 26645
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.03908850299194455,
+      "timing_seconds": {
+        "update_state": 0.01610580226406455,
+        "observe": 0.0013894978910684586,
+        "retrieve": 0.0022948053665459156,
+        "evict": 0.018594697583466768,
+        "feedback": 0.0007036998867988586
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 323,
+        "rejected_writes": 0,
+        "accepted_writes": 383,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 177796,
+      "resident_items_graph_bytes": 31049,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131789
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.05636359052732587,
+      "timing_seconds": {
+        "update_state": 0.029370502568781376,
+        "observe": 0.0015665958635509014,
+        "retrieve": 0.002571995835751295,
+        "evict": 0.02208979893475771,
+        "feedback": 0.0007646973244845867
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17875,
+        "overflow_opportunities": 275,
+        "resident_evictions": 104,
+        "rejected_writes": 171,
+        "accepted_writes": 164,
+        "duplicate_refreshes": 445
+      },
+      "policy_object_graph_bytes": 102233,
+      "resident_items_graph_bytes": 33140,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 44157
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82101,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.05647149449214339,
+      "timing_seconds": {
+        "update_state": 0.016453184187412262,
+        "observe": 0.0014035115018486977,
+        "retrieve": 0.0023984061554074287,
+        "evict": 0.03550259442999959,
+        "feedback": 0.0007137982174754143
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20410,
+        "overflow_opportunities": 314,
+        "resident_evictions": 222,
+        "rejected_writes": 92,
+        "accepted_writes": 282,
+        "duplicate_refreshes": 406
+      },
+      "policy_object_graph_bytes": 141988,
+      "resident_items_graph_bytes": 31110,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 91765
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.039655504282563925,
+      "timing_seconds": {
+        "update_state": 0.02966520329937339,
+        "observe": 0.0015640947967767715,
+        "retrieve": 0.0012301052920520306,
+        "evict": 0.006265205331146717,
+        "feedback": 0.0009308955632150173
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18705,
+        "coefficient_calls": 2344,
+        "score_evaluations": 3996,
+        "overflow_opportunities": 444,
+        "resident_evictions": 24,
+        "rejected_writes": 420,
+        "accepted_writes": 28,
+        "duplicate_refreshes": 332
+      },
+      "policy_object_graph_bytes": 31655,
+      "resident_items_graph_bytes": 5529,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 10529
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "fixed_decay",
+      "policy_seconds": 0.017795829102396965,
+      "timing_seconds": {
+        "update_state": 0.007072721142321825,
+        "observe": 0.0013444041833281517,
+        "retrieve": 0.0009064082987606525,
+        "evict": 0.007789401803165674,
+        "feedback": 0.0006828936748206615
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6687,
+        "overflow_opportunities": 743,
+        "resident_evictions": 743,
+        "rejected_writes": 0,
+        "accepted_writes": 747,
+        "duplicate_refreshes": 33
+      },
+      "policy_object_graph_bytes": 314443,
+      "resident_items_graph_bytes": 4576,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 298759
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "frequency",
+      "policy_seconds": 0.016199312172830105,
+      "timing_seconds": {
+        "update_state": 0.0070131937973201275,
+        "observe": 0.0012885048054158688,
+        "retrieve": 0.0009485986083745956,
+        "evict": 0.006258805748075247,
+        "feedback": 0.0006902092136442661
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 5346,
+        "overflow_opportunities": 594,
+        "resident_evictions": 4,
+        "rejected_writes": 590,
+        "accepted_writes": 8,
+        "duplicate_refreshes": 182
+      },
+      "policy_object_graph_bytes": 22216,
+      "resident_items_graph_bytes": 4777,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 2209
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "lru",
+      "policy_seconds": 0.016812221612781286,
+      "timing_seconds": {
+        "update_state": 0.007013913709670305,
+        "observe": 0.0013361009769141674,
+        "retrieve": 0.0008876952342689037,
+        "evict": 0.006890411023050547,
+        "feedback": 0.0006841006688773632
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 6453,
+        "overflow_opportunities": 717,
+        "resident_evictions": 717,
+        "rejected_writes": 0,
+        "accepted_writes": 721,
+        "duplicate_refreshes": 59
+      },
+      "policy_object_graph_bytes": 304333,
+      "resident_items_graph_bytes": 4630,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 288534
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.0290396879427135,
+      "timing_seconds": {
+        "update_state": 0.019162402022629976,
+        "observe": 0.0014681965112686157,
+        "retrieve": 0.0011449926532804966,
+        "evict": 0.0065159061923623085,
+        "feedback": 0.000748190563172102
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 4248,
+        "overflow_opportunities": 472,
+        "resident_evictions": 32,
+        "rejected_writes": 440,
+        "accepted_writes": 36,
+        "duplicate_refreshes": 304
+      },
+      "policy_object_graph_bytes": 34146,
+      "resident_items_graph_bytes": 5148,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 13714
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "replacement_matched",
+      "policy_seconds": 0.020029431208968163,
+      "timing_seconds": {
+        "update_state": 0.0073441145941615105,
+        "observe": 0.0013171061873435974,
+        "retrieve": 0.000998600386083126,
+        "evict": 0.009646904654800892,
+        "feedback": 0.0007227053865790367
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 4410,
+        "overflow_opportunities": 490,
+        "resident_evictions": 21,
+        "rejected_writes": 469,
+        "accepted_writes": 25,
+        "duplicate_refreshes": 286
+      },
+      "policy_object_graph_bytes": 28949,
+      "resident_items_graph_bytes": 4723,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 9299
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 8,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.028203610330820084,
+      "timing_seconds": {
+        "update_state": 0.018363815266638994,
+        "observe": 0.001504894345998764,
+        "retrieve": 0.0011512991040945053,
+        "evict": 0.006315798033028841,
+        "feedback": 0.000867803581058979
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 18705,
+        "coefficient_calls": 0,
+        "score_evaluations": 4059,
+        "overflow_opportunities": 451,
+        "resident_evictions": 27,
+        "rejected_writes": 424,
+        "accepted_writes": 31,
+        "duplicate_refreshes": 325
+      },
+      "policy_object_graph_bytes": 31921,
+      "resident_items_graph_bytes": 5530,
+      "ledger_graph_bytes": 3216,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 4624,
+      "retained_lifetime_log_bytes": 11885
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "fixed_decay",
+      "policy_seconds": 0.040403114166110754,
+      "timing_seconds": {
+        "update_state": 0.015902106650173664,
+        "observe": 0.0013188058510422707,
+        "retrieve": 0.0022535030730068684,
+        "evict": 0.020250293891876936,
+        "feedback": 0.0006784047000110149
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20930,
+        "overflow_opportunities": 322,
+        "resident_evictions": 322,
+        "rejected_writes": 0,
+        "accepted_writes": 382,
+        "duplicate_refreshes": 398
+      },
+      "policy_object_graph_bytes": 177362,
+      "resident_items_graph_bytes": 31050,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131396
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "frequency",
+      "policy_seconds": 0.04194889683276415,
+      "timing_seconds": {
+        "update_state": 0.01597368810325861,
+        "observe": 0.0013325940817594528,
+        "retrieve": 0.002296906430274248,
+        "evict": 0.021653500851243734,
+        "feedback": 0.0006922073662281036
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21190,
+        "overflow_opportunities": 326,
+        "resident_evictions": 50,
+        "rejected_writes": 276,
+        "accepted_writes": 110,
+        "duplicate_refreshes": 394
+      },
+      "policy_object_graph_bytes": 78916,
+      "resident_items_graph_bytes": 31515,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 22081
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "lru",
+      "policy_seconds": 0.03846197994425893,
+      "timing_seconds": {
+        "update_state": 0.015947297681123018,
+        "observe": 0.00133499875664711,
+        "retrieve": 0.002257291227579117,
+        "evict": 0.01823389157652855,
+        "feedback": 0.000688500702381134
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 20930,
+        "overflow_opportunities": 322,
+        "resident_evictions": 322,
+        "rejected_writes": 0,
+        "accepted_writes": 382,
+        "duplicate_refreshes": 398
+      },
+      "policy_object_graph_bytes": 177427,
+      "resident_items_graph_bytes": 31071,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 131396
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "static_state_adaptive",
+      "policy_seconds": 0.05557552305981517,
+      "timing_seconds": {
+        "update_state": 0.02887512044981122,
+        "observe": 0.001511196605861187,
+        "retrieve": 0.0025128074921667576,
+        "evict": 0.021916497498750687,
+        "feedback": 0.000759901013225317
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 2344,
+        "score_evaluations": 17875,
+        "overflow_opportunities": 275,
+        "resident_evictions": 104,
+        "rejected_writes": 171,
+        "accepted_writes": 164,
+        "duplicate_refreshes": 445
+      },
+      "policy_object_graph_bytes": 102152,
+      "resident_items_graph_bytes": 33251,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 44398
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "replacement_matched",
+      "policy_seconds": 0.057146893348544836,
+      "timing_seconds": {
+        "update_state": 0.01636898936703801,
+        "observe": 0.0013996991328895092,
+        "retrieve": 0.0023987973108887672,
+        "evict": 0.036263407208025455,
+        "feedback": 0.0007160003297030926
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 0,
+        "coefficient_calls": 0,
+        "score_evaluations": 21060,
+        "overflow_opportunities": 324,
+        "resident_evictions": 226,
+        "rejected_writes": 98,
+        "accepted_writes": 286,
+        "duplicate_refreshes": 396
+      },
+      "policy_object_graph_bytes": 143513,
+      "resident_items_graph_bytes": 31105,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 93230
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "adaptive_rule",
+      "policy_seconds": 0.114602813962847,
+      "timing_seconds": {
+        "update_state": 0.08408581325784326,
+        "observe": 0.0016303034499287605,
+        "retrieve": 0.0024841977283358574,
+        "evict": 0.025503199081867933,
+        "feedback": 0.0008993004448711872
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 140112,
+        "coefficient_calls": 0,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 286,
+        "rejected_writes": 37,
+        "accepted_writes": 346,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 170827,
+      "resident_items_graph_bytes": 37184,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 117253
+    },
+    {
+      "repeat": 2,
+      "world_seed": 82102,
+      "capacity": 64,
+      "method": "adaptive_evolution",
+      "policy_seconds": 0.1286033154465258,
+      "timing_seconds": {
+        "update_state": 0.09760629665106535,
+        "observe": 0.0017643091268837452,
+        "retrieve": 0.0025754058733582497,
+        "evict": 0.025714599061757326,
+        "feedback": 0.0009427047334611416
+      },
+      "calls": {
+        "update_state": 2344,
+        "observe": 780,
+        "retrieve": 780,
+        "evict": 780,
+        "feedback": 780
+      },
+      "counts": {
+        "item_state_updates": 140112,
+        "coefficient_calls": 2344,
+        "score_evaluations": 20995,
+        "overflow_opportunities": 323,
+        "resident_evictions": 286,
+        "rejected_writes": 37,
+        "accepted_writes": 346,
+        "duplicate_refreshes": 397
+      },
+      "policy_object_graph_bytes": 171892,
+      "resident_items_graph_bytes": 37184,
+      "ledger_graph_bytes": 14938,
+      "query_history_graph_bytes": 2232,
+      "lru_access_graph_bytes": 14122,
+      "retained_lifetime_log_bytes": 117253
+    }
+  ],
+  "protocol": "First3registered B2worlds, capacities8/64, policyseed11,3serialrepeats, rotatedmethodorder. No API/training.",
+  "limitations": "Python recursive object graph bytes at trajectory end, shared objects deduplicated within each reported graph; components overlap and must not be summed. Not processRSS or peakheap. Lifetime logs are evaluation bookkeeping, reported separately. All baselines allocate common Item state fields."
+}

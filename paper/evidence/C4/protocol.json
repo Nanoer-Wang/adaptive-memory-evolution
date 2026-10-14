@@ -1,0 +1,95 @@
+{
+  "batch": "C4",
+  "source": "2f6ec7116f992e0dad1f005441ab264657760c77b12bdbc4d4f8d45f8ba1b333",
+  "archive": "artifacts/source/2f6ec7116f992e0dad1f005441ab264657760c77b12bdbc4d4f8d45f8ba1b333.zip",
+  "runtime": {
+    "python": "3.13.9",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "numpy": "2.3.5",
+      "scikit-learn": "1.7.2",
+      "httpx": "0.28.1",
+      "PyYAML": "6.0.3",
+      "python-dotenv": "1.1.0",
+      "filelock": "3.20.0",
+      "psutil": "7.0.0",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "device": "cpu",
+    "timestamp_utc": "2026-10-13T16:44:36.435754+00:00"
+  },
+  "frozen_files": {
+    "runs/liquid-consolidation-v2/stories.json": "45efc422233d189171494ad6a185cf48f00e0c30f19e625ad39147edfe458cf8",
+    "runs/liquid-consolidation-v2/vectors.json": "968ceffea2504b46d13fc076af884a539b543617ab9f2d33a82d4a4ae5d5b5ec",
+    "runs/evolving-memory-v1/checkpoints/learned-11.pt": "32efb7fadd2f0ac490cff2214421112ad8d673c8693e82a88f9b15320dfa1c37",
+    "runs/evolving-memory-v1/checkpoints/learned-23.pt": "c8207ffb449c9623c9be89c0ea93c915b6e6ff4ce46aab1d3b5c4caf262e3138",
+    "runs/evolving-memory-v1/checkpoints/learned-42.pt": "0392870b041618eece602978a1931500a08c1bfc5b101d1b3f63eaaa9beb8a5c",
+    "src/memory/stress_characterization.py": "2429a32727fad46be51fab3eff2953e72605bd518e687f0fc8bb6bb3675609a5",
+    "src/memory/characterization.py": "0030a8afe061255430ef4aceecc8a11d09ed848f6d66747b5d15c9b77a953e83",
+    "scripts/characterization_stress.py": "a29654d4561713c0a1274d0323ce7fa5352328f9ecbbcd64d04b45dc8eb41c46",
+    "scripts/characterization_report.py": "242cb0115e05d42eff434c76f45911f917301c7514ffe27f400ae5bb99298a1a",
+    "src/memory/b1_policy.py": "ca30b1a14203662f163c82365b5269d1223c0d0d9a2a7ccf208123b16f92245a",
+    "src/memory/b1_attribution.py": "b86594a635ff5c19d000ab9b98adf150f7081f24afa020b64e449145d5847133",
+    "src/memory/validation_matrix.py": "563f5080ca7b6f46f36ab648b81d157e7469fc60d051b29ebf0a3390010d94bb",
+    "src/evaluation/b1_interleaved.py": "873ae915bf9b574c04e6eba6dae05570bedf27a856d62ef43103ad7e58ced0f1"
+  },
+  "methods": [
+    "fixed_decay",
+    "frequency",
+    "lru",
+    "static_state_adaptive",
+    "full_0",
+    "full_0.25",
+    "full_1",
+    "full_2"
+  ],
+  "world_seeds": [
+    94100,
+    94101,
+    94102,
+    94103,
+    94104,
+    94105,
+    94106,
+    94107,
+    94108,
+    94109,
+    94110,
+    94111,
+    94112,
+    94113,
+    94114,
+    94115,
+    94116,
+    94117,
+    94118,
+    94119,
+    94120,
+    94121,
+    94122,
+    94123
+  ],
+  "mini_world_seed": 94001,
+  "policy_seeds": [
+    11,
+    23,
+    42
+  ],
+  "capacities": [
+    8,
+    16
+  ],
+  "lengths": [
+    500,
+    1000,
+    5000
+  ],
+  "events": "Initial knowledge37events then alternate topic A/B every97events. Same world gives exact identical input prefixes across lengths and capacities. Interference16keys,4stable+4active. Each active fact switches to another public value at its first observation in every post-initial phase; continued version conflicts, no future truth exposure.",
+  "adaptation": "Mean over fully observed shift episodes, terminal partial episode excluded and saved. Same length16target-query window per complete phase. Lag threshold unchanged.",
+  "collapse": "Descriptive indicator: two consecutive scored100-event windows with accuracy<.1; raw windows always reported, not a universal failure definition.",
+  "drift": "Finite states, maxI/C/U/T,100-event state means, true obsolete resident fraction. Auxiliary ledgers outside content slots reported.",
+  "training_steps": 0,
+  "api_calls": 0
+}

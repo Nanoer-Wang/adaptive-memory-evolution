@@ -1,0 +1,16 @@
+........................................................................ [ 28%]
+........................................................................ [ 57%]
+........................................................................ [ 86%]
+...................................                                      [100%]
+============================== warnings summary ===============================
+tests/test_fast_sparse_writer.py::test_fused_scripted_batch_and_online_match_reference[liquid_content]
+tests/test_fast_sparse_writer.py::test_fused_scripted_batch_and_online_match_reference[static_content]
+tests/test_fast_sparse_writer.py::test_fused_scripted_batch_and_online_match_reference[gru_content]
+tests/test_fast_sparse_writer.py::test_online_adapter_keeps_budget_store_contract[liquid_content]
+tests/test_fast_sparse_writer.py::test_online_adapter_keeps_budget_store_contract[gru_content]
+tests/test_fast_sparse_writer.py::test_online_adapter_keeps_budget_store_contract[static_content]
+  C:\Users\Wangming\Desktop\lnn_agent\Liquid_Cognitive_Memory_Final_Project\LCM_Final_Project\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+251 passed, 6 warnings in 13.67s

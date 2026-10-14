@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "liquid-cognitive-memory"
+version = "0.2.0"
+description = "Adaptive memory evolution: per-item dynamical states and reproducible lifelong-agent memory experiments"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[project.scripts]
+lcm = "src.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

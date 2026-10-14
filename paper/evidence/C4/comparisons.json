@@ -1,0 +1,1172 @@
+[
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stable_retention",
+    "delta": 0.11713836477987417,
+    "ci95": [
+      0.10849056603773578,
+      0.12631027253668758
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_score",
+    "delta": -0.022352430555555556,
+    "ci95": [
+      -0.03461371527777777,
+      -0.011176215277777778
+    ],
+    "p": 0.0008999100089991,
+    "p_holm": 0.021597840215978402
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "accuracy",
+    "delta": 0.0762141858839972,
+    "ci95": [
+      0.06822043151642204,
+      0.0837275069881202
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stale_error",
+    "delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta": 0.35763888888888884,
+    "ci95": [
+      0.17708333333333326,
+      0.5625000000000001
+    ],
+    "p": 0.0004999500049995,
+    "p_holm": 0.0134986501349865
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stable_retention",
+    "delta": 0.003232005590496153,
+    "ci95": [
+      -0.0007861635220125923,
+      0.01048218029350105
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_score",
+    "delta": 0.3626302083333333,
+    "ci95": [
+      0.33452690972222215,
+      0.39030490451388883
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "accuracy",
+    "delta": 0.24541404612159334,
+    "ci95": [
+      0.23803284416491968,
+      0.2525768693221524
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stale_error",
+    "delta": -0.29686408106219425,
+    "ci95": [
+      -0.3074783805031447,
+      -0.28664395527603076
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_lag",
+    "delta": -5.802083333333333,
+    "ci95": [
+      -6.239583333333333,
+      -5.345486111111112
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stable_retention",
+    "delta": 8.735150244583434e-05,
+    "ci95": [
+      -0.00026205450733754465,
+      0.0005241090146750477
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_score",
+    "delta": 0.2789713541666667,
+    "ci95": [
+      0.24977756076388885,
+      0.3069688585069444
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "accuracy",
+    "delta": 0.19798218029350112,
+    "ci95": [
+      0.188111460517121,
+      0.20702306079664579
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stale_error",
+    "delta": -0.27205625436757513,
+    "ci95": [
+      -0.27873864430468204,
+      -0.2654175401816911
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_lag",
+    "delta": -4.463541666666667,
+    "ci95": [
+      -4.899348958333334,
+      -3.9982638888888893
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stable_retention",
+    "delta": 0.10443722943722948,
+    "ci95": [
+      0.09361471861471866,
+      0.11580086580086583
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_score",
+    "delta": -0.015625,
+    "ci95": [
+      -0.03125000000000001,
+      -0.000578703703703704
+    ],
+    "p": 0.0675932406759324,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "accuracy",
+    "delta": 0.06826434277414663,
+    "ci95": [
+      0.060003631082062366,
+      0.07634350036310812
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stale_error",
+    "delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta": 0.24999999999999997,
+    "ci95": [
+      0.013773148148148071,
+      0.5046296296296294
+    ],
+    "p": 0.0674932506749325,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stable_retention",
+    "delta": 0.003246753246753243,
+    "ci95": [
+      -0.001623376623376624,
+      0.011363636363636354
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_score",
+    "delta": 0.2320601851851852,
+    "ci95": [
+      0.17592592592592593,
+      0.28616898148148145
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "accuracy",
+    "delta": 0.15640885984023237,
+    "ci95": [
+      0.14397013435003628,
+      0.1686637618010167
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stale_error",
+    "delta": -0.1909041394335512,
+    "ci95": [
+      -0.20206971677559915,
+      -0.1793731844589688
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_lag",
+    "delta": -3.7129629629629632,
+    "ci95": [
+      -4.5740740740740735,
+      -2.8287037037037037
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stable_retention",
+    "delta": 0.00018037518037518352,
+    "ci95": [
+      -0.0005411255411255367,
+      0.0010822510822510872
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_score",
+    "delta": 0.0,
+    "ci95": [
+      -0.06076388888888886,
+      0.059035011574073974
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "accuracy",
+    "delta": 0.09640522875816988,
+    "ci95": [
+      0.08179012345679008,
+      0.11111338053740007
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stale_error",
+    "delta": -0.18001089324618738,
+    "ci95": [
+      -0.1908133623819898,
+      -0.17011619462599856
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_lag",
+    "delta": 1.4802973661668753e-16,
+    "ci95": [
+      -0.9723379629629629,
+      0.9491898148148135
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stable_retention",
+    "delta": 0.12474562474562474,
+    "ci95": [
+      0.12072649572649574,
+      0.12901912901912904
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_score",
+    "delta": -0.024201388888888894,
+    "ci95": [
+      -0.02861111111111113,
+      -0.019912760416666668
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "accuracy",
+    "delta": 0.07825968913323832,
+    "ci95": [
+      0.07479807235457815,
+      0.08196735220253852
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stale_error",
+    "delta": 4.2421774248286156e-05,
+    "ci95": [
+      0.0,
+      0.00010181225819588678
+    ],
+    "p": 0.24997500249975002,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta": 0.38722222222222236,
+    "ci95": [
+      0.31999999999999995,
+      0.4608402777777779
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stable_retention",
+    "delta": 0.003493420160086825,
+    "ci95": [
+      -0.00015262515262515208,
+      0.010632885632885627
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_score",
+    "delta": 0.45651041666666664,
+    "ci95": [
+      0.4498263888888889,
+      0.4632296006944444
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "accuracy",
+    "delta": 0.34439693205728633,
+    "ci95": [
+      0.3419701944614132,
+      0.3475787772347791
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stale_error",
+    "delta": -0.42381897780492767,
+    "ci95": [
+      -0.432108404601914,
+      -0.4148251374465486
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_lag",
+    "delta": -7.304166666666667,
+    "ci95": [
+      -7.4075,
+      -7.196944444444445
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stable_retention",
+    "delta": 1.6958350291686648e-05,
+    "ci95": [
+      -5.087505087504607e-05,
+      0.00010175010175010601
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_score",
+    "delta": 0.4237499999999999,
+    "ci95": [
+      0.41552039930555557,
+      0.4320833333333334
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "accuracy",
+    "delta": 0.26619663340799565,
+    "ci95": [
+      0.2624206712821557,
+      0.2700400461548904
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stale_error",
+    "delta": -0.26744383357089524,
+    "ci95": [
+      -0.27376489004276117,
+      -0.26073143623158895
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c16-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_lag",
+    "delta": -6.7799999999999985,
+    "ci95": [
+      -6.917506944444444,
+      -6.648611111111111
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stable_retention",
+    "delta": 0.49484626135569526,
+    "ci95": [
+      0.48235281271837877,
+      0.5069881201956673
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_score",
+    "delta": 0.013997395833333337,
+    "ci95": [
+      -0.025499131944444437,
+      0.051974826388888895
+    ],
+    "p": 0.48495150484951505,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "accuracy",
+    "delta": 0.3100978336827393,
+    "ci95": [
+      0.3004454926624738,
+      0.32036163522012573
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stale_error",
+    "delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta": -0.22395833333333326,
+    "ci95": [
+      -0.8264322916666665,
+      0.38888888888888884
+    ],
+    "p": 0.48785121487851213,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stable_retention",
+    "delta": 0.24982529699510833,
+    "ci95": [
+      0.2135722396925227,
+      0.28826214185883997
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_score",
+    "delta": 0.22732204861111108,
+    "ci95": [
+      0.1992160373263889,
+      0.2555338541666667
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "accuracy",
+    "delta": 0.3369584206848358,
+    "ci95": [
+      0.32014107267645003,
+      0.3536873252969951
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stale_error",
+    "delta": -0.19029524807826695,
+    "ci95": [
+      -0.19937980433263455,
+      -0.18103489692522715
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_lag",
+    "delta": -3.6371527777777772,
+    "ci95": [
+      -4.0625,
+      -3.1909722222222228
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stable_retention",
+    "delta": -0.017120894479385057,
+    "ci95": [
+      -0.03800008735150247,
+      0.007512229210342405
+    ],
+    "p": 0.15948405159484053,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_score",
+    "delta": 0.2138671875,
+    "ci95": [
+      0.18608669704861114,
+      0.2419731987847222
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "accuracy",
+    "delta": 0.18557826694619148,
+    "ci95": [
+      0.1756638714185884,
+      0.19689137840670862
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stale_error",
+    "delta": -0.16758385744234802,
+    "ci95": [
+      -0.1733927323549965,
+      -0.1615566037735849
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n1000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_lag",
+    "delta": -3.421875,
+    "ci95": [
+      -3.857638888888889,
+      -2.9634982638888894
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stable_retention",
+    "delta": 0.4444444444444444,
+    "ci95": [
+      0.41901154401154406,
+      0.46987734487734484
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_score",
+    "delta": 0.005208333333333336,
+    "ci95": [
+      -0.054405381944444456,
+      0.06278935185185185
+    ],
+    "p": 0.8637136286371363,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "accuracy",
+    "delta": 0.2989288307915759,
+    "ci95": [
+      0.2845837872185911,
+      0.313634713144517
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stale_error",
+    "delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta": -0.08333333333333348,
+    "ci95": [
+      -0.9954861111111113,
+      0.8149305555555536
+    ],
+    "p": 0.8725127487251275,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stable_retention",
+    "delta": 0.20129870129870128,
+    "ci95": [
+      0.16594516594516592,
+      0.23647186147186147
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_score",
+    "delta": 0.18258101851851852,
+    "ci95": [
+      0.1400462962962963,
+      0.22627314814814814
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "accuracy",
+    "delta": 0.2751452432824982,
+    "ci95": [
+      0.25880537400145237,
+      0.2918482207697894
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stale_error",
+    "delta": -0.13480392156862744,
+    "ci95": [
+      -0.14279230210602759,
+      -0.12717864923747277
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_lag",
+    "delta": -2.921296296296297,
+    "ci95": [
+      -3.611111111111111,
+      -2.217476851851854
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stable_retention",
+    "delta": -0.052849927849927904,
+    "ci95": [
+      -0.08044733044733049,
+      -0.022005772005772046
+    ],
+    "p": 0.0036996300369963003,
+    "p_holm": 0.08509149085091491
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_score",
+    "delta": 0.14670138888888892,
+    "ci95": [
+      0.09953703703703705,
+      0.1958912037037037
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "accuracy",
+    "delta": 0.1370733478576616,
+    "ci95": [
+      0.12245824255628183,
+      0.153322440087146
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stale_error",
+    "delta": -0.15958605664488015,
+    "ci95": [
+      -0.16385257806826434,
+      -0.1550472040668119
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n500",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_lag",
+    "delta": -2.3472222222222228,
+    "ci95": [
+      -3.1388888888888893,
+      -1.555555555555556
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stable_retention",
+    "delta": 0.5291344458011125,
+    "ci95": [
+      0.5227920227920229,
+      0.5355790428707097
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_score",
+    "delta": 0.03529513888888888,
+    "ci95": [
+      0.019303385416666655,
+      0.050278645833333316
+    ],
+    "p": 0.0005999400059994001,
+    "p_holm": 0.015598440155984402
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "accuracy",
+    "delta": 0.31890993008891605,
+    "ci95": [
+      0.3145740005429987,
+      0.3232624041267902
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "stale_error",
+    "delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta": -0.5647222222222222,
+    "ci95": [
+      -0.813055555555556,
+      -0.3027777777777778
+    ],
+    "p": 0.0006999300069993001,
+    "p_holm": 0.0174982501749825
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stable_retention",
+    "delta": 0.289021164021164,
+    "ci95": [
+      0.25300120404287074,
+      0.328313661646995
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_score",
+    "delta": 0.2615104166666667,
+    "ci95": [
+      0.2515794270833333,
+      0.2705212673611111
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "accuracy",
+    "delta": 0.3914087422792371,
+    "ci95": [
+      0.37308995961447095,
+      0.41122331670399775
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "stale_error",
+    "delta": -0.2622853458223036,
+    "ci95": [
+      -0.2700069571709767,
+      -0.2548008721916786
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "frequency",
+    "metric": "adaptation_lag",
+    "delta": -4.184166666666667,
+    "ci95": [
+      -4.320840277777778,
+      -4.0249861111111125
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stable_retention",
+    "delta": -0.006291547958214623,
+    "ci95": [
+      -0.012430470763804094,
+      0.0004070004070004063
+    ],
+    "p": 0.074992500749925,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_score",
+    "delta": 0.2581597222222222,
+    "ci95": [
+      0.24815972222222224,
+      0.2672921006944445
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "accuracy",
+    "delta": 0.21271974479060615,
+    "ci95": [
+      0.20866422317247,
+      0.2171061562478789
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "stale_error",
+    "delta": -0.1753291929681667,
+    "ci95": [
+      -0.18051313378130726,
+      -0.1700856495622073
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  },
+  {
+    "condition": "fixed_cadence-c8-n5000",
+    "a": "full_1",
+    "b": "full_0",
+    "metric": "adaptation_lag",
+    "delta": -4.1305555555555555,
+    "ci95": [
+      -4.281666666666666,
+      -3.9716597222222227
+    ],
+    "p": 9.999000099990002e-05,
+    "p_holm": 0.008999100089991002
+  }
+]

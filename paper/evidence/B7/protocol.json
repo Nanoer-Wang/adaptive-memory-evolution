@@ -1,0 +1,132 @@
+{
+  "batch": "B7",
+  "source": "ea8cf80561961bde112bf058a305383f82c49e082a93c265526aa27f2b914d92",
+  "archive": "artifacts/source/ea8cf80561961bde112bf058a305383f82c49e082a93c265526aa27f2b914d92.zip",
+  "core_hashes": {
+    "src/memory/b1_policy.py": "ca30b1a14203662f163c82365b5269d1223c0d0d9a2a7ccf208123b16f92245a",
+    "src/memory/b1_attribution.py": "b86594a635ff5c19d000ab9b98adf150f7081f24afa020b64e449145d5847133"
+  },
+  "runtime": {
+    "python": "3.13.9",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "numpy": "2.3.5",
+      "scikit-learn": "1.7.2",
+      "httpx": "0.28.1",
+      "PyYAML": "6.0.3",
+      "python-dotenv": "1.1.0",
+      "filelock": "3.20.0",
+      "psutil": "7.0.0",
+      "onnxruntime": "1.31.0",
+      "tokenizers": "0.23.3"
+    },
+    "device": "cpu",
+    "timestamp_utc": "2026-10-13T11:02:56.687854+00:00"
+  },
+  "conditions": [
+    [
+      "rapid_high",
+      {
+        "capacity": 8,
+        "noise_count": 16,
+        "rounds": 4,
+        "repetitions": 1
+      }
+    ]
+  ],
+  "methods": [
+    "fixed_decay",
+    "frequency",
+    "lru",
+    "static_state_adaptive",
+    "replacement_matched",
+    "adaptive_rule",
+    "adaptive_evolution",
+    "event_only",
+    "discrete_euler",
+    "query_conditioned"
+  ],
+  "world_seeds": [
+    87100,
+    87101,
+    87102,
+    87103,
+    87104,
+    87105,
+    87106,
+    87107,
+    87108,
+    87109,
+    87110,
+    87111,
+    87112,
+    87113,
+    87114,
+    87115,
+    87116,
+    87117,
+    87118,
+    87119,
+    87120,
+    87121,
+    87122,
+    87123
+  ],
+  "calibration_world_seeds": [
+    87010,
+    87011
+  ],
+  "mini_world_seeds": [
+    87001
+  ],
+  "policy_seeds": [
+    11,
+    23,
+    42
+  ],
+  "trajectory_seed_offset": 400000,
+  "initial_memory": "Same4observations for all methods/capacities; never truncated differently by policy.",
+  "matching": "Independent calibration of admission probability and minimum resident age; select ONLY count/lifetime distribution/censoring errors. Exact distribution equality is NOT guaranteed; heldout gate requires each relative/KS/censor error<=.10.",
+  "match_grid": {
+    "admission": [
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.35,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "minimum_age": [
+      0.0,
+      24.0,
+      60.0
+    ]
+  },
+  "causality": "All methods share observation/query/feedback-corruption tapes; labels only in evaluator. Feedback received after answering; correction may differ across methods because answers differ.",
+  "B2": "Noise keys=2*capacity. Fixed12core facts, 128noise+128core arrivals per phase; same query/key clocks across capacities. This is joint capacity/working-set scaling, not fixed-workload scaling.",
+  "B3": "Four returning-topic queries occur before any reminder in phase2; no factual revisions. Post-reminder lag starts at first topicA observation.",
+  "B4": "Bernoulli correctness-feedback flips shared across methods; misleading importance flips topic context cue only. This does not corrupt observation content. Replacement control calibrated on CLEAN ONLY; same admission and minimum-age parameters used in every corruption condition.",
+  "B6": "Remove a state by pinning it to neutral score value after every operation; no_time removes T score/state, not the time integration of I/C/U.",
+  "B7": "Full exact-flow already reads query features. Event-only removes inter-event flow but keeps observation/feedback jumps. Euler integrates the same ODE with stability-bounded steps. Query-conditioned additionally holds the latest query topic forward; not a pure time-only comparison.",
+  "statistics": "24worlds, three seeds averaged within world. Paired world bootstrap5000; sign-flip10000; Holm within batch across preregistered primary comparisons. No claim that plotting method operating points proves tunable Pareto frontier.",
+  "metrics": [
+    "accuracy",
+    "stale_error",
+    "stable_retention",
+    "adaptation_lag"
+  ],
+  "trace": "Full events, flow_state, resident_state, true and delivered feedback, lifetimes with censor flags.",
+  "resource": "CPU policy call/update timing excludes audit/serialization. 32bytes/item is theoretical4float64 payload, not measured incremental heap: baseline Item also allocates these fields. Auxiliary ledgers grow outside content capacity and are reported.",
+  "training_steps": 0,
+  "api_calls": 0,
+  "input_hashes": {
+    "runs/liquid-consolidation-v2/stories.json": "45efc422233d189171494ad6a185cf48f00e0c30f19e625ad39147edfe458cf8",
+    "runs/liquid-consolidation-v2/vectors.json": "968ceffea2504b46d13fc076af884a539b543617ab9f2d33a82d4a4ae5d5b5ec",
+    "runs/evolving-memory-v1/checkpoints/learned-11.pt": "32efb7fadd2f0ac490cff2214421112ad8d673c8693e82a88f9b15320dfa1c37",
+    "runs/evolving-memory-v1/checkpoints/learned-23.pt": "c8207ffb449c9623c9be89c0ea93c915b6e6ff4ce46aab1d3b5c4caf262e3138",
+    "runs/evolving-memory-v1/checkpoints/learned-42.pt": "0392870b041618eece602978a1931500a08c1bfc5b101d1b3f63eaaa9beb8a5c"
+  }
+}

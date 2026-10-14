@@ -1,0 +1,1562 @@
+[
+  {
+    "condition": "capacity4",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2503255208333333,
+    "ci95": [
+      0.23990885416666666,
+      0.2613037109375
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.3558304398148148,
+    "ci95": [
+      0.3144476996527778,
+      0.4024884259259259
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 9.173611111111112,
+    "ci95": [
+      -7.639756944444445,
+      24.055729166666662
+    ],
+    "p": 0.2792720727927207,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.15503833912037038,
+    "ci95": [
+      0.1330837673611111,
+      0.17610948350694441
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.06776258680555557,
+    "ci95": [
+      -0.0751053421585648,
+      -0.05984022352430557
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.07978877314814815,
+    "ci95": [
+      0.012797489872685204,
+      0.1434850622106481
+    ],
+    "p": 0.027697230276972302,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -31.680555555555554,
+    "ci95": [
+      -42.98611111111111,
+      -21.478645833333342
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2693684895833333,
+    "ci95": [
+      0.25980134186921294,
+      0.27927969473379627
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.3743851273148149,
+    "ci95": [
+      0.33398075810185185,
+      0.4182219328703704
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -5.638888888888888,
+    "ci95": [
+      -18.08489583333333,
+      6.632291666666663
+    ],
+    "p": 0.38566143385661433,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.11561414930555557,
+    "ci95": [
+      0.10335286458333333,
+      0.12671802662037038
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.03918909143518518,
+    "ci95": [
+      -0.044814724392361116,
+      -0.033745207609953705
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.1906105324074074,
+    "ci95": [
+      0.14590205439814816,
+      0.23394187644675923
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -11.451388888888888,
+    "ci95": [
+      -23.562673611111112,
+      0.6744791666666549
+    ],
+    "p": 0.0775922407759224,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.18382884837962962,
+    "ci95": [
+      0.17069724754050924,
+      0.1976273148148148
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.006058304398148148,
+    "ci95": [
+      -0.00804759837962963,
+      -0.004231770833333333
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.20695891203703698,
+    "ci95": [
+      0.16525517216435184,
+      0.2518093532986111
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -26.583333333333332,
+    "ci95": [
+      -37.541666666666664,
+      -16.020138888888898
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.04931640625,
+    "ci95": [
+      0.032189941406250006,
+      0.06477864583333333
+    ],
+    "p": 0.00019998000199980003,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -5.425347222222222e-05,
+    "ci95": [
+      -0.00016276041666666666,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.09172453703703703,
+    "ci95": [
+      0.04332501446759263,
+      0.13993869357638886
+    ],
+    "p": 0.0016998300169983002,
+    "matched": null,
+    "p_holm": 0.08159184081591841
+  },
+  {
+    "condition": "capacity4",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -5.347222222222221,
+    "ci95": [
+      -21.889062499999998,
+      10.466145833333321
+    ],
+    "p": 0.5362463753624638,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.31584563078703703,
+    "ci95": [
+      0.2976883499710648,
+      0.3346186885127314
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.00019892939814814814,
+    "ci95": [
+      3.616898148148148e-05,
+      0.00039785879629629633
+    ],
+    "p": 0.12478752124787522,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.40842013888888884,
+    "ci95": [
+      0.3871518735532407,
+      0.42751736111111116
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 10.152777777777777,
+    "ci95": [
+      3.888888888888889,
+      17.9032986111111
+    ],
+    "p": 0.0032996700329967,
+    "matched": null,
+    "p_holm": 0.15178482151784822
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2955910011574074,
+    "ci95": [
+      0.26494954427083334,
+      0.32441813151041665
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.14013671875,
+    "ci95": [
+      -0.14823947482638886,
+      -0.1325588650173611
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.17715567129629628,
+    "ci95": [
+      0.12738624855324074,
+      0.22718098958333324
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -94.1388888888889,
+    "ci95": [
+      -102.14635416666667,
+      -85.54826388888888
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.3615813078703704,
+    "ci95": [
+      0.3441650390625,
+      0.3793045609085648
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.00019892939814814814,
+    "ci95": [
+      3.616898148148148e-05,
+      0.00039785879629629633
+    ],
+    "p": 0.1232876712328767,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.4537760416666667,
+    "ci95": [
+      0.4325077763310185,
+      0.4739963107638889
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 5.736111111111111,
+    "ci95": [
+      -0.3546875000000001,
+      13.034895833333332
+    ],
+    "p": 0.1202879712028797,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.026059751157407416,
+    "ci95": [
+      0.0061668113425926005,
+      0.04689444082754631
+    ],
+    "p": 0.021397860213978603,
+    "matched": null,
+    "p_holm": 0.8773122687731227
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.03944227430555556,
+    "ci95": [
+      -0.04468677662037037,
+      -0.03455946180555555
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.08637152777777775,
+    "ci95": [
+      0.05548321759259257,
+      0.11502007378472213
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -6.6944444444444455,
+    "ci95": [
+      -14.430902777777774,
+      1.056076388888881
+    ],
+    "p": 0.1161883811618838,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.2313187210648148,
+    "ci95": [
+      0.20650634765625,
+      0.25571605541087955
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.017939814814814815,
+    "ci95": [
+      -0.02068865740740741,
+      -0.01538990162037037
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.1263744212962963,
+    "ci95": [
+      0.08365794994212965,
+      0.16876718026620366
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -80.74305555555556,
+    "ci95": [
+      -88.77118055555555,
+      -72.36111111111111
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.0704029224537037,
+    "ci95": [
+      0.05300564236111111,
+      0.08946442780671295
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 9.042245370370371e-05,
+    "ci95": [
+      -3.616898148148148e-05,
+      0.00025318287037037036
+    ],
+    "p": 0.5010498950104989,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.08387586805555554,
+    "ci95": [
+      0.053417968749999975,
+      0.11700846354166665
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity8",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -19.305555555555557,
+    "ci95": [
+      -35.20138888888889,
+      -3.9916666666666862
+    ],
+    "p": 0.025297470252974703,
+    "matched": null,
+    "p_holm": 0.9799020097990201
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.037579571759259266,
+    "ci95": [
+      0.02994791666666669,
+      0.045989312065972225
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0006872106481481481,
+    "ci95": [
+      0.0003797743055555555,
+      0.0010489004629629629
+    ],
+    "p": 0.0005999400059994001,
+    "matched": null,
+    "p_holm": 0.030596940305969402
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.09602864583333333,
+    "ci95": [
+      0.0866238064236111,
+      0.10362413194444446
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.4375,
+    "ci95": [
+      0.09010416666666667,
+      0.8263888888888888
+    ],
+    "p": 0.024897510248975102,
+    "matched": null,
+    "p_holm": 0.9799020097990201
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.20759186921296294,
+    "ci95": [
+      0.19775300202546295,
+      0.21732177734375
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.18292462384259256,
+    "ci95": [
+      -0.191333912037037,
+      -0.17496744791666666
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": -0.006510416666666662,
+    "ci95": [
+      -0.013527199074074075,
+      -0.0008680555555555525
+    ],
+    "p": 0.05779422057794221,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -75.61111111111111,
+    "ci95": [
+      -86.56979166666667,
+      -64.75694444444444
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.059154369212962965,
+    "ci95": [
+      -0.06631582754629631,
+      -0.051866319444444454
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0006872106481481481,
+    "ci95": [
+      0.0003797743055555555,
+      0.0010489004629629626
+    ],
+    "p": 0.000999900009999,
+    "matched": null,
+    "p_holm": 0.04999500049995
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": -0.003906250000000004,
+    "ci95": [
+      -0.011320891203703701,
+      0.002170138888888881
+    ],
+    "p": 0.3194680531946805,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.5833333333333334,
+    "ci95": [
+      0.2986111111111111,
+      0.9444444444444443
+    ],
+    "p": 0.00019998000199980003,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.031846788194444434,
+    "ci95": [
+      -0.03969590928819444,
+      -0.023455584490740727
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.013346354166666666,
+    "ci95": [
+      -0.015751591435185185,
+      -0.011067708333333334
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.017035590277777794,
+    "ci95": [
+      0.009006076388888895,
+      0.02408854166666669
+    ],
+    "p": 0.0010998900109989002,
+    "matched": null,
+    "p_holm": 0.05389461053894611
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -0.7916666666666666,
+    "ci95": [
+      -1.625,
+      -0.09027777777777764
+    ],
+    "p": 0.06429357064293571,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.15152994791666669,
+    "ci95": [
+      0.14116527416087965,
+      0.1621821650752315
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.042787905092592594,
+    "ci95": [
+      -0.04589888961226852,
+      -0.03960503472222222
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": -0.003544560185185184,
+    "ci95": [
+      -0.00973036024305554,
+      0.0011944806134259096
+    ],
+    "p": 0.27647235276472354,
+    "matched": false,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -62.895833333333336,
+    "ci95": [
+      -68.18802083333334,
+      -58.09722222222222
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.010724103009259259,
+    "ci95": [
+      0.003978135850694447,
+      0.01844618055555555
+    ],
+    "p": 0.0059994000599940004,
+    "matched": null,
+    "p_holm": 0.257974202579742
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 3.616898148148147e-05,
+    "ci95": [
+      -5.4253472222222246e-05,
+      0.00016276041666666666
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0177951388888889,
+    "ci95": [
+      0.004556387442129626,
+      0.033565719039351856
+    ],
+    "p": 0.017698230176982303,
+    "matched": null,
+    "p_holm": 0.7433256674332567
+  },
+  {
+    "condition": "capacity16",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.29166666666666663,
+    "ci95": [
+      0.10416666666666667,
+      0.5140624999999975
+    ],
+    "p": 0.004199580041995801,
+    "matched": null,
+    "p_holm": 0.1847815218478152
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.03492115162037036,
+    "ci95": [
+      -0.04380108868634257,
+      -0.026222511574074066
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0003255208333333333,
+    "ci95": [
+      0.00010850694444444444,
+      0.0005425347222222221
+    ],
+    "p": 0.0337966203379662,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.00010850694444444291,
+    "ci95": [
+      0.0,
+      0.0003255208333333287
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.46527777777777773,
+    "ci95": [
+      0.2291666666666666,
+      0.7847222222222223
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.18232783564814814,
+    "ci95": [
+      0.1714400679976852,
+      0.1940122251157407
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.17129629629629628,
+    "ci95": [
+      -0.18041133174189813,
+      -0.16190999348958335
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -46.59027777777778,
+    "ci95": [
+      -55.43767361111111,
+      -39.03472222222223
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.035029658564814804,
+    "ci95": [
+      -0.0439091435185185,
+      -0.026475694444444448
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0003255208333333333,
+    "ci95": [
+      0.00010850694444444444,
+      0.0005425347222222221
+    ],
+    "p": 0.028197180281971802,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.46527777777777773,
+    "ci95": [
+      0.22222222222222224,
+      0.7916666666666666
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.032226562499999986,
+    "ci95": [
+      -0.04148582175925924,
+      -0.023473668981481483
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.002007378472222222,
+    "ci95": [
+      -0.0027492947048611115,
+      -0.0013020833333333333
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.005172164351851837,
+    "ci95": [
+      0.004340277777777753,
+      0.006221064814814797
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.6041666666666666,
+    "ci95": [
+      0.12499999999999978,
+      1.0555555555555556
+    ],
+    "p": 0.0244975502449755,
+    "matched": null,
+    "p_holm": 0.9799020097990201
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.04175708912037038,
+    "ci95": [
+      0.032351797598379625,
+      0.050871672453703685
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.03734447337962963,
+    "ci95": [
+      -0.03958695023148148,
+      -0.03521050347222222
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": false,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -13.118055555555555,
+    "ci95": [
+      -15.152777777777777,
+      -11.034548611111111
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.0018084490740740838,
+    "ci95": [
+      7.233796296297428e-05,
+      0.00424985532407407
+    ],
+    "p": 0.0811918808119188,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.005859375,
+    "ci95": [
+      0.0015190972222222238,
+      0.011610243055555552
+    ],
+    "p": 0.030396960303969604,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity32",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.17361111111111108,
+    "ci95": [
+      0.07638888888888888,
+      0.2916666666666666
+    ],
+    "p": 0.0034996500349965005,
+    "matched": null,
+    "p_holm": 0.15748425157484253
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "fixed_decay",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.001247829861111105,
+    "ci95": [
+      -0.0017903645833333287,
+      -0.0007414641203703775
+    ],
+    "p": 0.00029997000299970003,
+    "matched": null,
+    "p_holm": 0.015898410158984102
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "fixed_decay",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "fixed_decay",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "fixed_decay",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.46527777777777773,
+    "ci95": [
+      0.22916666666666666,
+      0.798611111111111
+    ],
+    "p": 0.00019998000199980003,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "frequency",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.18062789351851857,
+    "ci95": [
+      0.1730862087673611,
+      0.18880208333333337
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "frequency",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.15415219907407407,
+    "ci95": [
+      -0.16234492549189813,
+      -0.14577862774884262
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "frequency",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "frequency",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -29.506944444444446,
+    "ci95": [
+      -39.153124999999996,
+      -21.214409722222232
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "lru",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.001247829861111105,
+    "ci95": [
+      -0.0018084490740740563,
+      -0.0007233796296296316
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "lru",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "lru",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "lru",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.46527777777777773,
+    "ci95": [
+      0.22916666666666663,
+      0.7916666666666666
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "static_state_adaptive",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.0014105902777777762,
+    "ci95": [
+      -0.002604166666666676,
+      -0.00027126736111110494
+    ],
+    "p": 0.033596640335966405,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "static_state_adaptive",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.0014105902777777778,
+    "ci95": [
+      -0.001808449074074074,
+      -0.0010308159722222222
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "static_state_adaptive",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0037254050925925783,
+    "ci95": [
+      0.0029658564814814595,
+      0.004448784722222228
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "static_state_adaptive",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 1.2708333333333333,
+    "ci95": [
+      0.8333333333333334,
+      1.6805555555555554
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": null,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "replacement_matched",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": 0.015010127314814839,
+    "ci95": [
+      0.013400155526620383,
+      0.016637731481481483
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "replacement_matched",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": -0.01000072337962963,
+    "ci95": [
+      -0.011140046296296294,
+      -0.008897569444444444
+    ],
+    "p": 9.999000099990002e-05,
+    "matched": false,
+    "p_holm": 0.011998800119988003
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "replacement_matched",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": false,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "replacement_matched",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": -1.3402777777777777,
+    "ci95": [
+      -1.8473958333333333,
+      -0.826388888888889
+    ],
+    "p": 0.00039996000399960006,
+    "matched": false,
+    "p_holm": 0.020797920207979204
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "adaptive_rule",
+    "metric": "accuracy",
+    "delta_adaptive_minus_baseline": -0.00021701388888888581,
+    "ci95": [
+      -0.0005787037037037063,
+      0.0001808449074074173
+    ],
+    "p": 0.33526647335266474,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "adaptive_rule",
+    "metric": "stale_error",
+    "delta_adaptive_minus_baseline": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p": 1.0,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "adaptive_rule",
+    "metric": "stable_retention",
+    "delta_adaptive_minus_baseline": 0.0005425347222222238,
+    "ci95": [
+      0.0,
+      0.0014105902777777808
+    ],
+    "p": 0.5005499450054994,
+    "matched": null,
+    "p_holm": 1.0
+  },
+  {
+    "condition": "capacity64",
+    "baseline": "adaptive_rule",
+    "metric": "adaptation_lag",
+    "delta_adaptive_minus_baseline": 0.19444444444444442,
+    "ci95": [
+      0.09722222222222214,
+      0.3124999999999999
+    ],
+    "p": 0.0020997900209979003,
+    "matched": null,
+    "p_holm": 0.09869013098690131
+  }
+]

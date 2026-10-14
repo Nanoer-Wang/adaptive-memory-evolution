@@ -1,0 +1,47 @@
+{
+  "revision": 3,
+  "main_pages": 8,
+  "total_pages": 26,
+  "unchanged_numerical_evidence_and_tables": 37,
+  "unchanged_other_figure_assets": 13,
+  "protected_hash_mismatches": [],
+  "figure_formats": [
+    "PDF vector",
+    "SVG vector",
+    "360-dpi PNG"
+  ],
+  "figure1_dimensions_inches": [
+    5.5,
+    1.56
+  ],
+  "figure2_dimensions_inches": [
+    5.5,
+    2.4
+  ],
+  "visual_abstractions": [
+    "immutable content card",
+    "four-component mutable state shell",
+    "interleaved event tape",
+    "I/C/U rate sliders",
+    "retention score gate",
+    "bounded resident slots with all four states",
+    "query addressing and read lens",
+    "conditional reject/evict paths",
+    "delayed feedback loop"
+  ],
+  "scientific_checks": [
+    "The fixed-decay curve is an analytic reference, not empirical data.",
+    "Arc lengths and sliders are qualitative, not normalized measurements.",
+    "Content snapshots show a still-resident immutable version.",
+    "Every stored record has all four state components.",
+    "C means observed consistency, not calibrated confidence.",
+    "Rate controls apply to I/C/U; alpha zero does not freeze event updates or T.",
+    "Prior held context drives flow before the current event; new inputs held forward.",
+    "Writes use retention score; query addressing bypasses that gate.",
+    "Overflow removal can reject the new candidate or evict a resident.",
+    "Feedback is delayed, and absent content cannot be updated or recovered.",
+    "No head retraining, algorithm change, or new experimental result."
+  ],
+  "changes": "Illustrations, figure captions, and float placement only. No body claim or numerical result changed.",
+  "note": "Illustrations unchanged; pagination refreshed after numbered references and comparison appendix."
+}

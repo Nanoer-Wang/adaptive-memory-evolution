@@ -1,0 +1,171 @@
+\section{State Properties and Exact Implementation}\label{app:properties}
+\begin{proposition}[Invariant state ranges under the implemented updates]
+Suppose $k>0$, $\alpha_I,\alpha_C,\alpha_U\geq0$, $q\in[0,1]$, $w\in(0,2)$, and delivered feedback $y\in[0,1]$. Starting from the prescribed bootstrap or insertion state, the hybrid updates preserve $0<I\leq20$, $0\leq C\leq1$, $U\geq0$, and $T\geq0$ at finite event times. Under held inputs and positive corresponding strengths, $I$ and $C$ approach their targets monotonically and $U$ contracts.
+\end{proposition}
+\begin{proof}
+Each update of $I$ or $C$ in Equation~\ref{eq:closed} is a convex combination of its pre-flow value and target because its exponential coefficient lies in $[0,1]$. The importance target lies in $[0.5,2.5)$ and the consistency target in $\{0,1\}$. Insertion has $I=gw\in(0,2)$; duplicate observation caps its positive increment at 20. Consistency observation resets to one and feedback is a convex combination with $y$. Usage flow multiplies a nonnegative value by a nonnegative factor and feedback adds a nonnegative value. Temporal flow adds a nonnegative interval and resets to zero. These operations preserve the asserted ranges by induction over events. The differences from held targets are multiplied by positive decaying exponentials, establishing monotone approach between events. This does not imply monotone task performance or bounded $T$ across an infinite stream.
+\end{proof}
+
+\begin{proposition}[Conditional usage bound]
+If $\alpha_U k(t)\geq\kappa>0$ while a record is resident, usage increments are at most one, and successive increment times are separated by at least $\delta>0$, then post-increment usage satisfies
+\begin{equation}
+U_n\leq r^nU_0+\frac{1-r^n}{1-r},\qquad r=e^{-\kappa\delta/20}<1.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Between successive increments, the flow contracts usage by at most $r$; hence $U_{n+1}\leq rU_n+1$. Iterating this scalar inequality gives the bound. Additional resets through eviction and reinsertion only lower usage. If strength is zero or increments can accumulate without a positive spacing bound, the uniform bound does not follow. The observed usage of 220 at zero strength is therefore not evidence of numerical instability.
+\end{proof}
+
+\paragraph{Rate control and selection discontinuities.}
+The state at a fixed time is smooth in a rate on any interval without discrete policy changes. The map from a rate to task outcomes is not smooth in general: when two retention scores cross, a different record can be evicted and all later observations, answers, and feedback-dependent states can diverge. Consequently, neither the smooth vector field nor the finite C1 grid implies a continuous monotone performance frontier. Our operational claim is supported opposing changes at sampled settings.
+
+\paragraph{Why decay rescaling cannot match replacement by itself.}
+For fixed observation ages $a_i$, every positive $\lambda$ gives the same ordering of $\exp(-\lambda a_i)$, equivalently $-\lambda a_i$. A fixed-capacity minimum-score eviction policy therefore chooses the same victim under any positive rescaling, except unchanged ties. The implemented replacement control explicitly changes admission, not merely the decay coefficient. The matrix extension also uses a minimum resident age. This distinction is necessary for interpreting the control's name.
+
+\paragraph{Lifetime bookkeeping.}
+If each admitted residency is followed to eviction or the evaluation endpoint, summing its observed duration gives $\int_0^T|\mathcal M_t|\,dt$. When the store is always full, this is $KT$. With $E$ evictions and $K$ final right-censored residents, mean observed residency duration is $KT/(E+K)$. Thus matching mean duration and eviction count does not provide two independent controls under full occupancy. Warm-up occupancy, the lifetime distribution, censoring, resident age, and the identities of removed items remain relevant.
+
+\section{Frozen Head and Feature Provenance}\label{app:head}
+The head is an affine map from 40 features to three coefficients, not an LNN or recurrent hidden-state model. The first 32 features encode content. The remaining features are: an observation/context event indicator; $\log(1+\Delta)/5$; exponentially decayed query demand for the current key; capped time since its last query; an exponential mean of observed version conflict; mean delivered feedback; most recent delivered feedback; and agreement with the held context. Demand decays with time constant 30. Conflict and feedback running averages are causal. No stable-role flag or reference answer is included.
+
+The earlier development run used four conditions (mixture, feedback noise, misleading feedback, and cyclic demand), with 8 training and 4 validation schedule seeds per condition and capacities 8/12. Noise-related conditions share underlying worlds. The training objective was
+\begin{equation}
+\mathcal L=(1-A)+0.25(1-\mathrm{SR})+0.25\mathrm{SE}.
+\end{equation}
+Hard-capacity decisions were trained with REINFORCE, a deterministic fixed-policy baseline, AdamW at 0.003, batches of eight, gradient clipping at one, and sixteen epochs. Validation utility pooled the development conditions and capacities. Initialization was eligible for selection. The selected checkpoints for seeds 11/23/42 are epochs 15/9/14, with validation utilities 0.7467/0.7412/0.7657. These weights precede the validation matrix and were not retrained for any reported B/C batch. This provenance does not make the synthetic content distribution independent of development templates.
+
+In the rule baseline, $(g,w,k)=(2/3,1.5,0.3)$. For learned evolution, $g$ is the insertion gate; it must not be confused with the externally swept $\alpha$. We use a shared strength in C1, single active flow in C2, default strength one in semantic migration, and strengths $\{0,0.25,1,2\}$ in long-horizon stress. All content versions are explicit records. The version ledger persists identifiers after eviction but not content; the query history is also auxiliary metadata outside the slot constraint.
+
+\section{Protocols, Statistics, and Amendments}\label{app:protocol}
+\paragraph{Frozen batch design.}
+Protocols, checkpoints, random seeds, event streams, full state trajectories, write rejection decisions, censored lifetimes, raw metrics, and statistical comparisons are stored with hashes. The final characterization used 244 mini configurations, each exactly replayed, before 17,568 formal policy trajectories. The current source test suite passes 251 tests. These checks establish implementation and replay consistency, not external validity or absence of every possible modeling bias. Protocols were frozen locally before each formal batch; this was an iterative research project, not an externally registered study blind to all earlier results.
+
+\begin{center}\small
+\begin{tabular}{llll}\toprule
+Experiment family & Formal worlds & Seeds & Scope\\\midrule
+B1-A attribution & 72001--72024 & 11/23/42 & $3$ dynamics $\times3$ pressure cells\\
+B2 capacity & 82100--82123 & 11/23/42 & $K=4,8,16,32,64$\\
+B3 cycle & 83100--83123 & 11/23/42 & A--B--A with pre-reminder probes\\
+B4 corruption & 84100--84123 & 11/23/42 & clean, 10/25/50\%, misleading cue\\
+B5 revision & 85100--85123 & 11/23/42 & observed value updates\\
+B6 state intervention & 86100--86123 & 11/23/42 & four neutral-state controls\\
+B7 integration & 87100--87123 & 11/23/42 & event-only, Euler, query-held cue\\
+C1 rate scan & 91100--91123 & 11/23/42 & two settings, two capacities\\
+C2 flow attribution & 92100--92123 & 11/23/42 & four flow families, seven strengths\\
+C3 semantic replay & 93100--93123 & 11/23/42 & four tasks, two capacities\\
+C4 long horizon & 94100--94123 & 11/23/42 & three lengths, two capacities\\\bottomrule
+\end{tabular}
+\end{center}
+
+The structured matrix uses shared four-record bootstrap states, eight currently active facts, and interleaved observation/query/feedback. Stable facts are periodically queried; two groups of four volatile facts exchange demand. B1-A varies interference pools 2/8/16 and stable/slow/rapid revision schedules. B2 fixes the core identities but scales interference pool size to $2K$, with equal core and interference arrival counts per phase. B3 excludes factual revisions to isolate demand return. B4 shares the same observation and query tapes across corruption rates. C1 mixed and rapid/high use different interference pool sizes and revision settings; an effect across them cannot be attributed to one factor alone.
+
+\paragraph{What is held equal?}
+Every policy sees the same exogenous observations, context cues, query times, and corruption draws within a world. Scored feedback is generated only after answering, so identical exogenous streams do not imply identical realized feedback histories. The core synthetic retrieval budget is one answer from the addressed resident key. A new observation creates one capacity decision; a duplicate refresh does not create an extra resident version. Policies may differ in accepted writes and rejections, which are recorded separately from resident replacements. The common implementation includes four state fields even in fixed policies, so multiplying four scalars by capacity is not a measured incremental heap allocation.
+
+\paragraph{Metrics and inference.}
+For query set $Q$ and stable subset $Q_s$, $A=|Q|^{-1}\sum_q\mathbf1[\hat a_q=a_q]$, $\mathrm{SR}=|Q_s|^{-1}\sum_{q\in Q_s}\mathbf1[\hat a_q=a_q]$, and $\mathrm{SE}=|Q|^{-1}\sum_q\mathbf1[\hat a_q\text{ is an obsolete value of the queried fact}]$. Missing answers and wrong-fact answers are incorrect but not automatically stale. The lag rule needs at least five queries; an episode with no recovery takes its full horizon. A recovered final query and an unrecovered episode may share the same lag, so recovery success is separately saved. Intervals and tests use paired worlds after averaging the three policy seeds; neither individual queries nor seeds inflate the sample size. C1 corrects 168 endpoint tests, C2 252, C3 80, and C4 90 within their respective batches. These families were not jointly corrected into one universal claim. The archive retains both within-batch and additional across-matrix comparisons where available.
+
+\paragraph{Amendments without policy optimization.}
+The semantic replay initially counted unchanged continuation phases as adaptation episodes. Evaluation was corrected to start after observed new-value exposure and to distinguish demand return; the same seeds were rerun, retaining the earlier files. Twelve deterministically selected old/new trajectory replays have identical actions, states, queries, and lifetimes; the changed fields are adaptation episode definitions and derived metrics. The long-horizon prototype repeatedly changed demand but concentrated fact revisions early. Before interpreting formal performance, it was amended to introduce a different observed public value on the first active-fact observation after every subsequent context shift. Prior mini and partial formal files remain in the superseded archive. These are protocol corrections, not evidence of a fully preregistered end-to-end study.
+
+\section{Semantic and Language Transfer Details}\label{app:semantic}
+\paragraph{Controlled public-text migration.}
+MemOps (revision \texttt{312af65e2c7b}, full hash in the archived protocol) supplies confirmed observation/update quotes. Ten target domains cover browser, keyboard, author, hotel brand, naming preferences, travel, examination date, and storage plan. Four stable controls are sampled from never-revised side facts. Each task has four active targets and sixteen interference identities. Public quotes are reused across 24 schedule worlds; uncertainty thus describes schedule variation, not sampling of independent language corpora. Historical distractors explicitly say they are no longer current, but the adapter has no gold semantic contradiction resolver.
+
+The encoder is frozen \texttt{all-MiniLM-L6-v2}. A new observation hashes its content for duplicate detection. Otherwise its nearest resident embedding is used to reuse a key if cosine similarity is at least 0.65; failing that, a new key is assigned. Reused keys increment the observed arrival version. A query selects the nearest resident embedding's key, then the newest resident version within that key. All thresholds were fixed before formal outcomes. Demand affinity is $\max(0,\cos(x_i,c))$ under the held context cue, replacing the structured binary affinity. The 384-dimensional vector is projected to the same 32 head features. Removed records lose their embeddings; no evicted vector archive can supply answers. The evaluation wrapper's gold identity, value, and stability label are excluded from policy inputs.
+
+Four tasks test preference update, contradictory historical evidence, old-preference revival, and temporary task information. Preference-update and contradiction adaptation include only the observed revised-value queries in the actual update phase; unchanged continuation is not counted as another update. Revival includes a probe before new reminder observations. At capacity sixteen, pre-reminder recall is 17.71\% for \ame versus 98.61\% for frequency, despite \ame's higher aggregate revival accuracy. Mismerge counts track wrong-fact key merging, not false separation of versions. The post-hoc semantic routing audit reports both; its descriptive link rate is conditional on an old value still being resident. It is not a new randomized intervention on the addressing layer.
+
+\paragraph{Conversational transfer protocol.}
+The held-out subset comprises 24 LongMemEval questions (four from each of six categories), 24 LoCoMo questions drawn across ten conversations, and 24 NFCats test questions with 200 released training dialogs. Each is evaluated with seven policies and three policy seeds, for 1,512 formal answer records. LoCoMo answers are clustered by conversation; other datasets by question. All NFCats questions share one training history, so uncertainty is conditional on that history. A held-out question is not presented during consolidation.
+
+The memory adapter uses exhaustive spans up to 1,200 characters, capacity 64, top-five retrieval, and a 12,000-character reader budget. The topic signal is a fixed content-projection heuristic, not gold semantic parsing. LongMemEval/LoCoMo provide no correctness feedback during consolidation; NFCats supplies released off-policy dialog feedback. Dated dialogs use days as the time unit, while NFCats uses dialog steps; this time-scale transfer is uncalibrated. These limitations make the transfer study a boundary probe rather than a production memory system comparison.
+
+Answers and blinded evaluation use \texttt{agnes-3.0-flash}, temperature zero, answer maximum 384 tokens, at \url{https://api.agnes-ai.cn/v1}. Rate-limited calls, retries, prompts, raw responses, token usage, and judge-format repairs are saved. LongMemEval/LoCoMo use reference-based binary correctness plus auxiliary token F1. NFCats uses a reference-free 1--5 rubric normalized as $(s-1)/4$; satisfactory response rate uses $s\geq4$. Neither NFCats quality nor its uncertainty should be interpreted as binary QA accuracy. We did not vary the language backend or use a separate judge model. Stale error, stable retention, and adaptation lag are unavailable without suitable labels and are left null, not inferred from generic wrong answers.
+
+\section{Long-Horizon and Computational Diagnostics}\label{app:stress}
+The stress generator maintains exact common prefixes at 500, 1,000, and 5,000 events. Following 37 warm-up events, each phase has one context cue and 32 observation/query/feedback triples, hence 97 events. Every complete post-initial phase introduces four active-fact revisions upon their first observation. Each shift has sixteen target queries. The terminal partial episode is excluded from the lag average but retained in raw event metrics. No missing future observation is imputed.
+
+The descriptive collapse indicator is two consecutive 100-event scored windows with accuracy below 10\%. At 5,000 events the fully frozen-state control triggers it in 16/72 trajectories at capacity eight and 2/72 at capacity sixteen; no other tested method does. This indicator does not certify quality: frequency still has substantial stale-answer accumulation. At sixteen slots, its final-window obsolete-resident fraction is 74.31\%, versus 0.039\% for strength one. All state values remain finite. These results concern the finite 28-key test and do not establish infinite-horizon or open-world guarantees.
+
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{figures/long_horizon_performance.pdf}
+\caption{All three predefined horizons and two capacities. Curves average 100-event window accuracy across frozen worlds and seeds. Shorter runs are exact prefixes; different panels must not be treated as independently generated environments.}\label{fig:long}
+\end{figure}
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{figures/long_horizon_states.pdf}
+\caption{Long-horizon mean importance, usage, and obsolete-resident occupancy. Zero-strength usage growth follows the absence of usage decay. Fixed-policy state values are common implementation placeholders, not learned representations.}
+\end{figure}
+
+\subsection{Resource accounting}\label{app:resources}
+The serial computational audit replays fixed environments separately from the parallel formal experiment. Policy time includes calls for state update, observation, retrieval, eviction, and feedback; it excludes trace serialization and language-model inference. Counts and Python object-graph estimates are saved in \texttt{serial\_computational\_audit.json}. These estimates include object bookkeeping and, in the full policy graph, retained lifetime logs; they are not isolated deployment RSS. A theoretical four-float64 state payload is 32 bytes per record, but common baseline records also allocate these fields. We therefore do not claim a measured 32-byte incremental cost or an efficiency advantage.
+
+For 5,000-event stress trajectories at eight slots, strength one averages 39,959 item-state updates and 5,000 coefficient evaluations. Observed mean policy time is approximately 0.099 seconds versus 0.041 seconds for fixed decay, measured within four concurrent CPU workers. At sixteen slots these are approximately 0.131 and 0.050 seconds. They indicate extra work but are not clean speed benchmarks. Semantic addressing further requires resident embeddings and an encoder; offline embedding generation is excluded from policy-call time. All versions of the experiment retain growing auxiliary metadata or audit logs, so fixed content capacity must not be described as a strict total-memory guarantee.
+
+\clearpage
+\section{Complete Operating Points and State Traces}\label{app:operating}
+\begin{figure}[h]
+\centering\includegraphics[width=.95\linewidth]{figures/capacity.pdf}
+\caption{Capacity and interference jointly scale. All predefined budgets are shown; the larger-budget reversal rules out universal superiority. Complete replacement-control rows and intervals accompany the evidence files.}\label{fig:capacity}
+\end{figure}
+The main plot emphasizes eight-slot conditions for legibility; the following figure also includes both sixteen-slot conditions. The empirical nondominated envelope is computed only over this finite comparison set. Bootstrap frontier membership in the archive measures resampling stability, not a posterior probability of global optimality. All seven rates, including dominated points, remain in the tables.
+\begin{figure}[h]\centering
+\includegraphics[width=.93\linewidth]{figures/all_operating_points.pdf}
+\caption{All four C1 conditions. Capacity sixteen mixed demand saturates stable retention and has no rate pair with statistically supported opposing endpoint changes.}
+\end{figure}
+\clearpage
+\begin{figure}[p]\centering
+\includegraphics[width=\linewidth]{figures/selected_item_states.pdf}
+\caption{Predefined first stable/A/B keys in mini world 91001 at strengths 0/1/2. All four states are shown. Missing segments denote absence from the resident store; separate residency episodes are not joined. Reappearance can therefore be distinguished from preservation of dormant content.}
+\end{figure}
+\clearpage
+\section{Complete Numerical Results}\label{app:tables}
+All rates and methods are retained. Main-text percentages are rounded from the frozen JSON summaries, not copied by hand into table cells. The evidence directory contains full world-level 95\% intervals and paired comparisons; the following compact tables show means for every condition. Their experimental batch identifiers are included only to connect each row to a frozen protocol, not as the main scientific organization of the paper. B1-A's full nine-cell attribution summary is also included in the evidence directory. Replacement-control rows do not imply successful lifetime-distribution matching.
+\small
+\input{tables/B2_all}
+\input{tables/B3_all}
+\input{tables/B4_all}
+\input{tables/B5_all}
+\input{tables/B6_all}
+\input{tables/B7_all}
+\input{tables/language}
+\input{tables/C1_all}
+\input{tables/C2_all}
+\input{tables/C3_all}
+\input{tables/C4_all}
+\normalsize
+
+\section{Reproducibility and Responsible Scope}
+The public repository is \url{https://github.com/Nanoer-Wang/adaptive-memory-evolution}.
+It includes the frozen heads, input hashes, public-data preparation, experiment runners, tests, and the archived summaries used here. The reproduction guide separates a small CPU replay from full sweeps and API-dependent language evaluation. A clean checkout can reconstruct the selected synthetic inputs without retraining.
+
+The manuscript's \path{tools/build_assets.py} reads frozen JSON summaries and creates every new table and vector plot. Source hashes are recorded in \path{evidence/source_manifest.json}. It never trains or re-estimates model parameters. Experiment entry points in the original project are:
+\begin{itemize}
+\item \path{scripts/validation_matrix.py}: structured validation matrix.
+\item \path{scripts/validation_language.py}: conversational transfer.
+\item \path{scripts/characterization.py}: rate control and component flow interventions.
+\item \path{scripts/characterization_semantic.py}: semantic migration.
+\item \path{scripts/characterization_stress.py}: long-horizon stress.
+\end{itemize}
+Existing completed outputs are verified before reuse. The manuscript package includes summarized evidence and source paths; multi-gigabyte event archives remain indexed in the project rather than duplicated into the paper ZIP.
+
+Public benchmark text, generated schedules, and released model weights are used; no new human-subject study is claimed. Personal-memory deployment can create privacy and deletion risks even when a benchmark is public. Consistency scores do not establish factual truth, safe deletion, or reliable handling of retractions. A practical system should expose record provenance and distinguish removing a resident copy from deleting every persistent trace. These considerations motivate caution in transferring a memory-management result to a user-facing assistant, rather than claims that this paper has solved those issues.
+
+\clearpage
+\section{Relationship to Published Memory Systems}\label{app:external}
+We inspected the primary papers for A-MEM and Mem0 and the official LongMemEval and LoCoMo evaluation instructions. This is a literature-based protocol comparison, not a reproduction. A shared dataset name is insufficient for comparing performance: question IDs, task categories, reader and judge, prompts, retrieval budget, storage limits, and available feedback must also agree.
+
+\begin{table}[h]\centering\small
+\caption{Mechanism and protocol comparison. No row establishes a cross-paper performance ranking.}
+\begin{tabularx}{\linewidth}{p{.70in}XX}
+\toprule
+Work & What changes in memory & Evaluation compatibility with this study \\
+\midrule
+A-MEM \citep{amem} & New notes can revise historical attributes and links through LLM-based operations. & LoCoMo QA with multiple readers; the inspected version reports F1/BLEU-1 and category-dependent retrieval settings. Our 24-question subset, reader, scoring, and 64-slot limit differ. \\
+Mem0 \citep{mem0} & LLM-mediated addition, updating, deletion, or no operation; a graph variant tracks relations. & LoCoMo evaluation excludes adversarial questions and uses GPT-4o-mini operations plus judge-based scores. The question set, scoring pipeline, and budget differ from ours. \\
+\ame & Immutable versioned content plus four scalar states; frozen weights and explicit rate interventions control residency. & Structured shared-stream experiments isolate interventions; language transfer uses Agnes on fixed 24-question subsets. These are not official full-benchmark results. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+LongMemEval's official release contains 500 instances per variant and provides a GPT-4o evaluation entry point \citep{longmemeval}; our transfer test uses a balanced 24-question subset and a same-backend Agnes judge. LoCoMo's public release and scoring pipeline likewise differ from our custom transfer protocol \citep{locomo}. Published scores are therefore not pooled with our results, and we make no cross-paper performance claim. The supported distinction is the controlled study of retention--adaptation operating points, not superiority over these complete memory systems. A matched comparison remains future work.

@@ -1,0 +1,1047 @@
+[
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "fixed_decay",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.4463975694444444,
+    "accuracy_ci": [
+      0.4385850694444444,
+      0.4539930555555555
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci": [
+      0.0,
+      0.0
+    ],
+    "stable_retention": 0.45355902777777785,
+    "stable_retention_ci": [
+      0.44184027777777785,
+      0.46440972222222227
+    ],
+    "adaptation_lag": 17.291666666666668,
+    "adaptation_lag_ci": [
+      15.583333333333334,
+      19.291666666666668
+    ],
+    "adaptation_success": 0.8958333333333334,
+    "adaptation_success_ci": [
+      0.7916666666666666,
+      0.9791666666666666
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 14.833333333333334,
+    "post_reminder_recovery_lag_ci": [
+      11.583333333333334,
+      18.25
+    ],
+    "post_reminder_recovery_success": 0.9166666666666666,
+    "post_reminder_recovery_success_ci": [
+      0.7916666666666666,
+      1.0
+    ],
+    "acquisition_success": 0.953125,
+    "acquisition_success_ci": [
+      0.9322916666666666,
+      0.9739583333333334
+    ],
+    "eviction_count": 182.08333333333334,
+    "eviction_count_ci": [
+      180.84722222222226,
+      183.33333333333334
+    ],
+    "replacement_rate_per_overflow": 1.0,
+    "replacement_rate_per_overflow_ci": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_lifetime": 25.514863033911382,
+    "mean_observed_lifetime_ci": [
+      25.345102894073765,
+      25.68237326803998
+    ],
+    "time_weighted_resident_age": 13.554203633014415,
+    "time_weighted_resident_age_ci": [
+      13.422347336823812,
+      13.683862449781515
+    ],
+    "policy_seconds": 0.004952322154875017,
+    "policy_seconds_ci": [
+      0.004804487640891845,
+      0.00513898682095007
+    ],
+    "policy_update_seconds": 0.001992239235227721,
+    "policy_update_seconds_ci": [
+      0.001934197977728521,
+      0.0020651887588125344
+    ],
+    "item_state_updates": 0.0,
+    "item_state_updates_ci": [
+      0.0,
+      0.0
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "frequency",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.5045572916666666,
+    "accuracy_ci": [
+      0.4849537037037037,
+      0.5235098379629629
+    ],
+    "stale_error": 0.11480034722222222,
+    "stale_error_ci": [
+      0.10633499710648146,
+      0.1232638888888889
+    ],
+    "stable_retention": 0.7068865740740741,
+    "stable_retention_ci": [
+      0.6620370370370371,
+      0.7489872685185185
+    ],
+    "adaptation_lag": 29.416666666666668,
+    "adaptation_lag_ci": [
+      27.722222222222218,
+      30.881944444444446
+    ],
+    "adaptation_success": 0.09722222222222221,
+    "adaptation_success_ci": [
+      0.041666666666666664,
+      0.1597222222222222
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 29.680555555555554,
+    "post_reminder_recovery_lag_ci": [
+      28.430555555555554,
+      30.75
+    ],
+    "post_reminder_recovery_success": 0.041666666666666664,
+    "post_reminder_recovery_success_ci": [
+      0.0,
+      0.08333333333333333
+    ],
+    "acquisition_success": 0.059895833333333336,
+    "acquisition_success_ci": [
+      0.04774305555555556,
+      0.07118055555555557
+    ],
+    "eviction_count": 6.75,
+    "eviction_count_ci": [
+      6.222222222222222,
+      7.236111111111111
+    ],
+    "replacement_rate_per_overflow": 0.047128811438033345,
+    "replacement_rate_per_overflow_ci": [
+      0.043430629599656684,
+      0.05059600240415768
+    ],
+    "mean_observed_lifetime": 337.58097218658014,
+    "mean_observed_lifetime_ci": [
+      324.98770434771563,
+      350.61054595364476
+    ],
+    "time_weighted_resident_age": 273.2008532046152,
+    "time_weighted_resident_age_ci": [
+      270.1352068567815,
+      276.57595535945325
+    ],
+    "policy_seconds": 0.004557805297534085,
+    "policy_seconds_ci": [
+      0.004386729597010547,
+      0.0048090173225824
+    ],
+    "policy_update_seconds": 0.0019767035393872196,
+    "policy_update_seconds_ci": [
+      0.0019147088888631615,
+      0.002062702138694779
+    ],
+    "item_state_updates": 0.0,
+    "item_state_updates_ci": [
+      0.0,
+      0.0
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "lru",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.4268663194444445,
+    "accuracy_ci": [
+      0.4162326388888889,
+      0.4383680555555555
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci": [
+      0.0,
+      0.0
+    ],
+    "stable_retention": 0.43402777777777785,
+    "stable_retention_ci": [
+      0.4197048611111111,
+      0.44792751736111097
+    ],
+    "adaptation_lag": 19.1875,
+    "adaptation_lag_ci": [
+      16.854166666666668,
+      21.666666666666668
+    ],
+    "adaptation_success": 0.8958333333333334,
+    "adaptation_success_ci": [
+      0.8125,
+      0.9791666666666666
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 17.208333333333332,
+    "post_reminder_recovery_lag_ci": [
+      13.625,
+      20.958333333333332
+    ],
+    "post_reminder_recovery_success": 0.9583333333333334,
+    "post_reminder_recovery_success_ci": [
+      0.875,
+      1.0
+    ],
+    "acquisition_success": 0.8463541666666666,
+    "acquisition_success_ci": [
+      0.8177083333333334,
+      0.875
+    ],
+    "eviction_count": 175.125,
+    "eviction_count_ci": [
+      173.54166666666666,
+      176.625
+    ],
+    "replacement_rate_per_overflow": 1.0,
+    "replacement_rate_per_overflow_ci": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_lifetime": 26.489255629130053,
+    "mean_observed_lifetime_ci": [
+      26.269016712812743,
+      26.72502851650868
+    ],
+    "time_weighted_resident_age": 17.064342410086834,
+    "time_weighted_resident_age_ci": [
+      16.65657843912591,
+      17.501563090964655
+    ],
+    "policy_seconds": 0.00466558773122314,
+    "policy_seconds_ci": [
+      0.004566865420363482,
+      0.004805829346878454
+    ],
+    "policy_update_seconds": 0.001972531479421175,
+    "policy_update_seconds_ci": [
+      0.001928614698893701,
+      0.0020346039752540588
+    ],
+    "item_state_updates": 0.0,
+    "item_state_updates_ci": [
+      0.0,
+      0.0
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "static_state_adaptive",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.6689091435185185,
+    "accuracy_ci": [
+      0.6577672887731482,
+      0.6796875
+    ],
+    "stale_error": 0.030526620370370367,
+    "stale_error_ci": [
+      0.026403356481481483,
+      0.03493923611111111
+    ],
+    "stable_retention": 0.7379918981481483,
+    "stable_retention_ci": [
+      0.7196180555555557,
+      0.7553566261574073
+    ],
+    "adaptation_lag": 20.73611111111111,
+    "adaptation_lag_ci": [
+      19.333333333333332,
+      22.104166666666668
+    ],
+    "adaptation_success": 0.7916666666666666,
+    "adaptation_success_ci": [
+      0.7083333333333334,
+      0.8680555555555557
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 24.041666666666668,
+    "post_reminder_recovery_lag_ci": [
+      21.875,
+      26.222222222222225
+    ],
+    "post_reminder_recovery_success": 0.625,
+    "post_reminder_recovery_success_ci": [
+      0.47222222222222215,
+      0.7638888888888888
+    ],
+    "acquisition_success": 0.6493055555555556,
+    "acquisition_success_ci": [
+      0.6145833333333334,
+      0.6840277777777777
+    ],
+    "eviction_count": 25.652777777777775,
+    "eviction_count_ci": [
+      24.847222222222218,
+      26.402777777777775
+    ],
+    "replacement_rate_per_overflow": 0.18107669574664342,
+    "replacement_rate_per_overflow_ci": [
+      0.17568808091563445,
+      0.18634973431186647
+    ],
+    "mean_observed_lifetime": 145.28452941865712,
+    "mean_observed_lifetime_ci": [
+      141.90896006446664,
+      148.87980901587665
+    ],
+    "time_weighted_resident_age": 134.8039620796914,
+    "time_weighted_resident_age_ci": [
+      131.47080205541394,
+      138.1613082260846
+    ],
+    "policy_seconds": 0.008403582446691062,
+    "policy_seconds_ci": [
+      0.00824023425714889,
+      0.008634645648029014
+    ],
+    "policy_update_seconds": 0.005372455000825641,
+    "policy_update_seconds_ci": [
+      0.0052665452865767294,
+      0.005525961653297094
+    ],
+    "item_state_updates": 0.0,
+    "item_state_updates_ci": [
+      0.0,
+      0.0
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "replacement_matched",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.5194589120370371,
+    "accuracy_ci": [
+      0.5047019675925927,
+      0.5351562500000001
+    ],
+    "stale_error": 0.01808449074074074,
+    "stale_error_ci": [
+      0.015190972222222224,
+      0.02119502314814815
+    ],
+    "stable_retention": 0.6671006944444443,
+    "stable_retention_ci": [
+      0.6380172164351853,
+      0.6999421296296297
+    ],
+    "adaptation_lag": 27.513888888888886,
+    "adaptation_lag_ci": [
+      26.444270833333334,
+      28.548611111111114
+    ],
+    "adaptation_success": 0.3680555555555555,
+    "adaptation_success_ci": [
+      0.2916666666666667,
+      0.4444444444444444
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 26.333333333333332,
+    "post_reminder_recovery_lag_ci": [
+      25.12465277777778,
+      27.583333333333332
+    ],
+    "post_reminder_recovery_success": 0.375,
+    "post_reminder_recovery_success_ci": [
+      0.3055555555555555,
+      0.4444444444444444
+    ],
+    "acquisition_success": 0.3541666666666667,
+    "acquisition_success_ci": [
+      0.3272569444444444,
+      0.37934027777777773
+    ],
+    "eviction_count": 31.01388888888889,
+    "eviction_count_ci": [
+      30.375,
+      31.666666666666668
+    ],
+    "replacement_rate_per_overflow": 0.20957171990889956,
+    "replacement_rate_per_overflow_ci": [
+      0.2058762424377266,
+      0.2133784705429451
+    ],
+    "mean_observed_lifetime": 125.57176138659686,
+    "mean_observed_lifetime_ci": [
+      123.3453510688913,
+      127.69515165778435
+    ],
+    "time_weighted_resident_age": 112.60205650494076,
+    "time_weighted_resident_age_ci": [
+      109.20715295800052,
+      116.09729177255116
+    ],
+    "policy_seconds": 0.005990407507245739,
+    "policy_seconds_ci": [
+      0.005812470242219408,
+      0.006220130323102543
+    ],
+    "policy_update_seconds": 0.002064006926957518,
+    "policy_update_seconds_ci": [
+      0.001994281010249526,
+      0.002155290475639049
+    ],
+    "item_state_updates": 0.0,
+    "item_state_updates_ci": [
+      0.0,
+      0.0
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "adaptive_rule",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.6851128472222222,
+    "accuracy_ci": [
+      0.670138888888889,
+      0.6996527777777777
+    ],
+    "stale_error": 0.0008680555555555555,
+    "stale_error_ci": [
+      0.00021701388888888888,
+      0.001736111111111111
+    ],
+    "stable_retention": 0.7903645833333334,
+    "stable_retention_ci": [
+      0.7586805555555557,
+      0.8224934895833332
+    ],
+    "adaptation_lag": 19.625,
+    "adaptation_lag_ci": [
+      16.6875,
+      22.5
+    ],
+    "adaptation_success": 0.6458333333333334,
+    "adaptation_success_ci": [
+      0.5208333333333334,
+      0.7708333333333334
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 17.166666666666668,
+    "post_reminder_recovery_lag_ci": [
+      12.875,
+      21.375
+    ],
+    "post_reminder_recovery_success": 0.625,
+    "post_reminder_recovery_success_ci": [
+      0.4166666666666667,
+      0.7916666666666666
+    ],
+    "acquisition_success": 0.4244791666666667,
+    "acquisition_success_ci": [
+      0.3723958333333333,
+      0.4817708333333333
+    ],
+    "eviction_count": 28.083333333333332,
+    "eviction_count_ci": [
+      26.248958333333334,
+      30.166666666666668
+    ],
+    "replacement_rate_per_overflow": 0.21500622306716055,
+    "replacement_rate_per_overflow_ci": [
+      0.2015999348721568,
+      0.2302913922144489
+    ],
+    "mean_observed_lifetime": 136.71176379737835,
+    "mean_observed_lifetime_ci": [
+      129.64740488092104,
+      143.3715828222994
+    ],
+    "time_weighted_resident_age": 166.1663737836631,
+    "time_weighted_resident_age_ci": [
+      161.67769528152533,
+      170.24850247782024
+    ],
+    "policy_seconds": 0.007693104691699975,
+    "policy_seconds_ci": [
+      0.007589832930049548,
+      0.007813813274939699
+    ],
+    "policy_update_seconds": 0.004709190863650291,
+    "policy_update_seconds_ci": [
+      0.004654245975285045,
+      0.004770897775274029
+    ],
+    "item_state_updates": 4887.875,
+    "item_state_updates_ci": [
+      4883.371875,
+      4891.875
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "adaptive_evolution",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.750217013888889,
+    "accuracy_ci": [
+      0.7358940972222222,
+      0.7641800491898149
+    ],
+    "stale_error": 0.0007233796296296295,
+    "stale_error_ci": [
+      0.00014467592592592592,
+      0.0014467592592592594
+    ],
+    "stable_retention": 0.8825231481481483,
+    "stable_retention_ci": [
+      0.8627025462962963,
+      0.9019097222222223
+    ],
+    "adaptation_lag": 15.527777777777777,
+    "adaptation_lag_ci": [
+      13.8125,
+      17.555729166666666
+    ],
+    "adaptation_success": 0.8541666666666666,
+    "adaptation_success_ci": [
+      0.7569444444444443,
+      0.9375
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 13.194444444444443,
+    "post_reminder_recovery_lag_ci": [
+      10.166666666666666,
+      16.639236111111106
+    ],
+    "post_reminder_recovery_success": 0.8194444444444443,
+    "post_reminder_recovery_success_ci": [
+      0.6666666666666666,
+      0.9583333333333334
+    ],
+    "acquisition_success": 0.5225694444444444,
+    "acquisition_success_ci": [
+      0.47306857638888883,
+      0.5711805555555555
+    ],
+    "eviction_count": 25.597222222222225,
+    "eviction_count_ci": [
+      24.263888888888886,
+      26.98645833333333
+    ],
+    "replacement_rate_per_overflow": 0.19976149403233065,
+    "replacement_rate_per_overflow_ci": [
+      0.18974709315925165,
+      0.21015452186404388
+    ],
+    "mean_observed_lifetime": 145.99824320571508,
+    "mean_observed_lifetime_ci": [
+      139.9671737954537,
+      151.77882081917426
+    ],
+    "time_weighted_resident_age": 175.47656939534963,
+    "time_weighted_resident_age_ci": [
+      173.736320860508,
+      177.71019325765093
+    ],
+    "policy_seconds": 0.011235552710584469,
+    "policy_seconds_ci": [
+      0.011104905893767458,
+      0.0113719218619129
+    ],
+    "policy_update_seconds": 0.008178908817677034,
+    "policy_update_seconds_ci": [
+      0.008100300127827923,
+      0.008265660990340014
+    ],
+    "item_state_updates": 4887.875,
+    "item_state_updates_ci": [
+      4883.5,
+      4891.75
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "no_importance",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.6713686342592592,
+    "accuracy_ci": [
+      0.6566098813657407,
+      0.6849681712962964
+    ],
+    "stale_error": 0.00021701388888888888,
+    "stale_error_ci": [
+      0.0,
+      0.0006510416666666666
+    ],
+    "stable_retention": 0.9169560185185185,
+    "stable_retention_ci": [
+      0.8800636574074074,
+      0.9518229166666666
+    ],
+    "adaptation_lag": 26.722222222222218,
+    "adaptation_lag_ci": [
+      25.138888888888886,
+      28.375347222222217
+    ],
+    "adaptation_success": 0.4305555555555555,
+    "adaptation_success_ci": [
+      0.3541666666666667,
+      0.4930555555555555
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 20.291666666666668,
+    "post_reminder_recovery_lag_ci": [
+      17.083333333333332,
+      23.416666666666668
+    ],
+    "post_reminder_recovery_success": 0.8333333333333334,
+    "post_reminder_recovery_success_ci": [
+      0.6666666666666666,
+      0.9583333333333334
+    ],
+    "acquisition_success": 0.3307291666666667,
+    "acquisition_success_ci": [
+      0.3020833333333333,
+      0.3611111111111111
+    ],
+    "eviction_count": 129.48611111111111,
+    "eviction_count_ci": [
+      122.54166666666667,
+      135.08333333333334
+    ],
+    "replacement_rate_per_overflow": 0.9399977256298712,
+    "replacement_rate_per_overflow_ci": [
+      0.8981451843776111,
+      0.9758830268036064
+    ],
+    "mean_observed_lifetime": 35.84346021385078,
+    "mean_observed_lifetime_ci": [
+      34.04029586443558,
+      38.23858598667466
+    ],
+    "time_weighted_resident_age": 185.55298943450802,
+    "time_weighted_resident_age_ci": [
+      181.0952528679981,
+      189.81788434335337
+    ],
+    "policy_seconds": 0.011821715038321497,
+    "policy_seconds_ci": [
+      0.011687297904831615,
+      0.011981070604653928
+    ],
+    "policy_update_seconds": 0.008470570306397146,
+    "policy_update_seconds_ci": [
+      0.008376733440187915,
+      0.008584341040760692
+    ],
+    "item_state_updates": 4887.875,
+    "item_state_updates_ci": [
+      4883.375,
+      4891.75
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "no_consistency",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.7020399305555557,
+    "accuracy_ci": [
+      0.6889467592592592,
+      0.7144820601851851
+    ],
+    "stale_error": 0.08760127314814814,
+    "stale_error_ci": [
+      0.07921006944444445,
+      0.09534143518518519
+    ],
+    "stable_retention": 0.8687789351851851,
+    "stable_retention_ci": [
+      0.84375,
+      0.8926504629629629
+    ],
+    "adaptation_lag": 16.659722222222225,
+    "adaptation_lag_ci": [
+      14.694444444444443,
+      18.729166666666664
+    ],
+    "adaptation_success": 0.7916666666666666,
+    "adaptation_success_ci": [
+      0.6944444444444445,
+      0.8819444444444445
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 15.416666666666666,
+    "post_reminder_recovery_lag_ci": [
+      11.360416666666664,
+      19.62604166666665
+    ],
+    "post_reminder_recovery_success": 0.7083333333333334,
+    "post_reminder_recovery_success_ci": [
+      0.5277777777777778,
+      0.875
+    ],
+    "acquisition_success": 0.34375,
+    "acquisition_success_ci": [
+      0.3159722222222222,
+      0.3697916666666667
+    ],
+    "eviction_count": 16.902777777777775,
+    "eviction_count_ci": [
+      16.041666666666668,
+      17.75
+    ],
+    "replacement_rate_per_overflow": 0.12902086381412486,
+    "replacement_rate_per_overflow_ci": [
+      0.1234280386305116,
+      0.1346347268102294
+    ],
+    "mean_observed_lifetime": 196.31765825472704,
+    "mean_observed_lifetime_ci": [
+      189.61282252359078,
+      203.28978543160954
+    ],
+    "time_weighted_resident_age": 182.5263881324811,
+    "time_weighted_resident_age_ci": [
+      180.33002937014035,
+      184.7700433101897
+    ],
+    "policy_seconds": 0.011664512761247655,
+    "policy_seconds_ci": [
+      0.011501438794948627,
+      0.011878117479176983
+    ],
+    "policy_update_seconds": 0.008418028527456854,
+    "policy_update_seconds_ci": [
+      0.008299944709708346,
+      0.00857201811838119
+    ],
+    "item_state_updates": 4887.875,
+    "item_state_updates_ci": [
+      4883.5,
+      4891.875
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "no_usage",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.5791377314814815,
+    "accuracy_ci": [
+      0.5634403935185186,
+      0.5956307870370371
+    ],
+    "stale_error": 0.0010850694444444443,
+    "stale_error_ci": [
+      0.00021701388888888888,
+      0.001953125
+    ],
+    "stable_retention": 0.4850983796296296,
+    "stable_retention_ci": [
+      0.4646990740740741,
+      0.5043402777777778
+    ],
+    "adaptation_lag": 12.847222222222221,
+    "adaptation_lag_ci": [
+      10.57638888888889,
+      15.569618055555553
+    ],
+    "adaptation_success": 0.8819444444444443,
+    "adaptation_success_ci": [
+      0.7708333333333334,
+      0.9791666666666666
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 12.069444444444443,
+    "post_reminder_recovery_lag_ci": [
+      8.722222222222221,
+      15.848263888888875
+    ],
+    "post_reminder_recovery_success": 0.8472222222222222,
+    "post_reminder_recovery_success_ci": [
+      0.6944444444444443,
+      0.9722222222222222
+    ],
+    "acquisition_success": 0.5772569444444445,
+    "acquisition_success_ci": [
+      0.5338541666666666,
+      0.623263888888889
+    ],
+    "eviction_count": 42.666666666666664,
+    "eviction_count_ci": [
+      41.05555555555555,
+      44.27777777777777
+    ],
+    "replacement_rate_per_overflow": 0.302560842779622,
+    "replacement_rate_per_overflow_ci": [
+      0.29129616487356574,
+      0.31421613258111075
+    ],
+    "mean_observed_lifetime": 96.3334861890127,
+    "mean_observed_lifetime_ci": [
+      93.22007394695363,
+      99.6311437507664
+    ],
+    "time_weighted_resident_age": 87.18610454999121,
+    "time_weighted_resident_age_ci": [
+      86.3505400033139,
+      88.10112016954999
+    ],
+    "policy_seconds": 0.011787198490411458,
+    "policy_seconds_ci": [
+      0.011645070491229287,
+      0.01196529631221589
+    ],
+    "policy_update_seconds": 0.008437843928630982,
+    "policy_update_seconds_ci": [
+      0.008343727316888462,
+      0.008558566740248352
+    ],
+    "item_state_updates": 4887.875,
+    "item_state_updates_ci": [
+      4883.5,
+      4891.875
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  },
+  {
+    "batch": "B6",
+    "condition": "rapid_high",
+    "method": "no_time",
+    "capacity": 8,
+    "noise_count": 16,
+    "worlds": 24,
+    "seeds": 3,
+    "accuracy": 0.7416811342592592,
+    "accuracy_ci": [
+      0.7309027777777778,
+      0.7523871527777778
+    ],
+    "stale_error": 0.0009403935185185184,
+    "stale_error_ci": [
+      0.00028935185185185184,
+      0.001663773148148148
+    ],
+    "stable_retention": 0.8833912037037036,
+    "stable_retention_ci": [
+      0.8645833333333334,
+      0.9013310185185185
+    ],
+    "adaptation_lag": 17.458333333333332,
+    "adaptation_lag_ci": [
+      15.833333333333334,
+      19.388888888888886
+    ],
+    "adaptation_success": 0.8819444444444445,
+    "adaptation_success_ci": [
+      0.7777777777777778,
+      0.9652777777777778
+    ],
+    "pre_reminder_recall": null,
+    "post_reminder_recovery_lag": 15.208333333333334,
+    "post_reminder_recovery_lag_ci": [
+      12.48576388888889,
+      18.347222222222225
+    ],
+    "post_reminder_recovery_success": 0.8194444444444443,
+    "post_reminder_recovery_success_ci": [
+      0.6805555555555555,
+      0.9444444444444443
+    ],
+    "acquisition_success": 0.5416666666666666,
+    "acquisition_success_ci": [
+      0.5017361111111112,
+      0.5798611111111112
+    ],
+    "eviction_count": 24.916666666666668,
+    "eviction_count_ci": [
+      24.097222222222218,
+      25.73645833333333
+    ],
+    "replacement_rate_per_overflow": 0.19222747022629508,
+    "replacement_rate_per_overflow_ci": [
+      0.18572840839051166,
+      0.19873567659422986
+    ],
+    "mean_observed_lifetime": 148.1182892651697,
+    "mean_observed_lifetime_ci": [
+      144.44462706377712,
+      152.06022438615366
+    ],
+    "time_weighted_resident_age": 179.76140528138998,
+    "time_weighted_resident_age_ci": [
+      178.07680460881963,
+      181.82297349534355
+    ],
+    "policy_seconds": 0.011679743151439147,
+    "policy_seconds_ci": [
+      0.011520001551414479,
+      0.011875985029877889
+    ],
+    "policy_update_seconds": 0.008411938919582302,
+    "policy_update_seconds_ci": [
+      0.008321192616777908,
+      0.00853601633053687
+    ],
+    "item_state_updates": 4887.875,
+    "item_state_updates_ci": [
+      4883.375,
+      4892.0
+    ],
+    "state_payload_max_bytes": 256.0,
+    "state_payload_max_bytes_ci": [
+      256.0,
+      256.0
+    ],
+    "auxiliary_ledger_entries": 28.0,
+    "auxiliary_ledger_entries_ci": [
+      28.0,
+      28.0
+    ]
+  }
+]

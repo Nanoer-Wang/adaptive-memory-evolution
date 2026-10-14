@@ -1,0 +1,2498 @@
+[
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n1000",
+    "method": "fixed_decay",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.8825995807127883,
+    "stable_retention_ci95": [
+      0.8736897274633124,
+      0.8915094339622641
+    ],
+    "adaptation_score": 0.4895833333333333,
+    "adaptation_score_ci95": [
+      0.4716715494791667,
+      0.5068359375
+    ],
+    "accuracy": 0.8018867924528302,
+    "accuracy_ci95": [
+      0.7946802935010483,
+      0.8094863731656184
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.166666666666666,
+    "adaptation_lag_ci95": [
+      7.890625,
+      8.458333333333334
+    ],
+    "eviction_count": 211.125,
+    "eviction_count_ci95": [
+      207.79062499999998,
+      214.25
+    ],
+    "time_weighted_resident_age": 43.00664906578792,
+    "time_weighted_resident_age_ci95": [
+      41.88357325091265,
+      44.25883428471734
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.00960082433367562,
+    "policy_seconds_ci95": [
+      0.009514180910870588,
+      0.009687969673703063
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n1000",
+    "method": "frequency",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9965059399021663,
+    "stable_retention_ci95": [
+      0.9895178197064989,
+      1.0
+    ],
+    "adaptation_score": 0.10460069444444443,
+    "adaptation_score_ci95": [
+      0.0871310763888889,
+      0.12250434027777778
+    ],
+    "accuracy": 0.6326869322152341,
+    "accuracy_ci95": [
+      0.627707896575821,
+      0.63770964360587
+    ],
+    "stale_error": 0.29686408106219425,
+    "stale_error_ci95": [
+      0.286730214884696,
+      0.3071726502445842
+    ],
+    "adaptation_lag": 14.326388888888891,
+    "adaptation_lag_ci95": [
+      14.036458333333334,
+      14.621527777777777
+    ],
+    "eviction_count": 12.666666666666666,
+    "eviction_count_ci95": [
+      12.138888888888891,
+      13.194444444444445
+    ],
+    "time_weighted_resident_age": 424.0543690037476,
+    "time_weighted_resident_age_ci95": [
+      420.4794953093745,
+      427.7862220513366
+    ],
+    "rejected_writes": 185.05555555555554,
+    "rejected_writes_ci95": [
+      182.95833333333334,
+      187.27777777777774
+    ],
+    "policy_seconds": 0.0093650295619025,
+    "policy_seconds_ci95": [
+      0.009311578682455648,
+      0.009417501790449024
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n1000",
+    "method": "lru",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9963312368972747,
+    "stable_retention_ci95": [
+      0.9942348008385743,
+      0.9981656184486374
+    ],
+    "adaptation_score": 0.4918619791666667,
+    "adaptation_score_ci95": [
+      0.4755859375,
+      0.5078125
+    ],
+    "accuracy": 0.8898060796645703,
+    "accuracy_ci95": [
+      0.8843029350104823,
+      0.8953092243186583
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.130208333333334,
+    "adaptation_lag_ci95": [
+      7.864583333333333,
+      8.390755208333331
+    ],
+    "eviction_count": 174.70833333333334,
+    "eviction_count_ci95": [
+      172.83333333333334,
+      176.41666666666666
+    ],
+    "time_weighted_resident_age": 148.77603827766026,
+    "time_weighted_resident_age_ci95": [
+      145.2830793717509,
+      151.77137726622104
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.008657771511934698,
+    "policy_seconds_ci95": [
+      0.008571749419206753,
+      0.008751111933088395
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n1000",
+    "method": "static_state_adaptive",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.8964884696016773,
+    "stable_retention_ci95": [
+      0.8846960167714885,
+      0.9077568134171908
+    ],
+    "adaptation_score": 0.36382378472222227,
+    "adaptation_score_ci95": [
+      0.3318088107638889,
+      0.3974609375
+    ],
+    "accuracy": 0.7594776380153739,
+    "accuracy_ci95": [
+      0.7479024720475193,
+      0.7709654524807827
+    ],
+    "stale_error": 0.13356044723969254,
+    "stale_error_ci95": [
+      0.12534940600978337,
+      0.14094164919636618
+    ],
+    "adaptation_lag": 10.178819444444445,
+    "adaptation_lag_ci95": [
+      9.64926215277778,
+      10.682335069444443
+    ],
+    "eviction_count": 49.375,
+    "eviction_count_ci95": [
+      48.361111111111114,
+      50.375
+    ],
+    "time_weighted_resident_age": 237.6717608156522,
+    "time_weighted_resident_age_ci95": [
+      233.764949363116,
+      241.25394808239946
+    ],
+    "rejected_writes": 162.30555555555557,
+    "rejected_writes_ci95": [
+      160.70833333333334,
+      163.88888888888889
+    ],
+    "policy_seconds": 0.016295681015536603,
+    "policy_seconds_ci95": [
+      0.016166331347388527,
+      0.016459520098740337
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n1000",
+    "method": "full_0",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9996505939902166,
+    "stable_retention_ci95": [
+      0.9991264849755416,
+      1.0
+    ],
+    "adaptation_score": 0.18825954861111113,
+    "adaptation_score_ci95": [
+      0.16840006510416666,
+      0.20735677083333334
+    ],
+    "accuracy": 0.6801187980433263,
+    "accuracy_ci95": [
+      0.6734364081062193,
+      0.6865828092243186
+    ],
+    "stale_error": 0.27205625436757513,
+    "stale_error_ci95": [
+      0.26546121593291405,
+      0.27856394129979034
+    ],
+    "adaptation_lag": 12.987847222222223,
+    "adaptation_lag_ci95": [
+      12.673611111111112,
+      13.314236111111109
+    ],
+    "eviction_count": 55.77777777777777,
+    "eviction_count_ci95": [
+      52.499652777777776,
+      58.58368055555555
+    ],
+    "time_weighted_resident_age": 387.3465830390212,
+    "time_weighted_resident_age_ci95": [
+      384.33668123149204,
+      390.67043426473396
+    ],
+    "rejected_writes": 146.06944444444443,
+    "rejected_writes_ci95": [
+      143.76388888888889,
+      148.30555555555554
+    ],
+    "policy_seconds": 0.021575457701045606,
+    "policy_seconds_ci95": [
+      0.02108516408301916,
+      0.02213320449275974
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n1000",
+    "method": "full_0.25",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9997379454926625,
+    "stable_retention_ci95": [
+      0.9992138364779874,
+      1.0
+    ],
+    "adaptation_score": 0.5536024305555555,
+    "adaptation_score_ci95": [
+      0.5235460069444445,
+      0.5811631944444444
+    ],
+    "accuracy": 0.9074510831586302,
+    "accuracy_ci95": [
+      0.8980171208944795,
+      0.9169723969252273
+    ],
+    "stale_error": 0.003581411600279525,
+    "stale_error_ci95": [
+      0.0024895178197064994,
+      0.0048043326345213145
+    ],
+    "adaptation_lag": 7.142361111111112,
+    "adaptation_lag_ci95": [
+      6.704817708333334,
+      7.63025173611111
+    ],
+    "eviction_count": 122.43055555555554,
+    "eviction_count_ci95": [
+      120.52777777777779,
+      124.22222222222221
+    ],
+    "time_weighted_resident_age": 179.68514362995725,
+    "time_weighted_resident_age_ci95": [
+      179.0506768838784,
+      180.31992373665474
+    ],
+    "rejected_writes": 60.5,
+    "rejected_writes_ci95": [
+      58.48611111111111,
+      62.569444444444436
+    ],
+    "policy_seconds": 0.026263822872553844,
+    "policy_seconds_ci95": [
+      0.025947825137377048,
+      0.026631397546184918
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n1000",
+    "method": "full_1",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9997379454926625,
+    "stable_retention_ci95": [
+      0.9992138364779874,
+      1.0
+    ],
+    "adaptation_score": 0.46723090277777773,
+    "adaptation_score_ci95": [
+      0.4488932291666667,
+      0.48361545138888884
+    ],
+    "accuracy": 0.8781009783368274,
+    "accuracy_ci95": [
+      0.872816212438854,
+      0.8830363382250175
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.524305555555555,
+    "adaptation_lag_ci95": [
+      8.265625,
+      8.816015625
+    ],
+    "eviction_count": 161.69444444444446,
+    "eviction_count_ci95": [
+      160.00000000000003,
+      163.375
+    ],
+    "time_weighted_resident_age": 166.15058766832996,
+    "time_weighted_resident_age_ci95": [
+      165.650876261175,
+      166.6100390031562
+    ],
+    "rejected_writes": 13.444444444444445,
+    "rejected_writes_ci95": [
+      12.082986111111111,
+      14.958680555555551
+    ],
+    "policy_seconds": 0.02595866864107342,
+    "policy_seconds_ci95": [
+      0.025668820651157546,
+      0.02628757078281423
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n1000",
+    "method": "full_2",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9940600978336827,
+    "stable_retention_ci95": [
+      0.9907407407407408,
+      0.9970300489168414
+    ],
+    "adaptation_score": 0.4557291666666667,
+    "adaptation_score_ci95": [
+      0.4375,
+      0.470703125
+    ],
+    "accuracy": 0.8678808525506639,
+    "accuracy_ci95": [
+      0.8620708857442347,
+      0.8729035639412999
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.708333333333334,
+    "adaptation_lag_ci95": [
+      8.458333333333334,
+      8.974088541666665
+    ],
+    "eviction_count": 166.15277777777777,
+    "eviction_count_ci95": [
+      164.41666666666666,
+      167.98611111111111
+    ],
+    "time_weighted_resident_age": 157.9030761015829,
+    "time_weighted_resident_age_ci95": [
+      154.5682092777088,
+      161.0839948216209
+    ],
+    "rejected_writes": 8.944444444444445,
+    "rejected_writes_ci95": [
+      7.777777777777779,
+      10.23645833333333
+    ],
+    "policy_seconds": 0.02596102503594011,
+    "policy_seconds_ci95": [
+      0.025628250232774815,
+      0.026341157520073464
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n500",
+    "method": "fixed_decay",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.8950216450216449,
+    "stable_retention_ci95": [
+      0.8836580086580087,
+      0.9063852813852814
+    ],
+    "adaptation_score": 0.49045138888888884,
+    "adaptation_score_ci95": [
+      0.4713541666666667,
+      0.5086805555555555
+    ],
+    "accuracy": 0.8202614379084968,
+    "accuracy_ci95": [
+      0.8137254901960785,
+      0.8270697167755992
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.152777777777779,
+    "adaptation_lag_ci95": [
+      7.861111111111111,
+      8.472222222222221
+    ],
+    "eviction_count": 97.75,
+    "eviction_count_ci95": [
+      96.0,
+      99.54166666666667
+    ],
+    "time_weighted_resident_age": 42.695196571460365,
+    "time_weighted_resident_age_ci95": [
+      41.61506767378008,
+      43.74988383673459
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.004886173701379448,
+    "policy_seconds_ci95": [
+      0.004734243286818835,
+      0.005076768411446311
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n500",
+    "method": "frequency",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9962121212121212,
+    "stable_retention_ci95": [
+      0.9886363636363636,
+      1.0
+    ],
+    "adaptation_score": 0.24276620370370372,
+    "adaptation_score_ci95": [
+      0.19994212962962962,
+      0.28559027777777773
+    ],
+    "accuracy": 0.7321169208424111,
+    "accuracy_ci95": [
+      0.723129992737836,
+      0.7411946259985477
+    ],
+    "stale_error": 0.1909041394335512,
+    "stale_error_ci95": [
+      0.1798270697167756,
+      0.20225127087872186
+    ],
+    "adaptation_lag": 12.11574074074074,
+    "adaptation_lag_ci95": [
+      11.416666666666666,
+      12.810300925925924
+    ],
+    "eviction_count": 11.166666666666666,
+    "eviction_count_ci95": [
+      10.694444444444443,
+      11.638888888888888
+    ],
+    "time_weighted_resident_age": 206.07511590683302,
+    "time_weighted_resident_age_ci95": [
+      204.16340281565616,
+      208.0269456171827
+    ],
+    "rejected_writes": 72.95833333333333,
+    "rejected_writes_ci95": [
+      71.875,
+      74.06944444444444
+    ],
+    "policy_seconds": 0.004724739688552088,
+    "policy_seconds_ci95": [
+      0.004568229888132515,
+      0.0049116614394329695
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n500",
+    "method": "lru",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9978354978354979,
+    "stable_retention_ci95": [
+      0.9951298701298702,
+      1.0
+    ],
+    "adaptation_score": 0.49045138888888884,
+    "adaptation_score_ci95": [
+      0.4713541666666667,
+      0.509548611111111
+    ],
+    "accuracy": 0.8997821350762528,
+    "accuracy_ci95": [
+      0.8937908496732027,
+      0.9055010893246188
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.152777777777779,
+    "adaptation_lag_ci95": [
+      7.847222222222222,
+      8.472222222222221
+    ],
+    "eviction_count": 81.08333333333333,
+    "eviction_count_ci95": [
+      80.20833333333333,
+      82.0
+    ],
+    "time_weighted_resident_age": 91.35132529388183,
+    "time_weighted_resident_age_ci95": [
+      90.04598444095049,
+      92.36639823268727
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.0044447984352397425,
+    "policy_seconds_ci95": [
+      0.0043099352279872,
+      0.0046013698264788325
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n500",
+    "method": "static_state_adaptive",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9520202020202021,
+    "stable_retention_ci95": [
+      0.9446248196248197,
+      0.9586940836940836
+    ],
+    "adaptation_score": 0.5911458333333334,
+    "adaptation_score_ci95": [
+      0.568576388888889,
+      0.6111183449074074
+    ],
+    "accuracy": 0.8920660856935365,
+    "accuracy_ci95": [
+      0.8809005083514888,
+      0.9025962236746551
+    ],
+    "stale_error": 0.035493827160493825,
+    "stale_error_ci95": [
+      0.028683278867102393,
+      0.04275599128540305
+    ],
+    "adaptation_lag": 6.541666666666668,
+    "adaptation_lag_ci95": [
+      6.212962962962963,
+      6.907407407407407
+    ],
+    "eviction_count": 32.02777777777778,
+    "eviction_count_ci95": [
+      31.180555555555554,
+      32.791666666666664
+    ],
+    "time_weighted_resident_age": 140.67035482312568,
+    "time_weighted_resident_age_ci95": [
+      139.80707959247803,
+      141.5533511908059
+    ],
+    "rejected_writes": 55.083333333333336,
+    "rejected_writes_ci95": [
+      54.26354166666666,
+      55.88888888888889
+    ],
+    "policy_seconds": 0.008124437493582567,
+    "policy_seconds_ci95": [
+      0.007910416000555011,
+      0.008403929774552427
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n500",
+    "method": "full_0",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9992784992784993,
+    "stable_retention_ci95": [
+      0.9981962481962482,
+      1.0
+    ],
+    "adaptation_score": 0.47482638888888884,
+    "adaptation_score_ci95": [
+      0.4233217592592593,
+      0.5248914930555555
+    ],
+    "accuracy": 0.7921205519244735,
+    "accuracy_ci95": [
+      0.7802287581699346,
+      0.8031045751633988
+    ],
+    "stale_error": 0.18001089324618738,
+    "stale_error_ci95": [
+      0.17020470225127088,
+      0.19054103122730573
+    ],
+    "adaptation_lag": 8.402777777777779,
+    "adaptation_lag_ci95": [
+      7.606481481481481,
+      9.23611111111111
+    ],
+    "eviction_count": 39.51388888888889,
+    "eviction_count_ci95": [
+      36.94409722222222,
+      41.76388888888889
+    ],
+    "time_weighted_resident_age": 184.25023828424526,
+    "time_weighted_resident_age_ci95": [
+      182.23541015129575,
+      186.36461451681416
+    ],
+    "rejected_writes": 50.625,
+    "rejected_writes_ci95": [
+      48.81944444444445,
+      52.486111111111114
+    ],
+    "policy_seconds": 0.010398444758417705,
+    "policy_seconds_ci95": [
+      0.010147819660131872,
+      0.010764020268915271
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n500",
+    "method": "full_0.25",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9994588744588745,
+    "stable_retention_ci95": [
+      0.9983766233766233,
+      1.0
+    ],
+    "adaptation_score": 0.5133101851851852,
+    "adaptation_score_ci95": [
+      0.4803240740740741,
+      0.5439887152777777
+    ],
+    "accuracy": 0.9044117647058824,
+    "accuracy_ci95": [
+      0.8986020334059551,
+      0.9104030501089325
+    ],
+    "stale_error": 0.0026325344952795936,
+    "stale_error_ci95": [
+      0.001270878721859114,
+      0.004175744371822803
+    ],
+    "adaptation_lag": 7.787037037037037,
+    "adaptation_lag_ci95": [
+      7.310185185185186,
+      8.291782407407405
+    ],
+    "eviction_count": 58.611111111111114,
+    "eviction_count_ci95": [
+      57.375,
+      59.833333333333336
+    ],
+    "time_weighted_resident_age": 115.51606160737317,
+    "time_weighted_resident_age_ci95": [
+      115.01444767940694,
+      116.03012001878729
+    ],
+    "rejected_writes": 25.875,
+    "rejected_writes_ci95": [
+      24.611111111111114,
+      27.277777777777782
+    ],
+    "policy_seconds": 0.01298752879180635,
+    "policy_seconds_ci95": [
+      0.012830255316738558,
+      0.013160261272989575
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n500",
+    "method": "full_1",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9994588744588745,
+    "stable_retention_ci95": [
+      0.9983766233766233,
+      1.0
+    ],
+    "adaptation_score": 0.47482638888888884,
+    "adaptation_score_ci95": [
+      0.4525462962962963,
+      0.49565972222222215
+    ],
+    "accuracy": 0.8885257806826434,
+    "accuracy_ci95": [
+      0.8825344952795934,
+      0.893881626724764
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.402777777777779,
+    "adaptation_lag_ci95": [
+      8.074074074074074,
+      8.75
+    ],
+    "eviction_count": 75.09722222222221,
+    "eviction_count_ci95": [
+      74.0,
+      76.15277777777777
+    ],
+    "time_weighted_resident_age": 103.82585439287334,
+    "time_weighted_resident_age_ci95": [
+      103.27536985171398,
+      104.36163464213206
+    ],
+    "rejected_writes": 6.527777777777778,
+    "rejected_writes_ci95": [
+      5.583333333333333,
+      7.472222222222221
+    ],
+    "policy_seconds": 0.013172476216115885,
+    "policy_seconds_ci95": [
+      0.012852955158774016,
+      0.013596796095953325
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n500",
+    "method": "full_2",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.995851370851371,
+    "stable_retention_ci95": [
+      0.9924242424242425,
+      0.9987373737373737
+    ],
+    "adaptation_score": 0.4583333333333333,
+    "adaptation_score_ci95": [
+      0.4375,
+      0.4782986111111111
+    ],
+    "accuracy": 0.8768155410312272,
+    "accuracy_ci95": [
+      0.8708242556281771,
+      0.8826252723311546
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.666666666666666,
+    "adaptation_lag_ci95": [
+      8.361111111111112,
+      9.0
+    ],
+    "eviction_count": 76.875,
+    "eviction_count_ci95": [
+      75.83333333333333,
+      77.90277777777779
+    ],
+    "time_weighted_resident_age": 100.87925237179921,
+    "time_weighted_resident_age_ci95": [
+      100.06533221985937,
+      101.63708449178134
+    ],
+    "rejected_writes": 4.5,
+    "rejected_writes_ci95": [
+      3.8055555555555554,
+      5.222222222222222
+    ],
+    "policy_seconds": 0.01309599714457161,
+    "policy_seconds_ci95": [
+      0.012808207025712665,
+      0.013436962692422737
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n5000",
+    "method": "fixed_decay",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.8752035002035002,
+    "stable_retention_ci95": [
+      0.8706756206756207,
+      0.8792735042735043
+    ],
+    "adaptation_score": 0.4979166666666666,
+    "adaptation_score_ci95": [
+      0.4925,
+      0.5033854166666667
+    ],
+    "accuracy": 0.7936520057014865,
+    "accuracy_ci95": [
+      0.790444919568316,
+      0.7969354510283039
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.033333333333333,
+    "adaptation_lag_ci95": [
+      7.943333333333334,
+      8.1225
+    ],
+    "eviction_count": 1111.0416666666667,
+    "eviction_count_ci95": [
+      1104.7916666666667,
+      1117.8333333333333
+    ],
+    "time_weighted_resident_age": 43.90541162420109,
+    "time_weighted_resident_age_ci95": [
+      43.435216666087115,
+      44.37938525617748
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.05003467136864653,
+    "policy_seconds_ci95": [
+      0.049637624819135646,
+      0.050443640709595956
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n5000",
+    "method": "frequency",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9964557047890382,
+    "stable_retention_ci95": [
+      0.9893671143671142,
+      1.0
+    ],
+    "adaptation_score": 0.017204861111111112,
+    "adaptation_score_ci95": [
+      0.014253472222222223,
+      0.020052083333333335
+    ],
+    "accuracy": 0.5275147627774385,
+    "accuracy_ci95": [
+      0.5237474971153193,
+      0.529729179393199
+    ],
+    "stale_error": 0.423861399579176,
+    "stale_error_ci95": [
+      0.4148081687368493,
+      0.4322110652955949
+    ],
+    "adaptation_lag": 15.724722222222221,
+    "adaptation_lag_ci95": [
+      15.677777777777777,
+      15.772222222222224
+    ],
+    "eviction_count": 13.777777777777777,
+    "eviction_count_ci95": [
+      13.208333333333334,
+      14.319444444444445
+    ],
+    "time_weighted_resident_age": 2313.164898114193,
+    "time_weighted_resident_age_ci95": [
+      2298.685525051751,
+      2328.4552100724445
+    ],
+    "rejected_writes": 1159.0,
+    "rejected_writes_ci95": [
+      1153.2631944444445,
+      1165.1805555555557
+    ],
+    "policy_seconds": 0.05094457694536283,
+    "policy_seconds_ci95": [
+      0.05051508223534459,
+      0.051446692092253624
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n5000",
+    "method": "lru",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9921652421652422,
+    "stable_retention_ci95": [
+      0.9905881155881157,
+      0.9935388685388685
+    ],
+    "adaptation_score": 0.4991145833333334,
+    "adaptation_score_ci95": [
+      0.49385416666666665,
+      0.5045833333333333
+    ],
+    "accuracy": 0.8824322948482997,
+    "accuracy_ci95": [
+      0.8804724088780289,
+      0.8844939930767662
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.014166666666666,
+    "adaptation_lag_ci95": [
+      7.93,
+      8.095
+    ],
+    "eviction_count": 927.5833333333334,
+    "eviction_count_ci95": [
+      924.2916666666666,
+      930.9166666666666
+    ],
+    "time_weighted_resident_age": 423.35353102660224,
+    "time_weighted_resident_age_ci95": [
+      391.07906026317505,
+      454.9091355146615
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.044684380920241684,
+    "policy_seconds_ci95": [
+      0.04431221729577777,
+      0.04512345092209418
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n5000",
+    "method": "static_state_adaptive",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.7744708994708995,
+    "stable_retention_ci95": [
+      0.7452330077330078,
+      0.8038626882376881
+    ],
+    "adaptation_score": 0.06668402777777778,
+    "adaptation_score_ci95": [
+      0.05994791666666666,
+      0.07350694444444444
+    ],
+    "accuracy": 0.4872310459512659,
+    "accuracy_ci95": [
+      0.4728144301907283,
+      0.5010607564650784
+    ],
+    "stale_error": 0.2979366049005634,
+    "stale_error_ci95": [
+      0.2894774910065839,
+      0.30557273637412613
+    ],
+    "adaptation_lag": 14.933055555555555,
+    "adaptation_lag_ci95": [
+      14.824715277777777,
+      15.040555555555555
+    ],
+    "eviction_count": 89.33333333333333,
+    "eviction_count_ci95": [
+      87.27777777777779,
+      91.36111111111113
+    ],
+    "time_weighted_resident_age": 979.4775590333244,
+    "time_weighted_resident_age_ci95": [
+      946.6242401556256,
+      1013.7749406476764
+    ],
+    "rejected_writes": 1191.486111111111,
+    "rejected_writes_ci95": [
+      1180.5690972222221,
+      1202.7503472222222
+    ],
+    "policy_seconds": 0.0863872107390004,
+    "policy_seconds_ci95": [
+      0.08576157523914137,
+      0.08712900843917548
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n5000",
+    "method": "full_0",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9999321665988332,
+    "stable_retention_ci95": [
+      0.9998304164970832,
+      1.0
+    ],
+    "adaptation_score": 0.04996527777777778,
+    "adaptation_score_ci95": [
+      0.04446180555555556,
+      0.055260416666666666
+    ],
+    "accuracy": 0.6057150614267292,
+    "accuracy_ci95": [
+      0.6026522093260028,
+      0.6086421638498608
+    ],
+    "stale_error": 0.26748625534514353,
+    "stale_error_ci95": [
+      0.26084215706237696,
+      0.2735358124618204
+    ],
+    "adaptation_lag": 15.200555555555558,
+    "adaptation_lag_ci95": [
+      15.115270833333332,
+      15.2875
+    ],
+    "eviction_count": 181.2222222222222,
+    "eviction_count_ci95": [
+      173.90243055555553,
+      188.1388888888889
+    ],
+    "time_weighted_resident_age": 1538.2532704207617,
+    "time_weighted_resident_age_ci95": [
+      1508.2434648540886,
+      1568.6735012578927
+    ],
+    "rejected_writes": 913.4583333333334,
+    "rejected_writes_ci95": [
+      901.1791666666667,
+      925.0975694444445
+    ],
+    "policy_seconds": 0.10743898230915268,
+    "policy_seconds_ci95": [
+      0.1059406430963362,
+      0.10913718163404458
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n5000",
+    "method": "full_0.25",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9999491249491249,
+    "stable_retention_ci95": [
+      0.9998473748473748,
+      1.0
+    ],
+    "adaptation_score": 0.5504166666666667,
+    "adaptation_score_ci95": [
+      0.5371523437499999,
+      0.5637504340277778
+    ],
+    "accuracy": 0.9000203624516391,
+    "accuracy_ci95": [
+      0.8957357632525623,
+      0.9043569283241703
+    ],
+    "stale_error": 0.004462770650919704,
+    "stale_error_ci95": [
+      0.003885834521143012,
+      0.00511627808321455
+    ],
+    "adaptation_lag": 7.193333333333334,
+    "adaptation_lag_ci95": [
+      6.994715277777778,
+      7.4050069444444455
+    ],
+    "eviction_count": 638.5972222222222,
+    "eviction_count_ci95": [
+      633.5833333333334,
+      643.3753472222222
+    ],
+    "time_weighted_resident_age": 680.5144141885834,
+    "time_weighted_resident_age_ci95": [
+      680.0018077178352,
+      681.0062360989527
+    ],
+    "rejected_writes": 341.2638888888889,
+    "rejected_writes_ci95": [
+      335.9715277777778,
+      346.88958333333335
+    ],
+    "policy_seconds": 0.1327620701566856,
+    "policy_seconds_ci95": [
+      0.13185705456158356,
+      0.13386274650482743
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n5000",
+    "method": "full_1",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9999491249491249,
+    "stable_retention_ci95": [
+      0.9998473748473748,
+      1.0
+    ],
+    "adaptation_score": 0.4737152777777777,
+    "adaptation_score_ci95": [
+      0.46762152777777777,
+      0.4795143229166666
+    ],
+    "accuracy": 0.8719116948347247,
+    "accuracy_ci95": [
+      0.869968565465282,
+      0.8738291590307473
+    ],
+    "stale_error": 4.2421774248286156e-05,
+    "stale_error_ci95": [
+      0.0,
+      0.00010181225819588678
+    ],
+    "adaptation_lag": 8.420555555555556,
+    "adaptation_lag_ci95": [
+      8.329722222222223,
+      8.519166666666667
+    ],
+    "eviction_count": 857.7222222222223,
+    "eviction_count_ci95": [
+      854.4166666666666,
+      861.0142361111112
+    ],
+    "time_weighted_resident_age": 666.4361451513739,
+    "time_weighted_resident_age_ci95": [
+      666.052049721919,
+      666.8203301459896
+    ],
+    "rejected_writes": 73.33333333333333,
+    "rejected_writes_ci95": [
+      70.51388888888889,
+      76.15277777777777
+    ],
+    "policy_seconds": 0.13144324528467324,
+    "policy_seconds_ci95": [
+      0.1305394442061596,
+      0.13250880808126467
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c16-n5000",
+    "method": "full_2",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9927757427757428,
+    "stable_retention_ci95": [
+      0.9911986161986163,
+      0.9943019943019943
+    ],
+    "adaptation_score": 0.4593055555555556,
+    "adaptation_score_ci95": [
+      0.45324609375,
+      0.46543402777777776
+    ],
+    "accuracy": 0.8591851625602388,
+    "accuracy_ci95": [
+      0.8567414562546665,
+      0.8615777506278421
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 8.651111111111112,
+    "adaptation_lag_ci95": [
+      8.553319444444444,
+      8.745840277777777
+    ],
+    "eviction_count": 877.4444444444443,
+    "eviction_count_ci95": [
+      873.6805555555557,
+      881.1944444444443
+    ],
+    "time_weighted_resident_age": 514.4989359442546,
+    "time_weighted_resident_age_ci95": [
+      488.36209057116207,
+      541.089545304319
+    ],
+    "rejected_writes": 52.166666666666664,
+    "rejected_writes_ci95": [
+      49.86076388888888,
+      54.569444444444436
+    ],
+    "policy_seconds": 0.1315912388252198,
+    "policy_seconds_ci95": [
+      0.13064401030375544,
+      0.13270847676839267
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n1000",
+    "method": "fixed_decay",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.44889937106918243,
+    "stable_retention_ci95": [
+      0.439203354297694,
+      0.45885744234800835
+    ],
+    "adaptation_score": 0.23209635416666666,
+    "adaptation_score_ci95": [
+      0.20084635416666666,
+      0.2633544921874999
+    ],
+    "accuracy": 0.434224318658281,
+    "accuracy_ci95": [
+      0.42596960167714887,
+      0.442479035639413
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 12.286458333333334,
+    "adaptation_lag_ci95": [
+      11.78125,
+      12.791666666666666
+    ],
+    "eviction_count": 299.34722222222223,
+    "eviction_count_ci95": [
+      297.47222222222223,
+      301.3194444444444
+    ],
+    "time_weighted_resident_age": 13.635253358627594,
+    "time_weighted_resident_age_ci95": [
+      13.510521910686908,
+      13.75697613540578
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.008159330140592324,
+    "policy_seconds_ci95": [
+      0.008095280137301111,
+      0.008235324904671869
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n1000",
+    "method": "frequency",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.6939203354297693,
+    "stable_retention_ci95": [
+      0.6531271837875612,
+      0.729561932215234
+    ],
+    "adaptation_score": 0.018771701388888888,
+    "adaptation_score_ci95": [
+      0.009006076388888888,
+      0.029622395833333332
+    ],
+    "accuracy": 0.4073637316561845,
+    "accuracy_ci95": [
+      0.3894119060097833,
+      0.4238305817610063
+    ],
+    "stale_error": 0.19029524807826695,
+    "stale_error_ci95": [
+      0.18112334032145352,
+      0.1995108315863033
+    ],
+    "adaptation_lag": 15.699652777777777,
+    "adaptation_lag_ci95": [
+      15.517361111111109,
+      15.862847222222221
+    ],
+    "eviction_count": 7.486111111111112,
+    "eviction_count_ci95": [
+      6.847222222222222,
+      8.125
+    ],
+    "time_weighted_resident_age": 455.4028399471393,
+    "time_weighted_resident_age_ci95": [
+      450.78319202790027,
+      459.72061427676033
+    ],
+    "rejected_writes": 244.19444444444443,
+    "rejected_writes_ci95": [
+      241.30555555555554,
+      247.26388888888889
+    ],
+    "policy_seconds": 0.007727137734440879,
+    "policy_seconds_ci95": [
+      0.007623049919493497,
+      0.007863817694305908
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n1000",
+    "method": "lru",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.43972746331236906,
+    "stable_retention_ci95": [
+      0.4268802410901467,
+      0.45283018867924535
+    ],
+    "adaptation_score": 0.20963541666666666,
+    "adaptation_score_ci95": [
+      0.18229166666666666,
+      0.23731282552083321
+    ],
+    "accuracy": 0.42033542976939203,
+    "accuracy_ci95": [
+      0.41299790356394134,
+      0.42727987421383656
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 12.645833333333334,
+    "adaptation_lag_ci95": [
+      12.208333333333334,
+      13.067708333333334
+    ],
+    "eviction_count": 285.9166666666667,
+    "eviction_count_ci95": [
+      284.1666666666667,
+      287.6666666666667
+    ],
+    "time_weighted_resident_age": 17.533474914678006,
+    "time_weighted_resident_age_ci95": [
+      17.255677336491228,
+      17.814136735122613
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.007722251181904641,
+    "policy_seconds_ci95": [
+      0.0076672727832273165,
+      0.007778937253169716
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n1000",
+    "method": "static_state_adaptive",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.6728686233403215,
+    "stable_retention_ci95": [
+      0.6446519042627533,
+      0.6989889063591894
+    ],
+    "adaptation_score": 0.056423611111111105,
+    "adaptation_score_ci95": [
+      0.03884548611111111,
+      0.07562934027777778
+    ],
+    "accuracy": 0.4807389937106918,
+    "accuracy_ci95": [
+      0.4674615653389238,
+      0.4940164220824598
+    ],
+    "stale_error": 0.12727113906359191,
+    "stale_error_ci95": [
+      0.1204140461215933,
+      0.1345213137665968
+    ],
+    "adaptation_lag": 15.097222222222221,
+    "adaptation_lag_ci95": [
+      14.782986111111112,
+      15.376736111111109
+    ],
+    "eviction_count": 31.819444444444446,
+    "eviction_count_ci95": [
+      30.861111111111114,
+      32.81944444444444
+    ],
+    "time_weighted_resident_age": 199.96908373679278,
+    "time_weighted_resident_age_ci95": [
+      194.145945513244,
+      205.28469723321078
+    ],
+    "rejected_writes": 227.30555555555554,
+    "rejected_writes_ci95": [
+      225.20798611111113,
+      229.45833333333334
+    ],
+    "policy_seconds": 0.013939378129887497,
+    "policy_seconds_ci95": [
+      0.013855555461486799,
+      0.014026787852829634
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n1000",
+    "method": "full_0",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9608665269042628,
+    "stable_retention_ci95": [
+      0.9377183787561146,
+      0.9806101502445843
+    ],
+    "adaptation_score": 0.0322265625,
+    "adaptation_score_ci95": [
+      0.017903645833333332,
+      0.050130208333333336
+    ],
+    "accuracy": 0.5587438853948288,
+    "accuracy_ci95": [
+      0.5496593291404612,
+      0.5666055206149546
+    ],
+    "stale_error": 0.16758385744234802,
+    "stale_error_ci95": [
+      0.16160027952480782,
+      0.1733927323549965
+    ],
+    "adaptation_lag": 15.484375,
+    "adaptation_lag_ci95": [
+      15.197916666666666,
+      15.770833333333334
+    ],
+    "eviction_count": 25.180555555555554,
+    "eviction_count_ci95": [
+      22.722222222222225,
+      28.014236111111103
+    ],
+    "time_weighted_resident_age": 428.270543560619,
+    "time_weighted_resident_age_ci95": [
+      423.0585296402757,
+      432.8760896306782
+    ],
+    "rejected_writes": 213.79166666666666,
+    "rejected_writes_ci95": [
+      212.08333333333334,
+      215.4722222222222
+    ],
+    "policy_seconds": 0.016557724900647167,
+    "policy_seconds_ci95": [
+      0.016470537346807153,
+      0.016649548594755793
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n1000",
+    "method": "full_0.25",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.922606568832984,
+    "stable_retention_ci95": [
+      0.9036512928022363,
+      0.9392907058001398
+    ],
+    "adaptation_score": 0.15907118055555555,
+    "adaptation_score_ci95": [
+      0.13932020399305556,
+      0.17762586805555558
+    ],
+    "accuracy": 0.6690251572327043,
+    "accuracy_ci95": [
+      0.6605520614954576,
+      0.6774556691125088
+    ],
+    "stale_error": 0.005546820405310971,
+    "stale_error_ci95": [
+      0.00458595387840671,
+      0.0064640111809923136
+    ],
+    "adaptation_lag": 13.454861111111109,
+    "adaptation_lag_ci95": [
+      13.152777777777779,
+      13.769097222222223
+    ],
+    "eviction_count": 43.15277777777778,
+    "eviction_count_ci95": [
+      41.263888888888886,
+      45.12534722222222
+    ],
+    "time_weighted_resident_age": 262.1080458529773,
+    "time_weighted_resident_age_ci95": [
+      257.9108193259875,
+      266.6871960135724
+    ],
+    "rejected_writes": 184.97222222222226,
+    "rejected_writes_ci95": [
+      183.56944444444443,
+      186.33333333333334
+    ],
+    "policy_seconds": 0.019527226621802483,
+    "policy_seconds_ci95": [
+      0.019343342279575557,
+      0.019734180578153526
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n1000",
+    "method": "full_1",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9437456324248776,
+    "stable_retention_ci95": [
+      0.9332634521313766,
+      0.9535290006988119
+    ],
+    "adaptation_score": 0.24609375,
+    "adaptation_score_ci95": [
+      0.21896430121527782,
+      0.2702935112847222
+    ],
+    "accuracy": 0.7443221523410202,
+    "accuracy_ci95": [
+      0.7370719776380154,
+      0.7516160027952482
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 12.0625,
+    "adaptation_lag_ci95": [
+      11.668359375000001,
+      12.484375
+    ],
+    "eviction_count": 52.34722222222222,
+    "eviction_count_ci95": [
+      50.708333333333336,
+      54.013888888888886
+    ],
+    "time_weighted_resident_age": 247.30084995350248,
+    "time_weighted_resident_age_ci95": [
+      240.54113602018214,
+      253.36326220609755
+    ],
+    "rejected_writes": 164.3472222222222,
+    "rejected_writes_ci95": [
+      162.4722222222222,
+      166.26388888888889
+    ],
+    "policy_seconds": 0.01932108970747019,
+    "policy_seconds_ci95": [
+      0.019104515611899034,
+      0.019603360679886665
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n1000",
+    "method": "full_2",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.559136967155835,
+    "stable_retention_ci95": [
+      0.5305708420684836,
+      0.5859538784067085
+    ],
+    "adaptation_score": 0.3739149305555556,
+    "adaptation_score_ci95": [
+      0.34255642361111116,
+      0.40202094184027776
+    ],
+    "accuracy": 0.6018518518518519,
+    "accuracy_ci95": [
+      0.586303284416492,
+      0.6171383647798742
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 10.017361111111112,
+    "adaptation_lag_ci95": [
+      9.578081597222223,
+      10.533029513888888
+    ],
+    "eviction_count": 99.31944444444444,
+    "eviction_count_ci95": [
+      97.06944444444446,
+      101.48611111111113
+    ],
+    "time_weighted_resident_age": 64.68754618490534,
+    "time_weighted_resident_age_ci95": [
+      60.80666121367189,
+      68.99638855873293
+    ],
+    "rejected_writes": 146.06944444444446,
+    "rejected_writes_ci95": [
+      143.33333333333334,
+      148.8472222222222
+    ],
+    "policy_seconds": 0.019799147473855153,
+    "policy_seconds_ci95": [
+      0.0195716482931554,
+      0.02008571648346131
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n500",
+    "method": "fixed_decay",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.4475108225108224,
+    "stable_retention_ci95": [
+      0.43452380952380953,
+      0.4604978354978355
+    ],
+    "adaptation_score": 0.22743055555555558,
+    "adaptation_score_ci95": [
+      0.1684027777777778,
+      0.2864583333333333
+    ],
+    "accuracy": 0.43736383442265797,
+    "accuracy_ci95": [
+      0.42755991285403055,
+      0.44608523965141605
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 12.361111111111112,
+    "adaptation_lag_ci95": [
+      11.402777777777779,
+      13.264236111111108
+    ],
+    "eviction_count": 146.34722222222223,
+    "eviction_count_ci95": [
+      144.93020833333335,
+      147.80555555555557
+    ],
+    "time_weighted_resident_age": 13.648152394566024,
+    "time_weighted_resident_age_ci95": [
+      13.450015056175479,
+      13.84519020755913
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.004198309318679903,
+    "policy_seconds_ci95": [
+      0.0041098501500932295,
+      0.004342925638451966
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n500",
+    "method": "frequency",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.6906565656565656,
+    "stable_retention_ci95": [
+      0.6527777777777778,
+      0.7256493506493505
+    ],
+    "adaptation_score": 0.05005787037037037,
+    "adaptation_score_ci95": [
+      0.02314814814814815,
+      0.07957899305555545
+    ],
+    "accuracy": 0.4611474219317357,
+    "accuracy_ci95": [
+      0.4444444444444445,
+      0.4768518518518518
+    ],
+    "stale_error": 0.13480392156862744,
+    "stale_error_ci95": [
+      0.12726942628903415,
+      0.14315541031227305
+    ],
+    "adaptation_lag": 15.199074074074074,
+    "adaptation_lag_ci95": [
+      14.712962962962964,
+      15.62060185185185
+    ],
+    "eviction_count": 7.111111111111111,
+    "eviction_count_ci95": [
+      6.513888888888888,
+      7.708333333333333
+    ],
+    "time_weighted_resident_age": 221.1740221175688,
+    "time_weighted_resident_age_ci95": [
+      219.10641723254392,
+      223.1964568508235
+    ],
+    "rejected_writes": 112.09722222222221,
+    "rejected_writes_ci95": [
+      110.58333333333333,
+      113.72222222222221
+    ],
+    "policy_seconds": 0.0039468565373681486,
+    "policy_seconds_ci95": [
+      0.003842292204111194,
+      0.004093552097522964
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n500",
+    "method": "lru",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.4496753246753247,
+    "stable_retention_ci95": [
+      0.43344155844155846,
+      0.46645021645021645
+    ],
+    "adaptation_score": 0.20572916666666666,
+    "adaptation_score_ci95": [
+      0.15625,
+      0.2569444444444444
+    ],
+    "accuracy": 0.42783224400871456,
+    "accuracy_ci95": [
+      0.4199346405228758,
+      0.4357298474945533
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 12.708333333333334,
+    "adaptation_lag_ci95": [
+      11.861111111111109,
+      13.5
+    ],
+    "eviction_count": 139.0,
+    "eviction_count_ci95": [
+      137.625,
+      140.33333333333334
+    ],
+    "time_weighted_resident_age": 18.156265529555654,
+    "time_weighted_resident_age_ci95": [
+      17.745979520602617,
+      18.612750780999015
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.004158013978869551,
+    "policy_seconds_ci95": [
+      0.003972735006795524,
+      0.004386756914997629
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n500",
+    "method": "static_state_adaptive",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.7184343434343434,
+    "stable_retention_ci95": [
+      0.6973304473304474,
+      0.73989898989899
+    ],
+    "adaptation_score": 0.10734953703703703,
+    "adaptation_score_ci95": [
+      0.07638888888888888,
+      0.14033564814814814
+    ],
+    "accuracy": 0.5837872185911402,
+    "accuracy_ci95": [
+      0.5729847494553377,
+      0.5942265795206972
+    ],
+    "stale_error": 0.0667211328976035,
+    "stale_error_ci95": [
+      0.060366739288307915,
+      0.07352941176470588
+    ],
+    "adaptation_lag": 14.28240740740741,
+    "adaptation_lag_ci95": [
+      13.754513888888887,
+      14.777777777777779
+    ],
+    "eviction_count": 24.13888888888889,
+    "eviction_count_ci95": [
+      23.347222222222225,
+      25.01388888888889
+    ],
+    "time_weighted_resident_age": 111.86147700079646,
+    "time_weighted_resident_age_ci95": [
+      108.69205001024038,
+      115.37344050219504
+    ],
+    "rejected_writes": 96.56944444444446,
+    "rejected_writes_ci95": [
+      95.55555555555556,
+      97.56944444444446
+    ],
+    "policy_seconds": 0.007461801611094012,
+    "policy_seconds_ci95": [
+      0.007233422356916384,
+      0.007716081531705439
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n500",
+    "method": "full_0",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9448051948051948,
+    "stable_retention_ci95": [
+      0.9186507936507936,
+      0.9668109668109669
+    ],
+    "adaptation_score": 0.0859375,
+    "adaptation_score_ci95": [
+      0.03819444444444444,
+      0.13368055555555555
+    ],
+    "accuracy": 0.5992193173565723,
+    "accuracy_ci95": [
+      0.5888707334785765,
+      0.6082970225127088
+    ],
+    "stale_error": 0.15958605664488015,
+    "stale_error_ci95": [
+      0.15522875816993462,
+      0.16376180101670298
+    ],
+    "adaptation_lag": 14.625,
+    "adaptation_lag_ci95": [
+      13.861111111111112,
+      15.236111111111112
+    ],
+    "eviction_count": 17.819444444444443,
+    "eviction_count_ci95": [
+      15.847222222222221,
+      19.861458333333328
+    ],
+    "time_weighted_resident_age": 223.31311534604995,
+    "time_weighted_resident_age_ci95": [
+      221.58093284909,
+      225.19714748936684
+    ],
+    "rejected_writes": 97.18055555555556,
+    "rejected_writes_ci95": [
+      95.59722222222221,
+      98.70833333333333
+    ],
+    "policy_seconds": 0.008920443826355038,
+    "policy_seconds_ci95": [
+      0.008687094987383008,
+      0.009174213536769256
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n500",
+    "method": "full_0.25",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.8508297258297258,
+    "stable_retention_ci95": [
+      0.8239538239538241,
+      0.8786075036075035
+    ],
+    "adaptation_score": 0.21817129629629628,
+    "adaptation_score_ci95": [
+      0.18055555555555558,
+      0.2540509259259259
+    ],
+    "accuracy": 0.665758896151053,
+    "accuracy_ci95": [
+      0.6545933188090051,
+      0.6770152505446623
+    ],
+    "stale_error": 0.004448075526506899,
+    "stale_error_ci95": [
+      0.0029048656499636887,
+      0.006082062454611475
+    ],
+    "adaptation_lag": 12.50925925925926,
+    "adaptation_lag_ci95": [
+      11.958333333333334,
+      13.125
+    ],
+    "eviction_count": 22.763888888888886,
+    "eviction_count_ci95": [
+      21.319444444444443,
+      24.23611111111111
+    ],
+    "time_weighted_resident_age": 151.41441818081233,
+    "time_weighted_resident_age_ci95": [
+      149.667876454556,
+      153.33862108553274
+    ],
+    "rejected_writes": 89.30555555555556,
+    "rejected_writes_ci95": [
+      88.01388888888887,
+      90.47222222222221
+    ],
+    "policy_seconds": 0.010288500013606003,
+    "policy_seconds_ci95": [
+      0.010033858632959892,
+      0.010575927664790973
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n500",
+    "method": "full_1",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.8919552669552667,
+    "stable_retention_ci95": [
+      0.8722943722943723,
+      0.9105339105339105
+    ],
+    "adaptation_score": 0.23263888888888887,
+    "adaptation_score_ci95": [
+      0.20052083333333334,
+      0.26417824074074076
+    ],
+    "accuracy": 0.736292665214234,
+    "accuracy_ci95": [
+      0.7263956971677559,
+      0.7467320261437909
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 12.277777777777777,
+    "adaptation_lag_ci95": [
+      11.782407407407405,
+      12.787037037037038
+    ],
+    "eviction_count": 28.01388888888889,
+    "eviction_count_ci95": [
+      26.721874999999997,
+      29.333333333333332
+    ],
+    "time_weighted_resident_age": 134.3085467191802,
+    "time_weighted_resident_age_ci95": [
+      131.55469003617205,
+      136.82100649969323
+    ],
+    "rejected_writes": 78.625,
+    "rejected_writes_ci95": [
+      77.20833333333333,
+      79.94444444444444
+    ],
+    "policy_seconds": 0.010189871691788236,
+    "policy_seconds_ci95": [
+      0.010004237867865919,
+      0.010401838654878601
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n500",
+    "method": "full_2",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.5887445887445887,
+    "stable_retention_ci95": [
+      0.5505050505050505,
+      0.6212121212121212
+    ],
+    "adaptation_score": 0.3709490740740741,
+    "adaptation_score_ci95": [
+      0.32754629629629634,
+      0.40799334490740735
+    ],
+    "accuracy": 0.6300835148874365,
+    "accuracy_ci95": [
+      0.6123819898329702,
+      0.6475127087872186
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 10.064814814814815,
+    "adaptation_lag_ci95": [
+      9.472222222222223,
+      10.773263888888886
+    ],
+    "eviction_count": 47.34722222222223,
+    "eviction_count_ci95": [
+      45.930555555555564,
+      48.86111111111111
+    ],
+    "time_weighted_resident_age": 63.10607637062441,
+    "time_weighted_resident_age_ci95": [
+      59.844005954494264,
+      66.7780812357552
+    ],
+    "rejected_writes": 69.65277777777777,
+    "rejected_writes_ci95": [
+      68.01354166666667,
+      71.33368055555555
+    ],
+    "policy_seconds": 0.010316663635118553,
+    "policy_seconds_ci95": [
+      0.010083100521620104,
+      0.010589634208008646
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n5000",
+    "method": "fixed_decay",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.4551282051282051,
+    "stable_retention_ci95": [
+      0.45054945054945056,
+      0.45975783475783477
+    ],
+    "adaptation_score": 0.22921875000000003,
+    "adaptation_score_ci95": [
+      0.21395833333333336,
+      0.24510546875
+    ],
+    "accuracy": 0.43318570555894925,
+    "accuracy_ci95": [
+      0.430028889228263,
+      0.43621462024027685
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 12.332500000000001,
+    "adaptation_lag_ci95": [
+      12.069979166666664,
+      12.584187499999999
+    ],
+    "eviction_count": 1517.7638888888887,
+    "eviction_count_ci95": [
+      1514.7076388888888,
+      1520.8336805555555
+    ],
+    "time_weighted_resident_age": 13.656704043812503,
+    "time_weighted_resident_age_ci95": [
+      13.618445883917058,
+      13.694805108915475
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.04098569544860058,
+    "policy_seconds_ci95": [
+      0.04071547925074507,
+      0.04126463020576113
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n5000",
+    "method": "frequency",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.6952414869081537,
+    "stable_retention_ci95": [
+      0.6564501085334418,
+      0.7333299416632751
+    ],
+    "adaptation_score": 0.003003472222222222,
+    "adaptation_score_ci95": [
+      0.0014578993055555556,
+      0.004826388888888889
+    ],
+    "accuracy": 0.36068689336862825,
+    "accuracy_ci95": [
+      0.34135953302110905,
+      0.3788697142469286
+    ],
+    "stale_error": 0.2622853458223036,
+    "stale_error_ci95": [
+      0.25453064548971693,
+      0.26987905552161817
+    ],
+    "adaptation_lag": 15.951944444444445,
+    "adaptation_lag_ci95": [
+      15.92277777777778,
+      15.97638888888889
+    ],
+    "eviction_count": 7.972222222222222,
+    "eviction_count_ci95": [
+      7.305208333333332,
+      8.625
+    ],
+    "time_weighted_resident_age": 2375.3627106589597,
+    "time_weighted_resident_age_ci95": [
+      2358.034440171011,
+      2392.499025496886
+    ],
+    "rejected_writes": 1321.9444444444443,
+    "rejected_writes_ci95": [
+      1307.5694444444446,
+      1336.80625
+    ],
+    "policy_seconds": 0.039158833691746824,
+    "policy_seconds_ci95": [
+      0.0387841292471017,
+      0.03961619272368908
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n5000",
+    "method": "lru",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.4437321937321938,
+    "stable_retention_ci95": [
+      0.437067562067562,
+      0.45085470085470086
+    ],
+    "adaptation_score": 0.2024479166666667,
+    "adaptation_score_ci95": [
+      0.18609374999999997,
+      0.21921875
+    ],
+    "accuracy": 0.41569945021380567,
+    "accuracy_ci95": [
+      0.4120596619833028,
+      0.4191610669924659
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 12.760833333333332,
+    "adaptation_lag_ci95": [
+      12.486666666666665,
+      13.021666666666667
+    ],
+    "eviction_count": 1461.7083333333333,
+    "eviction_count_ci95": [
+      1458.0,
+      1466.0416666666667
+    ],
+    "time_weighted_resident_age": 17.148628365378784,
+    "time_weighted_resident_age_ci95": [
+      17.026358546069574,
+      17.280826511994402
+    ],
+    "rejected_writes": 0.0,
+    "rejected_writes_ci95": [
+      0.0,
+      0.0
+    ],
+    "policy_seconds": 0.03915582105077597,
+    "policy_seconds_ci95": [
+      0.038894832251632275,
+      0.039431453941506336
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n5000",
+    "method": "static_state_adaptive",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.5731244064577398,
+    "stable_retention_ci95": [
+      0.5267428944512278,
+      0.6184884174467509
+    ],
+    "adaptation_score": 0.009444444444444445,
+    "adaptation_score_ci95": [
+      0.006492621527777777,
+      0.012708767361111106
+    ],
+    "accuracy": 0.327674268648612,
+    "accuracy_ci95": [
+      0.3060026810561325,
+      0.3498532206611009
+    ],
+    "stale_error": 0.2053638091359533,
+    "stale_error_ci95": [
+      0.1970404449195683,
+      0.21393343175184962
+    ],
+    "adaptation_lag": 15.848888888888888,
+    "adaptation_lag_ci95": [
+      15.795826388888889,
+      15.89722222222222
+    ],
+    "eviction_count": 47.76388888888889,
+    "eviction_count_ci95": [
+      46.18055555555555,
+      49.40277777777777
+    ],
+    "time_weighted_resident_age": 1082.9971626122722,
+    "time_weighted_resident_age_ci95": [
+      1032.0653242400579,
+      1135.3544237107442
+    ],
+    "rejected_writes": 1348.6111111111113,
+    "rejected_writes_ci95": [
+      1331.2631944444445,
+      1365.7781250000003
+    ],
+    "policy_seconds": 0.07091065268549655,
+    "policy_seconds_ci95": [
+      0.07026218259981963,
+      0.07173935965951792
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n5000",
+    "method": "full_0",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9905541988875322,
+    "stable_retention_ci95": [
+      0.9843644010310677,
+      0.9957434540767874
+    ],
+    "adaptation_score": 0.006354166666666668,
+    "adaptation_score_ci95": [
+      0.0036631944444444446,
+      0.009010416666666668
+    ],
+    "accuracy": 0.5393758908572592,
+    "accuracy_ci95": [
+      0.5364061545510079,
+      0.5418789876467793
+    ],
+    "stale_error": 0.1753291929681667,
+    "stale_error_ci95": [
+      0.17022945937690895,
+      0.18038608056743366
+    ],
+    "adaptation_lag": 15.898333333333333,
+    "adaptation_lag_ci95": [
+      15.853604166666667,
+      15.941111111111113
+    ],
+    "eviction_count": 83.43055555555556,
+    "eviction_count_ci95": [
+      78.01388888888889,
+      89.0
+    ],
+    "time_weighted_resident_age": 1892.995490820266,
+    "time_weighted_resident_age_ci95": [
+      1859.1007266785007,
+      1920.9993348819232
+    ],
+    "rejected_writes": 1137.625,
+    "rejected_writes_ci95": [
+      1132.6791666666668,
+      1142.2781250000003
+    ],
+    "policy_seconds": 0.08686407660651539,
+    "policy_seconds_ci95": [
+      0.08586920127110918,
+      0.08798293303197069
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n5000",
+    "method": "full_0.25",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9847374847374848,
+    "stable_retention_ci95": [
+      0.9805309659476327,
+      0.9883156966490301
+    ],
+    "adaptation_score": 0.10845486111111109,
+    "adaptation_score_ci95": [
+      0.10059027777777778,
+      0.11664930555555554
+    ],
+    "accuracy": 0.6739462431276726,
+    "accuracy_ci95": [
+      0.6711461939184145,
+      0.6767715332926084
+    ],
+    "stale_error": 0.006083282427204235,
+    "stale_error_ci95": [
+      0.005404534039231658,
+      0.006804664698296339
+    ],
+    "adaptation_lag": 14.264722222222224,
+    "adaptation_lag_ci95": [
+      14.135555555555555,
+      14.385840277777776
+    ],
+    "eviction_count": 202.41666666666666,
+    "eviction_count_ci95": [
+      199.73611111111111,
+      205.04166666666666
+    ],
+    "time_weighted_resident_age": 1249.0900134511078,
+    "time_weighted_resident_age_ci95": [
+      1240.9078322831847,
+      1256.5346762952247
+    ],
+    "rejected_writes": 950.7222222222223,
+    "rejected_writes_ci95": [
+      948.3190972222221,
+      953.1944444444443
+    ],
+    "policy_seconds": 0.09996272822738522,
+    "policy_seconds_ci95": [
+      0.09865196646747386,
+      0.10158852966851556
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n5000",
+    "method": "full_1",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.9842626509293176,
+    "stable_retention_ci95": [
+      0.9810066476733144,
+      0.9872812372812373
+    ],
+    "adaptation_score": 0.2645138888888889,
+    "adaptation_score_ci95": [
+      0.2538715277777778,
+      0.27383723958333334
+    ],
+    "accuracy": 0.7520956356478653,
+    "accuracy_ci95": [
+      0.7491428680513135,
+      0.7550142537161474
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 11.767777777777779,
+    "adaptation_lag_ci95": [
+      11.615555555555554,
+      11.938895833333332
+    ],
+    "eviction_count": 253.1527777777778,
+    "eviction_count_ci95": [
+      250.0135416666667,
+      256.47222222222223
+    ],
+    "time_weighted_resident_age": 1157.5365638752714,
+    "time_weighted_resident_age_ci95": [
+      1127.6153521292129,
+      1186.4477458556423
+    ],
+    "rejected_writes": 843.1527777777777,
+    "rejected_writes_ci95": [
+      839.4583333333334,
+      846.7225694444445
+    ],
+    "policy_seconds": 0.09855833603069186,
+    "policy_seconds_ci95": [
+      0.09745536373827944,
+      0.0999256659931335
+    ]
+  },
+  {
+    "batch": "C4",
+    "condition": "fixed_cadence-c8-n5000",
+    "method": "full_2",
+    "worlds": 24,
+    "seeds": 3,
+    "stable_retention": 0.527659069325736,
+    "stable_retention_ci95": [
+      0.5157030084113418,
+      0.5391907475240808
+    ],
+    "adaptation_score": 0.3985069444444444,
+    "adaptation_score_ci95": [
+      0.3863020833333333,
+      0.40986328125000004
+    ],
+    "accuracy": 0.579481436231589,
+    "accuracy_ci95": [
+      0.5729226057150615,
+      0.5857176491549583
+    ],
+    "stale_error": 0.0,
+    "stale_error_ci95": [
+      0.0,
+      0.0
+    ],
+    "adaptation_lag": 9.623888888888889,
+    "adaptation_lag_ci95": [
+      9.4396875,
+      9.824180555555554
+    ],
+    "eviction_count": 523.75,
+    "eviction_count_ci95": [
+      518.7916666666666,
+      528.2638888888889
+    ],
+    "time_weighted_resident_age": 62.56415133122547,
+    "time_weighted_resident_age_ci95": [
+      61.004966111591784,
+      64.27189919405615
+    ],
+    "rejected_writes": 751.625,
+    "rejected_writes_ci95": [
+      746.8885416666666,
+      756.5003472222222
+    ],
+    "policy_seconds": 0.10072835761820897,
+    "policy_seconds_ci95": [
+      0.0993143558691372,
+      0.10239949354064366
+    ]
+  }
+]

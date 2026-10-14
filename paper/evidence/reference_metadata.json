@@ -1,0 +1,284 @@
+{
+  "2305.10250": {
+    "citation_title": [
+      "MemoryBank: Enhancing Large Language Models with Long-Term Memory"
+    ],
+    "citation_author": [
+      "Zhong, Wanjun",
+      "Guo, Lianghong",
+      "Gao, Qiqi",
+      "Ye, He",
+      "Wang, Yanlin"
+    ],
+    "citation_date": [
+      "2023/05/17"
+    ],
+    "citation_doi": []
+  },
+  "2502.12110": {
+    "citation_title": [
+      "A-MEM: Agentic Memory for LLM Agents"
+    ],
+    "citation_author": [
+      "Xu, Wujiang",
+      "Liang, Zujie",
+      "Mei, Kai",
+      "Gao, Hang",
+      "Tan, Juntao",
+      "Zhang, Yongfeng"
+    ],
+    "citation_date": [
+      "2025/02/17"
+    ],
+    "citation_doi": []
+  },
+  "2304.03442": {
+    "citation_title": [
+      "Generative Agents: Interactive Simulacra of Human Behavior"
+    ],
+    "citation_author": [
+      "Park, Joon Sung",
+      "O'Brien, Joseph C.",
+      "Cai, Carrie J.",
+      "Morris, Meredith Ringel",
+      "Liang, Percy",
+      "Bernstein, Michael S."
+    ],
+    "citation_date": [
+      "2023/04/07"
+    ],
+    "citation_doi": []
+  },
+  "2310.08560": {
+    "citation_title": [
+      "MemGPT: Towards LLMs as Operating Systems"
+    ],
+    "citation_author": [
+      "Packer, Charles",
+      "Wooders, Sarah",
+      "Lin, Kevin",
+      "Fang, Vivian",
+      "Patil, Shishir G.",
+      "Stoica, Ion",
+      "Gonzalez, Joseph E."
+    ],
+    "citation_date": [
+      "2023/10/12"
+    ],
+    "citation_doi": []
+  },
+  "2410.10813": {
+    "citation_title": [
+      "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory"
+    ],
+    "citation_author": [
+      "Wu, Di",
+      "Wang, Hongwei",
+      "Yu, Wenhao",
+      "Zhang, Yuwei",
+      "Chang, Kai-Wei",
+      "Yu, Dong"
+    ],
+    "citation_date": [
+      "2024/10/14"
+    ],
+    "citation_doi": []
+  },
+  "2402.17753": {
+    "citation_title": [
+      "Evaluating Very Long-Term Conversational Memory of LLM Agents"
+    ],
+    "citation_author": [
+      "Maharana, Adyasha",
+      "Lee, Dong-Ho",
+      "Tulyakov, Sergey",
+      "Bansal, Mohit",
+      "Barbieri, Francesco",
+      "Fang, Yuwei"
+    ],
+    "citation_date": [
+      "2024/02/27"
+    ],
+    "citation_doi": []
+  },
+  "2506.06326": {
+    "citation_title": [
+      "Memory OS of AI Agent"
+    ],
+    "citation_author": [
+      "Kang, Jiazheng",
+      "Ji, Mingming",
+      "Zhao, Zhe",
+      "Bai, Ting"
+    ],
+    "citation_date": [
+      "2025/05/30"
+    ],
+    "citation_doi": []
+  },
+  "2504.19413": {
+    "citation_title": [
+      "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory"
+    ],
+    "citation_author": [
+      "Chhikara, Prateek",
+      "Khant, Dev",
+      "Aryan, Saket",
+      "Singh, Taranjeet",
+      "Yadav, Deshraj"
+    ],
+    "citation_date": [
+      "2025/04/28"
+    ],
+    "citation_doi": []
+  },
+  "2601.01885": {
+    "citation_title": [
+      "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents"
+    ],
+    "citation_author": [
+      "Yu, Yi",
+      "Yao, Liuyi",
+      "Xie, Yuexiang",
+      "Tan, Qingquan",
+      "Feng, Jiaqi",
+      "Li, Yaliang",
+      "Wu, Libing"
+    ],
+    "citation_date": [
+      "2026/01/05"
+    ],
+    "citation_doi": []
+  },
+  "1612.00796": {
+    "citation_title": [
+      "Overcoming catastrophic forgetting in neural networks"
+    ],
+    "citation_author": [
+      "Kirkpatrick, James",
+      "Pascanu, Razvan",
+      "Rabinowitz, Neil",
+      "Veness, Joel",
+      "Desjardins, Guillaume",
+      "Rusu, Andrei A.",
+      "Milan, Kieran",
+      "Quan, John",
+      "Ramalho, Tiago",
+      "Grabska-Barwinska, Agnieszka",
+      "Hassabis, Demis",
+      "Clopath, Claudia",
+      "Kumaran, Dharshan",
+      "Hadsell, Raia"
+    ],
+    "citation_date": [
+      "2016/12/02"
+    ],
+    "citation_doi": [
+      "10.1073/pnas.1611835114"
+    ]
+  },
+  "1802.07569": {
+    "citation_title": [
+      "Continual Lifelong Learning with Neural Networks: A Review"
+    ],
+    "citation_author": [
+      "Parisi, German I.",
+      "Kemker, Ronald",
+      "Part, Jose L.",
+      "Kanan, Christopher",
+      "Wermter, Stefan"
+    ],
+    "citation_date": [
+      "2018/02/21"
+    ],
+    "citation_doi": [
+      "10.1016/j.neunet.2019.01.012."
+    ]
+  },
+  "1410.5401": {
+    "citation_title": [
+      "Neural Turing Machines"
+    ],
+    "citation_author": [
+      "Graves, Alex",
+      "Wayne, Greg",
+      "Danihelka, Ivo"
+    ],
+    "citation_date": [
+      "2014/10/20"
+    ],
+    "citation_doi": []
+  },
+  "1502.05698": {
+    "citation_title": [
+      "Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks"
+    ],
+    "citation_author": [
+      "Weston, Jason",
+      "Bordes, Antoine",
+      "Chopra, Sumit",
+      "Rush, Alexander M.",
+      "van Merri\u00ebnboer, Bart",
+      "Joulin, Armand",
+      "Mikolov, Tomas"
+    ],
+    "citation_date": [
+      "2015/02/19"
+    ],
+    "citation_doi": []
+  },
+  "2002.10957": {
+    "citation_title": [
+      "MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers"
+    ],
+    "citation_author": [
+      "Wang, Wenhui",
+      "Wei, Furu",
+      "Dong, Li",
+      "Bao, Hangbo",
+      "Yang, Nan",
+      "Zhou, Ming"
+    ],
+    "citation_date": [
+      "2020/02/25"
+    ],
+    "citation_doi": []
+  },
+  "2607.12893": {
+    "citation_title": [
+      "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations"
+    ],
+    "citation_author": [
+      "Hao, Xixuan",
+      "Zhang, Zeyu",
+      "Lin, Zehao",
+      "Sun, Yihang",
+      "Guo, Ziliang",
+      "Zhang, Xichong",
+      "Liang, Yuxuan",
+      "Xiong, Feiyu",
+      "Li, Zhiyu"
+    ],
+    "citation_date": [
+      "2026/07/14"
+    ],
+    "citation_doi": []
+  },
+  "2510.17281": {
+    "citation_title": [
+      "MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems"
+    ],
+    "citation_author": [
+      "Ai, Qingyao",
+      "Tang, Yichen",
+      "Wang, Changyue",
+      "Long, Jianming",
+      "Su, Weihang",
+      "Liu, Yiqun"
+    ],
+    "citation_date": [
+      "2025/10/20"
+    ],
+    "citation_doi": []
+  }
+}

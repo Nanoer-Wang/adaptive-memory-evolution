@@ -1,0 +1,13 @@
+\begin{table}[t]
+\centering\small
+\caption{State interventions under rapid revision and high interference (eight slots). No retraining; the removed state is pinned to its neutral score value. This experiment differs from the single-flow intervention in Figure~\ref{fig:components}.}\label{tab:ablation}
+\begin{tabular}{lrrrr}\toprule
+Method & Acc.$\uparrow$ & Stale$\downarrow$ & Ret.$\uparrow$ & Lag$\downarrow$\\\midrule
+AME & 75.02 & 0.07 & 88.25 & 15.53\\
+No importance & 67.14 & 0.02 & 91.70 & 26.72\\
+No consistency & 70.20 & 8.76 & 86.88 & 16.66\\
+No usage & 57.91 & 0.11 & 48.51 & 12.85\\
+No temporal state & 74.17 & 0.09 & 88.34 & 17.46\\
+\bottomrule\end{tabular}
+
+\end{table}

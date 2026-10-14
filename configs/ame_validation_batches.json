@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "study": "ame-capability-boundary-v2",
+  "status": "execution_plan_not_new_experimental_results",
+  "hypothesis": "Per-item state evolution can change the retention-adaptation-recovery trade-off; learning, continuity and superiority are separate hypotheses.",
+  "frozen_reference": {
+    "run": "runs/evolving-memory-v1",
+    "source_archive": "artifacts/source/4a61c5cb886e9e73cee0f732c5054b4d4a599f5340445e791773ab4dcd7d04a1.zip",
+    "source_signature": "4a61c5cb886e9e73cee0f732c5054b4d4a599f5340445e791773ab4dcd7d04a1"
+  },
+  "methods": [
+    "fixed_decay",
+    "frequency",
+    "lru",
+    "random",
+    "gru",
+    "linear",
+    "adaptive_evolution",
+    "adaptive_rule"
+  ],
+  "common": {
+    "policy_seeds": [
+      11,
+      23,
+      42
+    ],
+    "world_seeds": {
+      "train": {
+        "start": 61000,
+        "count": 24
+      },
+      "val": {
+        "start": 62000,
+        "count": 12
+      },
+      "test": {
+        "start": 63000,
+        "count": 24
+      }
+    },
+    "smoke_world_seeds": [
+      60001,
+      60002
+    ],
+    "core_keys": 40,
+    "distractor_keys": 40,
+    "stable_fractions": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "stable_query_fraction_primary": 0.5,
+    "stable_query_fraction_sensitivity": "match stable item fraction; separately labeled",
+    "temporal_regimes": [
+      "stationary",
+      "slow",
+      "rapid"
+    ],
+    "volatile_revision_probability_per_phase": {
+      "stationary": 0.0,
+      "slow": 0.1,
+      "rapid": 0.5
+    },
+    "phases": {
+      "train": 12,
+      "val": 12,
+      "test": 24
+    },
+    "target_queries_per_phase": 20,
+    "adaptation_window": 4,
+    "adaptation_threshold": 0.75,
+    "consecutive_windows": 2,
+    "training_capacities": [
+      8,
+      16,
+      32
+    ],
+    "training_environments": [
+      "mixture",
+      "cyclic"
+    ],
+    "optimizer": {
+      "name": "AdamW",
+      "lr": 0.003,
+      "epochs": 16,
+      "batch_size": 8,
+      "gradient_clip": 1.0
+    },
+    "loss": {
+      "task": 1.0,
+      "stable_retention": 0.25,
+      "stale_error": 0.25
+    },
+    "selection": "Validation only; include initialization; equal training trajectories and optimizer-update budget per learned method. Freeze checkpoints before any primary test.",
+    "controller_input_dim": 40,
+    "gru_hidden_dim": 8,
+    "adaptive_head_parameters": 123,
+    "primary_eviction": "deterministic minimum score; random baseline uniform; ties by predeclared shared hash",
+    "training_decisions": "Use the same causal state transition and hard storage limits, with stochastic eviction for policy-gradient exploration. Select checkpoints on deterministic deployment validation; report stochastic-versus-deterministic gap separately. No differentiating through argmin or claiming identical action distributions.",
+    "legacy_eviction_sensitivity": "shared softmax(-score/0.5) on a separately labeled subset",
+    "retrieval": "newest retained observed version; identical index and optional observed-version rejection for every method",
+    "budget": "resident content slots; report state, index, latent and content bytes separately; no byte-efficiency claim",
+    "test_policy": "Test-world seeds and files are reserved until implementation checks and validation choices are locked. Fresh schedules, not a new independent source corpus."
+  },
+  "baseline_contract": {
+    "fixed_decay": "exp(-lambda*age since observation); no retrieval reset or successful-feedback strength bonus. For deterministic minimum scoring every positive lambda has the same ordering; include zero-decay tie control and archive the legacy reinforced baseline separately.",
+    "frequency": "one insertion count plus successful retrieval attempts regardless of feedback correctness; no confidence or context term",
+    "lru": "evict least recently accessed item; observations and returned retrievals update access time",
+    "random": "uniform random eviction among the same eligible candidates",
+    "linear": "same 40-D causal inputs and utility training; linear insertion coefficients with fixed subsequent decay; no per-item post-insertion reprioritization",
+    "gru": "same inputs, training budget and output head; existing hidden size8; insertion coefficients with fixed subsequent decay",
+    "adaptive_evolution": "frozen four-state equations and123parameter coefficient head; update resident states; no extra hidden network",
+    "adaptive_rule": "same four-state evolution with fixed validation-selected coefficients; no learned network"
+  },
+  "causal_controls": {
+    "mandatory_batch": "B1",
+    "control": "instantaneous_context_rule",
+    "definition": "Uses the same observable context, observed-version consistency and bounded usage metadata to score current relevance, without a continuous or learned latent transition.",
+    "admission_schedule": "shared causally predetermined candidate-admission masks for all methods; same slots, forced write/eviction opportunities and event times",
+    "replacement_budgets": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "budget_selection": "compare all registered budgets; any chosen match uses validation only, never future test eviction counts",
+    "report": [
+      "candidate_admissions",
+      "resident_replacements",
+      "candidate_rejections",
+      "writes",
+      "resident_lifetime",
+      "evicted_stable_fraction",
+      "stable_retention",
+      "adaptation_score",
+      "pre_reminder_recovery"
+    ],
+    "caution": "Equal attempted admissions or forced eviction opportunities do not imply equal actual resident replacement when a policy rejects the new candidate; report realized counts and overlapping-rate strata. No oracle replay of adaptive future evictions."
+  },
+  "metrics": {
+    "accuracy": "all correct queries / all queries; separately report balanced stable/volatile macro accuracy",
+    "stable_retention": "correct stable queries / stable queries",
+    "adaptation_lag": "number of target-query opportunities to two consecutive4-query windows >=75%; unrecovered censored at T=20",
+    "adaptation_score": "1-min(lag,T)/T, report censoring/success separately; undefined in stationary episodes without a genuine change; minimum measurable lag5 means score ceiling0.75",
+    "stale_error": "answered obsolete versions / all queries; abstentions separate; off-topic answers and superseded versions are distinct",
+    "pre_reminder_recovery": "correct old-topic return queries before any fact refresh / all such queries",
+    "post_reminder_recovery": "correct return queries after reminders / all such queries, with lag from first reminder",
+    "acquisition_speed": "query opportunities after first new-version observation until first correct new-version answer; censor misses",
+    "retrieval_relevance": "correct target-bearing retrieved evidence / all returned evidence",
+    "memory_utilization": "current-workload-relevant occupied slots / occupied slots; not accuracy, alongside historical stable retention",
+    "noise_degradation": "accuracy_clean-accuracy_corrupt on exactly paired world/query tapes",
+    "resources": "wall clock, RSS, content/state/index bytes, writes, evictions, rescoring calls, retrieval calls, API attempts and provider token usage"
+  },
+  "analysis": {
+    "unit": "world/session cluster; average policy seeds inside world; paired bootstrap10000 with seed901; noise and capacity copies are not independent observations",
+    "primary_contrasts": "adaptive_evolution versus each static baseline; adaptive versus instantaneous_context_rule under common admission schedules; always show adaptive_rule/linear/GRU",
+    "multiplicity": "Holm correction within each batch's registered primary comparisons for inferential p-values; unadjusted descriptive intervals labeled exploratory",
+    "tradeoff": "plot stable_retention against adaptation_score; fixed predeclared retention-cost sweep [0,.25,.5,1,2] at equal budgets; each point requires its own equal-budget validation/training across learned methods, not posthoc reweighting of the same predictions",
+    "retention_constraint": "exploratory validation-selected floor: SR >= fixed_decay_SR-0.02; report feasibility and test constraint violations, never label an infeasible point successful",
+    "mechanism_panels": "preselect item IDs from smoke schedules before primary tests; all methods same items; I,C,U,T plus presence/eviction, context and feedback; missing states after eviction shown as gaps, reobservations marked as new insertions",
+    "failure_axes": [
+      "volatility",
+      "capacity",
+      "feedback reliability",
+      "stable item fraction",
+      "stable query fraction",
+      "shift length"
+    ],
+    "claim_limit": "A tradeoff alone does not establish novelty. Do not describe all existing agent memory systems as static without a separate literature review. Continuous-versus-discrete superiority needs matched step and cost controls."
+  },
+  "artifacts_per_batch": [
+    "protocol.json",
+    "configuration.json",
+    "source_manifest.json",
+    "data_manifest.json",
+    "trajectories.jsonl.gz",
+    "checkpoints/",
+    "training.jsonl",
+    "raw_metrics.jsonl",
+    "item_traces.jsonl.gz",
+    "tables.csv",
+    "paired_statistics.json",
+    "figures/",
+    "report.html",
+    "completion.json"
+  ],
+  "batches": [
+    {
+      "id": "B0",
+      "name": "Freeze and protocol preparation",
+      "priority": 0,
+      "experiments": [],
+      "depends_on": [],
+      "status": "ready",
+      "capacities": [],
+      "deliverables": [
+        "frozen implementation and evidence archive",
+        "hash verification",
+        "versioned batch plans"
+      ],
+      "exit_gate": "Archive hashes match; no changes to v1 results; plan fields validate; no new training or API calls."
+    },
+    {
+      "id": "B1",
+      "name": "Stable/volatile mixture and replacement attribution",
+      "priority": 1,
+      "experiments": [
+        1
+      ],
+      "depends_on": [
+        "B0"
+      ],
+      "status": "pressure_dynamics_attribution_complete; broader_legacy_matrix_pending",
+      "capacities": [
+        8,
+        16,
+        32
+      ],
+      "ratios": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "regimes": [
+        "stationary",
+        "slow",
+        "rapid"
+      ],
+      "methods": "all",
+      "additional_controls": [
+        "instantaneous_context_rule",
+        "admission_budget_match",
+        "stable_query_frequency_sensitivity",
+        "retention_cost_sweep"
+      ],
+      "steps": [
+        "Implement independent80-key generator and all8method adapters without editing frozen v1.",
+        "Smoke-test ratios, query balance, causal cues, capacity, true stale errors and erased content.",
+        "Train shared core controllers on train mixture+cyclic schedules; lock validation choices and baseline ordering.",
+        "Run only registered mixture test cells, then aggregate all outcomes and replacement controls."
+      ],
+      "exit_gate": "Accept positive, null or negative outcome; require identical information/budgets, no leakage, complete stable/volatile metrics and auditable actual replacement counts. Attribution unresolved if instantaneous rule matches evolution.",
+      "sanity_report": "runs/ame-validation-v2/B1-interleaved-review/index.html",
+      "formal_training_started": false,
+      "sanity_pressure_extension": {
+        "noise_key_ratios": [
+          0.25,
+          1,
+          2
+        ],
+        "active_keys": 8,
+        "supported_capacities": [
+          8,
+          16
+        ],
+        "evaluated_capacity": 8,
+        "condition_trajectories": 10,
+        "policy_seeds": [
+          11,
+          23
+        ],
+        "training_steps": 0,
+        "formal_B1_started": false
+      },
+      "current_user_approved_protocol": {
+        "path": "runs/ame-validation-v2/B1-attribution-v1/protocol.json",
+        "runner": "scripts/b1_attribution.py",
+        "capacity": 8,
+        "pressure_levels": 3,
+        "dynamics_levels": 3,
+        "worlds_per_condition": 24,
+        "policy_seeds": [
+          11,
+          23,
+          42
+        ],
+        "methods": 8,
+        "training_steps": 0,
+        "legacy_prepare_scope": "The older ratio/capacity/training plan remains separate; use this independent protocol for the current pressure-dynamics experiment.",
+        "completed_runs": 5184,
+        "exact_replays": 216,
+        "tests_passed": 212,
+        "matched_cells": 8,
+        "total_cells": 9,
+        "report": "runs/ame-validation-v2/B1-attribution-v1/interpretation.html"
+      }
+    },
+    {
+      "id": "B2",
+      "name": "Capacity response curve",
+      "priority": 1,
+      "experiments": [
+        6
+      ],
+      "depends_on": [
+        "B1"
+      ],
+      "status": "implementation_pending",
+      "capacities": [
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "new_capacities": [
+        4,
+        64
+      ],
+      "reuse_capacities": [
+        8,
+        16,
+        32
+      ],
+      "ratios": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "regimes": [
+        "stationary",
+        "slow",
+        "rapid"
+      ],
+      "methods": "all",
+      "steps": [
+        "Reuse exactly B1 test worlds and locked controllers.",
+        "Run missing4/64slot cells; deduplicate8/16/32cells by configuration/data hashes.",
+        "Plot accuracy, retention, stale error and adaptation versus capacity, including realized occupancy and80-key working-set pressure."
+      ],
+      "exit_gate": "5point response curve, not a fitted universal scaling law; capacities4/64 are marked outside training capacities; no retraining on observed test failures."
+    },
+    {
+      "id": "B3",
+      "name": "Cyclic reactivation",
+      "priority": 1,
+      "experiments": [
+        3
+      ],
+      "depends_on": [
+        "B1"
+      ],
+      "status": "implementation_pending",
+      "capacities": [
+        8,
+        16,
+        32
+      ],
+      "dormant_phase_lengths": [
+        1,
+        3,
+        6
+      ],
+      "methods": "all",
+      "steps": [
+        "Evaluate locked core controllers on held-out A-B-A schedules with equalized access counts and selected dormant lengths.",
+        "Query A before reminders; separately introduce reminders and measure recovery speed.",
+        "Audit that an evicted item cannot recover content from metadata; visualize preselected same-item lifetimes."
+      ],
+      "exit_gate": "Separate content survival, recall before reminder and reacquisition after reminder; negative no-reminder results constrain the claim rather than trigger test-set tuning."
+    },
+    {
+      "id": "B4",
+      "name": "Feedback and importance-signal robustness",
+      "priority": 2,
+      "experiments": [
+        4
+      ],
+      "depends_on": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "status": "implementation_pending",
+      "capacities": [
+        8,
+        16,
+        32
+      ],
+      "feedback_flip_probabilities": [
+        0.1,
+        0.25,
+        0.5
+      ],
+      "misleading_conditions": [
+        "alternate-phase correctness inversion",
+        "wrong observable topic/importance cue with clean factual content"
+      ],
+      "methods": "all",
+      "steps": [
+        "Create paired corruptions of locked clean trajectories without changing facts or queries.",
+        "Evaluate frozen clean-trained controllers; distinguish out-of-distribution feedback from optional noise-trained sensitivity.",
+        "Report clean-minus-corrupt degradation, stable retention and stale answers; feedback-independent baselines must remain identical under feedback-only flips."
+      ],
+      "exit_gate": "Corrupted importance cue is a separate axis from correctness-feedback flips; no claim of robustness to factual misinformation."
+    },
+    {
+      "id": "B5",
+      "name": "Importance inversion",
+      "priority": 2,
+      "experiments": [
+        2
+      ],
+      "depends_on": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "status": "implementation_pending",
+      "capacities": [
+        8,
+        16,
+        32
+      ],
+      "conditions": [
+        "demand inversion with unchanged true facts",
+        "observed factual supersession with changed answer"
+      ],
+      "methods": "all",
+      "steps": [
+        "Match initial observation age and access counts for A/B; change causal demand cue after warmup.",
+        "Evaluate explicit supersession separately so off-topic memory is not mislabeled false knowledge.",
+        "Measure adaptation lag, wrong-old-version answers and new-version acquisition with matched replacement controls."
+      ],
+      "exit_gate": "All8baselines remain included, not just the three convenient comparisons; target facts and change points never enter model inputs as evaluation labels."
+    },
+    {
+      "id": "B6",
+      "name": "Demand conditioning and mechanism ablations",
+      "priority": 3,
+      "experiments": [
+        5,
+        7
+      ],
+      "depends_on": [
+        "B4",
+        "B5"
+      ],
+      "status": "implementation_pending",
+      "capacities": [
+        8,
+        16,
+        32
+      ],
+      "methods": "all plus ablations",
+      "state_ablations": [
+        "no_I",
+        "no_C",
+        "no_U",
+        "no_T"
+      ],
+      "evolution_ablations": [
+        "constant_state",
+        "event_only_discrete_update",
+        "time_only_continuous",
+        "full_context_conditioned"
+      ],
+      "steps": [
+        "Preserve8baseline results as anchors; remove each state from both transition and retention scoring, with neutral replacement documented.",
+        "Run fixed-weight interventions for direct sensitivity and equal-budget retrained variants separately.",
+        "Compare equal elapsed-time discrete/continuous integration, normalized scores and update costs; exact interval flow is not evidence of neural superiority.",
+        "Evaluate actual observed-query-conditioned updates separately from advance reliable agenda cues."
+      ],
+      "exit_gate": "Document effective information/parameter changes; same newly reserved ablation test seeds if design changes after earlier batches; never infer continuous-time necessity from generic context dependence."
+    },
+    {
+      "id": "B7",
+      "name": "Language-memory transfer and agent-facing validation",
+      "priority": 3,
+      "experiments": [
+        8
+      ],
+      "depends_on": [
+        "B1",
+        "B2",
+        "B3",
+        "B6"
+      ],
+      "status": "implementation_pending",
+      "datasets": [
+        "LongMemEval",
+        "LoCoMo",
+        "MemoryBench"
+      ],
+      "stages": [
+        "source/split/exposure audit",
+        "offline retrieval and storage",
+        "small paired API pilot",
+        "registered full evaluation"
+      ],
+      "methods": "all",
+      "steps": [
+        "Reuse local public LME/LoCoMo with explicit prior-exposure labels, not fresh-blind-test claims.",
+        "Resolve exact MemoryBench repository/version/license/task definition before enabling its adapter; never silently substitute MemOps.",
+        "Use common semantic extraction, reader, prompt and token budget across methods; reserve conversation-level splits and freeze retrieval parameters.",
+        "Evaluate preference, updates, contradiction and multi-session categories only when supported by actual dataset labels; missing labels are NA.",
+        "Keep answer provider cache, retries and shared<=10attempts/rolling60s limiter; record token costs and request counts, then run pilot before larger evaluation."
+      ],
+      "exit_gate": "Real answering evidence required for agent-quality claims; API configuration frozen at execution, no current pricing/free-service assumptions; synthetic proxy results cannot substitute for real answers."
+    }
+  ]
+}

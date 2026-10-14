@@ -1,0 +1,2 @@
+# Preserve exact bytes: frozen source/input SHA-256 checks include line endings.
+* -text
